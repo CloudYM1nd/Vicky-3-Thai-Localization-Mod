@@ -45,8 +45,8 @@
  YES_CHECK:0 "@green_checkmark!"
  NO_CHECK:0 "@red_cross!"
 
- CONFIRM_YES:0 "Yes"
- CONFIRM_NO:0 "No"
+ CONFIRM_YES:0 "ใช่"
+ CONFIRM_NO:0 "ไม่ใช่"
 
  UNLOCK_TOPBAR:1 "Click to #bold Unlock#!"
  LOCK_TOPBAR:1 "Click to #bold Lock#!"
