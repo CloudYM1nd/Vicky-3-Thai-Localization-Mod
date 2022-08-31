@@ -4,85 +4,85 @@
  concept_concepts:0 "Concepts"
  concept_concept_desc:0 "This is a tooltippable game concept with another [concept_concept] within."
 
- concept_sol:0 "Standard of Living"
+ concept_sol:0 "มาตรฐานการครองชีพ"
  concept_sol_desc:0 "Standard of Living is a [concept_pop_possessive] accumulated material [concept_wealth] combined with more ephemeral improvements to their living conditions. It governs birthrate and mortality, and changes in it can cause [Concept('concept_pop', '$concept_pops$')] to become [concept_radical] or [concept_loyalist]. Standard of Living changes along with the Pop's purchasing power and access to services."
 
- concept_pop_growth:0 "Pop Growth"
+ concept_pop_growth:0 "การเติบโตของประชากร"
  concept_pop_growth_desc:1 "The net amount of individuals a [concept_pop] gains or loses each year is governed by its birthrate and mortality. These are governed by [concept_sol] and modified by factors such as disease, dangerous working conditions, beneficial [Concept('concept_institution', '$concept_institutions$')], and available living space.\n\n@information! External changes to a Pop's size caused by e.g. [concept_migration] or casualties of war are not considered."
  
- concept_individual:0 "Individual"
- concept_individuals:0 "Individuals"
+ concept_individual:0 "ปัจเจกชน"
+ concept_individuals:0 "ปัจเจกชน"
  concept_individual_desc:0 "An individual is a single person within a [concept_pop]. All [Concept('concept_pop', '$concept_pops$')] are made up of individuals with the same culture, religion and workplace."
 
- concept_building:0 "Building"
- concept_buildings:0 "Buildings"
- concept_building_possessive:0 "Buildings"
+ concept_building:0 "สิ่งปลูกสร้าง"
+ concept_buildings:0 "สิ่งปลูกสร้าง"
+ concept_building_possessive:0 "สิ่งปลูกสร้าง"
  concept_building_desc:0 "[Concept('concept_pop', '$concept_pops$')] work in Buildings. They either exploit natural potential in the [concept_state] or take other [Concept('concept_good', '$concept_goods$')] as input to create other [Concept('concept_good', '$concept_goods$')] and/or other effects, like [concept_infrastructure]. What a Building produces and who works in a Building can be tweaked by changing the [Concept('concept_production_method', '$concept_production_methods$')] of the Building."
   
- concept_opinion:0 "Opinion"
+ concept_opinion:0 "ความคิดเห็น"
  concept_opinion_desc:1 "The Opinion your people have about another Country, and what other [Concept('concept_country', '$concept_countries$')] think about you is an important aspect your diplomatic relations."
   
- concept_colonize:0 "Colonize"
- concept_colonizes:1 "Colonizes"
+ concept_colonize:0 "ตั้งอาณานิคม"
+ concept_colonizes:1 "ตั้งอาณานิคม"
  concept_colonize_desc:0 "If you are a Major or Greater Power, you can Colonize a [concept_state] owned by a [concept_decentralized_nation] if you have an [concept_interest] in that [concept_strategic_region]."
 
  concept_potentials:0 "Potentials"
  concept_potentials_desc:0 "The amount of Potentials shows how much of this Goods that can be provided from an area."
 
- concept_diplomatic_play:0 "Diplomatic Play"
+ concept_diplomatic_play:0 "เวทีการฑูต"
  concept_diplomatic_play_short:0 "Play"
- concept_diplomatic_plays:0 "Diplomatic Plays"
+ concept_diplomatic_plays:0 "เวทีการฑูต"
  concept_diplomatic_play_desc:0 "If you have an [concept_interest] in a [concept_strategic_region], you can start a Diplomatic Play demanding something in that Region. This Diplomatic Play might resolve peacefully or Escalate into a War. Each other Country with an [concept_interest] in the [concept_strategic_region] will decide if they want to side with you, the target of the Diplomatic Play or abstain from intervening."
   
  concept_maneuver:0 "Maneuver"
  concept_maneuvers:1 "Maneuvers"
  concept_maneuver_desc:1 "Maneuvers in [Concept('concept_diplomatic_play', '$concept_diplomatic_plays$')] can be spent on either adding more [concept_war_goal] or to [concept_sway] [Concept('concept_country', '$concept_countries$')] to your side. Only the Initiator and Target of a Diplomatic Play can use these."."
 
- concept_modifier:0 "Modifier"
- concept_modifiers:1 "Modifiers"
+ concept_modifier:0 "ตัวแปร"
+ concept_modifiers:1 "ตัวแปร"
  concept_modifier_desc:0 "#todo What exactly is a Modifier and should we really explain it to the Player as a Game Concept like this?#!"
 
- concept_ruler:0 "Ruler"
- concept_rulers:0 "Rulers"
- concept_ruler_possessive:0 "Ruler's"
+ concept_ruler:0 "ผู้ปกครอง"
+ concept_rulers:0 "ผู้ปกครอง"
+ concept_ruler_possessive:0 "ผู้ปกครอง's"
  concept_ruler_desc:1 "The Ruler of a [concept_country] is a [concept_character]. They can have [Concept('concept_character_trait', '$concept_character_traits$')] giving your [concept_country] specific bonuses or maluses."
   
- concept_heir:0 "Heir"
+ concept_heir:0 "ทายาท"
  concept_heir_desc:0 "The Heir of a [concept_country] is a [concept_character]. They are the future [concept_ruler] of the [concept_country] who will take power when the current [concept_ruler] dies."
 
- concept_homeland:0 "Homeland"
- concept_homelands:1 "Homelands"
+ concept_homeland:0 "ถิ่นฐาน"
+ concept_homelands:1 "ถิ่นฐาน"
  concept_homeland_desc:0 "A [concept_culture_possessive] Homeland is a [concept_state_region] where [Concept('concept_pop', '$concept_pops$')] of that Culture feel they naturally belong. Pops are prone to move to their Homelands, and reconquest of lost Homelands tend to be seen by the international community as more legitimate than aggressive expansion."
 
  concept_mobilize_general:0 "Mobilize General"
- concept_mobilize_general_mobilize:0 "Mobilize"
- concept_mobilize_general_mobilizing:0 "Mobilizing"
- concept_mobilize_general_mobilized:0 "Mobilized"
- concept_mobilize_general_mobilization:0 "Mobilization"
+ concept_mobilize_general_mobilize:0 "ระดมพล"
+ concept_mobilize_general_mobilizing:0 "กำลังระดมพล"
+ concept_mobilize_general_mobilized:0 "ระดมพลแล้ว"
+ concept_mobilize_general_mobilization:0 "การระดมพล"
  concept_mobilize_general_desc:2 "#todo Mobilizing a [concept_general] begins mobilizing the [Concept('concept_battalion', '$concept_battalions$')] assigned to them. Note that a [Concept('concept_mobilize_general', '$concept_mobilize_general_mobilized$')] $concept_general$ cannot be demobilized manually and will only demobilize once the country is at peace.#!"
 
  concept_mobilize_battalion:0 "Mobilize Battalion"
  concept_mobilize_battalion_demobilized:0 "Demobilized"
- concept_mobilize_battalion_mobilize:0 "Mobilize"
- concept_mobilize_battalion_mobilizing:0 "Mobilizing"
- concept_mobilize_battalion_mobilized:0 "Mobilized"
- concept_mobilize_battalions_mobilized:0 "Mobilized Battalions"
+ concept_mobilize_battalion_mobilize:0 "ระดมพล"
+ concept_mobilize_battalion_mobilizing:0 "กำลังระดมพล"
+ concept_mobilize_battalion_mobilized:0 "ระดมพลแล้ว"
+ concept_mobilize_battalions_mobilized:0 "กองพันที่ถูกเรียกระดมพลแล้ว"
  concept_mobilize_battalion_desc:1 "#todo [Concept('concept_battalion', '$concept_battalions$')] assigned to a [Concept('concept_mobilize_general', '$concept_mobilize_general_mobilized$')] [concept_general] immediately begin mobilizing based on [concept_infrastructure] in their [concept_state]. Once mobilized, [Concept('concept_battalion', '$concept_battalions$')] consume more resources, but are ready to fight!#!"
 
- concept_fully_mobilized_battalions: "Fully Mobilized Battalions"
+ concept_fully_mobilized_battalions: "กองพันที่กำลังพลพร้อมแล้ว"
  concept_fully_mobilized_battalions_desc: "Fully mobilized [Concept('concept_battalion', '$concept_battalions$')] are $concept_battalions$ under the command of a [concept_general] and that are ready to battle at this instance. $concept_battalions$ assigned to a [Concept('concept_mobilize_general', '$concept_mobilize_general_mobilized$')] $concept_general$ immediately begin mobilizing based on [concept_infrastructure] in their [concept_state]. Once mobilized, [Concept('concept_battalion', '$concept_battalions$')] consume more resources, but are ready to fight!"
 
- concept_available_battalions: "Available Battalions"
+ concept_available_battalions: "กองพันที่พร้อมแล้ว"
  concept_available_battalions_desc: "Available [Concept('concept_battalion', '$concept_battalions$')] are all $concept_battalions$ currently employed by [Concept('concept_barrack', '$concept_barracks$')] and/or [Concept('concept_conscription_center', '$concept_conscription_centers$')] in a [concept_country]. They can be either in [concept_garrison] or under the command of a [concept_general]."
 
  concept_potential_battalions: "Potential Battalions"
  concept_potential_battalions_desc: "Potential [Concept('concept_battalion', '$concept_battalions$')] are a [concept_country]'s max potential of $concept_battalions$ which that $concept_country$ would have if all currently built [Concept('concept_barrack', '$concept_barracks$')] and [Concept('concept_conscription_center', '$concept_conscription_centers$')] are fully employed."
 
- concept_conscription_center:0 "Conscription Center"
- concept_conscription_centers:0 "Conscription Centers"
- concept_conscription_center_conscription:0 "Conscription"
- concept_conscripted:0 "Conscripted"
- concept_conscription:0 "Conscription"
+ concept_conscription_center:0 "ที่ว่าการสัสดี"
+ concept_conscription_centers:0 "ที่ว่าการสัสดี"
+ concept_conscription_center_conscription:0 "การเกณฑ์ทหาร"
+ concept_conscripted:0 "ถูกเกณฑ์ไปรบแล้ว"
+ concept_conscription:0 "การเกณฑ์ทหาร"
  concept_conscription_center_desc:0 "#todo A Conscription Center is an auto placed building that can be activated to draft citizens to military service based on the conscription laws of the [concept_country].#!"
 
  concept_conscript_battalion:0 "Conscript Battalion"
@@ -90,25 +90,25 @@
  concept_conscript_battalion_drafting:0 "Drafting"
  concept_conscript_battalion_desc:3 "Conscript Battalions are temporary [Concept('concept_battalion', '$concept_battalions$')] recruited and maintained from the civilian population by a [concept_conscription_center] activated due to war."
 
- concept_front:0 "Front"
- concept_fronts:1 "Fronts"
+ concept_front:0 "แนวหน้า"
+ concept_fronts:1 "แนวหน้า"
  concept_front_desc:1 "A Front is a collection of [Concept('concept_province', '$concept_provinces$')] on the border between two [Concept('concept_country', '$concept_countries$')] at [concept_war] with each other. [Concept('concept_commander', '$concept_commanders$')] assigned to the [Concept('concept_strategic_region', '$concept_strategic_regions$')] the Front is located in will assign troops to it. Several [Concept('concept_commander', '$concept_commanders$')] can be part of the same Front, and the most senior [concept_commander] will be in charge of the Front on each side. If this [concept_commander] is ordered to Advance they will eventually launch a [concept_battle]."
 
- concept_garrison:0 "Garrison"
- concept_garrisons: "Garrisons"
+ concept_garrison:0 "กองประจำการ"
+ concept_garrisons: "กองประจำการ"
  concept_garrison_desc:0 "#TODO Garrison is ..."
 
- concept_advancement_progress:0 "Advancement Progress"
+ concept_advancement_progress:0 "อัตราการเคลื่อนพล"
  concept_advancement_progress_desc:0 "#TODO In order for a [concept_front] to launch a new [concept_battle] it first needs to accumulate enough Advancement Progress.#!"
- concept_advancement_speed:0 "Advancement Speed"
+ concept_advancement_speed:0 "ความเร็วในการเคลื่อนพล"
  concept_advancement_speed_desc:0 "#TODO A Commanders Advancement Speed is his [concept_advancement_progress] contribution to the [concept_front].\nA commander with no available troops has zero Advancement Speed.#!"
 
- concept_province:0 "Province"
- concept_provinces:1 "Provinces"
+ concept_province:0 "จังหวัด"
+ concept_provinces:1 "จังหวัด"
  concept_province_desc:1 "Provinces are parts of [Concept('concept_state', '$concept_states$')] with its own [concept_terrain]. Provinces can be marched across and conquered by [Concept('concept_general', '$concept_generals$')] in [concept_battle]."
 
- concept_commander:0 "Commander"
- concept_commanders:1 "Commanders"
+ concept_commander:0 "ผู้บัญชาการ"
+ concept_commanders:1 "ผู้บัญชาการ"
  concept_commander_desc:0 "A Commander is a [concept_character] that leads troops."
 
  concept_battle_condition: "Battle Condition"
@@ -122,7 +122,7 @@
  concept_timed_modifiers: "Timed Modifiers"
  concept_timed_modifier_desc: "Timed Modifier is ..."
 
- concept_terrain:0 "Terrain"
+ concept_terrain:0 "ภูมิประเทศ"
  concept_terrain_desc:2 "The terrain of a [concept_province] controls the [concept_combat_width], if a [concept_battle] would break out in the [concept_province], the amount of [Concept('concept_battalion','$concept_battalions$')] able to participate at a given time would be limited by [concept_combat_width]. Terrain can also have an impact on the variation of the rolls of each army, making for a higher chance to get low or high rolls during [concept_battle]."
 
  concept_strategic_region:0 "Strategic Region"
@@ -132,19 +132,19 @@
  concept_sway:0 "Sway"
  concept_sway_desc:0 "A [concept_country] that is either the Initiator or a Target of a [concept_diplomatic_play] can try to Sway any [concept_country] with an [concept_interest] in the [concept_strategic_region] that has not yet picked a side."
   
- concept_diplomatic_action:0 "Diplomatic Action"
- concept_diplomatic_actions:0 "Diplomatic Actions"
+ concept_diplomatic_action:0 "ดำเนินการทางการทูต"
+ concept_diplomatic_actions:0 "ดำเนินการทางการทูต"
  concept_diplomatic_action_desc:1 "A Diplomatic Action can be taken by a [concept_country] targeting another [concept_country] to do things like forming [Concept('concept_alliance', '$concept_alliances$')], declare [Concept('concept_rivalry', '$concept_rivalries$')] etc."
   
  concept_bureaucracy:0 "Bureaucracy"
  concept_bureaucracy_desc:1 "Bureaucracy (@bur!) is used to maintain your country's central cohesion. The cost increases with population in [Concept('concept_incorporated_state', '$concept_incorporated_states$')] and with every [concept_institution] Investment you make. You gain @bur! from having [concept_pop] working in [Concept('concept_government_building', '$concept_government_buildings$')]."
 
- concept_government_building:0 "Government Building"
- concept_government_buildings:1 "Government Buildings"
+ concept_government_building:0 "อาคารราชการ"
+ concept_government_buildings:1 "อาคารราชการ"
  concept_government_building_desc:0 "A Government Building is a Building where the [concept_country] is both paying the wages for the [Concept('concept_pop', '$concept_pops$')] working in it, as well as the [Concept('concept_good', '$concept_goods$')] used in the Production Chain for that Building."
 
- concept_military_building:0 "Military Building"
- concept_military_buildings:1 "Military Buildings"
+ concept_military_building:0 "สิ่งปลูกสร้างทางการทหาร"
+ concept_military_buildings:1 "สิ่งปลูกสร้างทางการทหาร"
  concept_military_building_desc:3 "A Military Building is a [concept_building] where the [concept_country] is both paying the wages for the [Concept('concept_pop','$concept_pops$')] working in it, as well as the [Concept('concept_good','$concept_goods$')] used in the Production Chain for that Building. Military Buildings will additionally maintain [Concept('concept_battalion','$concept_battalions$')] or [Concept('concept_flotilla','$concept_flotillas$')] as an additional output."
 
  concept_incorporate:0 "Incorporate"
@@ -154,68 +154,68 @@
  concept_incorporated_states:1 "Incorporated States"
  concept_incorporated_state_desc:1 "[Concept('concept_pop', '$concept_pops$')] in Incorporated States get access to benefits from [Concept('concept_institution', '$concept_institutions$')], are taxed, and participate fully in the Country's political system"
   
- concept_influence:0 "Influence"
+ concept_influence:0 "อิทธิพล"
  concept_influence_desc:1 "Influence (@inf!) is used for [Concept('concept_diplomatic_action', '$concept_diplomatic_actions$')] targeting another [concept_country]. You generate @inf! from your [concept_rank], as well as from having [Concept('concept_rivalry', '$concept_rivals$')]."
   
- concept_authority:0 "Authority"
+ concept_authority:0 "อำนาจ"
  concept_authority_desc:1 "Authority (@aut!) is used to effect internal change to your country, like setting [Concept('concept_decree', '$concept_decrees$')] or managing [Concept('concept_interest_group', '$concept_interest_groups$')]. You gain @aut! from your [Concept('concept_law', '$concept_laws$')]."
 
  concept_institution:0 "Institution"
  concept_institutions:1 "Institutions"
  concept_institution_desc:1 "An Institution provides benefits to the [Concept('concept_incorporated_state', '$concept_incorporated_states$')] in your [concept_country]. They cost [concept_bureaucracy] to maintain in proportion to the number of [Concept('concept_pop', '$concept_pops$')] living in your [Concept('concept_incorporated_state', '$concept_incorporated_states$')] and the size of the Institution."
   
- concept_law:0 "Law"
- concept_laws:0 "Laws"
+ concept_law:0 "กฏหมาย"
+ concept_laws:0 "กฏหมาย"
  concept_law_desc:1 "Laws determine how your Country is governed and how it operates. Some Laws may enable [Concept('concept_institution', '$concept_institutions$')]. For a Law to be enacted it needs to have the support of at least one [concept_interest_group] [concept_in_government]"
 
  concept_law_group:0 "Constitutional Law Group"
  concept_law_group_desc:2 "Law Groups consist of [Concept('concept_law', '$concept_laws$')] that affect different aspects of the nation. Each Law Group can only have one [concept_law] active at a time."
   
- concept_money:1 "Money"
+ concept_money:1 "เงินตรา"
  concept_money_desc:0 "Money makes the world go 'round. It is used to pay for government wages, construction materials, industry subsidies, and military equipment. You gain $concept_money$ by [concept_taxation] of your [Concept('concept_pop', '$concept_pops$')] and [Concept('concept_building', '$concept_buildings$')]. Excess $concept_money$ is used to pay off your [concept_national_debt] or stockpile gold in your [concept_gold_reserves]. Insufficient $concept_money$ increases your [concept_national_debt] towards your [concept_credit_limit], which is a multiple of your [concept_gdp]."
 
- concept_taxation:0 "Taxation"
+ concept_taxation:0 "ภาษี"
  concept_taxation_desc:0 "Taxation can be [concept_money] deducted from the $concept_pop$'s wages or Consumption Taxes added to the price of [Concept('concept_good', '$concept_goods$')]."
  
- concept_tariffs: "Tariffs"
- concept_tariff: "Tariff"
+ concept_tariffs: "ภาษีศุลกากร"
+ concept_tariff: "ภาษีศุลกากร"
  concept_tariffs_desc: "Tariffs are..."
 
- concept_workforce:0 "Workforce"
+ concept_workforce:0 "แรงงาน"
  concept_workforce_desc:0 "The Workforce of a [concept_building] consists of [Concept('concept_pop', '$concept_pops$')] of different [Concept('concept_profession', '$concept_professions$')]. The $concept_pops$ can promote or demote in order to fill up the $concept_professions$ required for the current set of [Concept('concept_production_method', '$concept_production_methods$')]."
 
- concept_national_debt:0 "National Debt"
+ concept_national_debt:0 "หนี้สาธารณะ"
  concept_national_debt_desc:0 "National Debt is [concept_money] you owe ... someone. You pay [concept_budget_interest_rate] on the amount of [concept_money] in your National Debt. If you run a negative balance, you will accumulate National Debt."
 
- concept_gold_reserves:0 "Gold Reserves"
+ concept_gold_reserves:0 "ทองคำสำรอง"
  concept_gold_reserves_desc:0 "Gold Reserves is how much [concept_money] your [concept_country] has stored in their reserves. If you run a positive balance, you will increase your Gold Reserves, and vice versa."
 
- concept_cash_reserves:0 "Cash Reserves"
+ concept_cash_reserves:0 "เงินสำรอง"
  concept_cash_reserves_desc:0 "The Cash Reserves of a [concept_building] is where the owner stores money. If the Building runs a positive Weekly Balance, some of the money gets put in the Cash Reserves, while the rest goes to the owners Pops of the Building (which they will use to increase their [concept_sol] and put money into the [concept_investment_pool]."
 
  concept_credit_limit:0 "Credit Limit"
  concept_credit_limit_desc:0 "Credit Limit is a multiple of your [concept_gdp], limiting how much [concept_national_debt] you are allowed to accumulate."
   
- concept_obsession:0 "Obsession"
- concept_obsessed: "Obsessed"
+ concept_obsession:0 "ความหลงใหล"
+ concept_obsessed: "หลงไหล"
  concept_obsession_desc:0 "A [concept_culture] can be obsessed with a specific [concept_good]. [Concept('concept_pop', '$concept_pops$')] of that Culture will spend significantly more on Goods they are obsessed with compared to other goods in the same [concept_pop_needs] Category."
   
- concept_taboo:0 "Taboo"
+ concept_taboo:0 "ข้อห้าม"
  concept_taboo_desc:0 "A [concept_religion] can be have a Taboo against a specific [concept_good]. [Concept('concept_pop', '$concept_pops$')] of that Religion will spend significantly less on Goods they consider taboo compared to other goods in the same [concept_pop_needs] Category."
   
- concept_goods_substitution:0 "Goods Substitution"
+ concept_goods_substitution:0 "สินค้าทดแทน"
  concept_goods_substitution_desc:0 "Goods that are part of the same [concept_pop_needs] Category are mutually substitutable in Pop Consumption based on availability. For example, the Basic Food group contains both Grain and Meat, and Pops will consume more Grain and less Meat, increasing their Meat consumption (and thus reducing Grain consumption) if Meat becomes more available in the market at a later point. In some cases, a Good may be substituted entirely if there are no [concept_sell_orders] for that Good in the [concept_market]. How much of a Good a Pop will buy compared to other Goods in the same category will change substantially if the Good is a [concept_taboo] or an [concept_obsession] of their Culture. Goods that have a higher inherent value count more towards fulfilling a Pop's needs within a particular Pop Needs Category, so a single unit of Groceries is equivalent to several units of Grain, for example."
 
- concept_sell_orders:0 "Sell Orders"
+ concept_sell_orders:0 "คำสั่งขาย"
  concept_sell_orders_desc:0 "Orders to Sell a commodity on the central [concept_market] determine the commodity's [concept_market_price]. Sell Orders are generated by State Consumption and Production, in higher quantities the higher [concept_market_access] the [concept_state] has to the [concept_market]."
 
- concept_buy_orders:0 "Buy Orders"
+ concept_buy_orders:0 "คำสั่งซื้อ"
  concept_buy_orders_desc:0 "Orders to Buy a commodity on the central [concept_market] determine the commodity's [concept_market_price]. Buy Orders are generated by State Consumption and Production, in higher quantities the higher [concept_market_access] the [concept_state] has to the [concept_market]."
 
- concept_market_price:0 "Market Price"
+ concept_market_price:0 "ราคาตลาด"
  concept_market_price_desc:0 "The Price of a [concept_good] in the [concept_market]. It is based on [concept_buy_orders] and [concept_sell_orders]. It will also affect the [concept_local_price] depending on that [concept_state_possessive] [concept_market_access]."
 
- concept_local_price:0 "Local Price"
+ concept_local_price:0 "ราคาในพื้นที่"
  concept_local_price_desc:0 "The Price of a [concept_good] in a [concept_state]. It is based on local Consumption and Production, [concept_market_price] affected by the [concept_state_possessive] [concept_market_access] and will generate [concept_buy_orders] and [concept_sell_orders]."
 
  concept_subsistence_building:0 "Subsistence Building"
@@ -225,14 +225,14 @@
  concept_non_government_building:0 "Production Building"
  concept_non_government_building_desc:0 "A Production Building produces something and is not payed for by the Government."
   
- concept_trade_route:0 "Trade Route"
- concept_trade_routes:0 "Trade Routes"
+ concept_trade_route:0 "เส้นทางการค้า"
+ concept_trade_routes:0 "เส้นทางการค้า"
  concept_trade_route_desc:1 "Trade Routes move available [Concept('concept_good', '$concept_goods$')] between [Concept('concept_market', '$concept_markets$')], driving the price up for the exporter while decreasing it for the importer. The amount of $concept_goods$ each Trade Route can move is dependent on the quality of the [concept_infrastructure] connecting the two [Concept('concept_market', '$concept_markets$')]."
  
- concept_trade_route_value: "Trade Route Value"
+ concept_trade_route_value: "มูลค่าของเส้นทางการค้า"
  concept_trade_route_value_desc: "A [concept_trade_route] generates income for its associated Trade Center [Concept('concept_building', '$concept_buildings$')] in both origin and target [Concept('concept_market', '$concept_markets$')]. This income is paid to [Concept('concept_pop', '$concept_pops$')] working in the Trade Centers and can be taxed by collecting Tariffs."
   
- concept_trade_agreement:0 "Trade Agreement"
+ concept_trade_agreement:0 "ข้อตกลงทางการค้า"
  concept_trade_agreement_desc:1 "A Trade Agreement is a diplomatic deal between two [Concept('concept_country', '$concept_countries$')] that increases the effectiveness of all [Concept('concept_trade_route', '$concept_trade_routes$')] between [Concept('concept_market', '$concept_markets$')] that they control."
 
  concept_trade_route_competitiveness:0 "Trade Route Competitiveness"
@@ -241,8 +241,8 @@
  concept_economy_of_scale:0 "Economy of Scale"
  concept_economy_of_scale_desc:0 "#todo Economy of Scale is ...#!"
   
- concept_interest_group:0 "Interest Group"
- concept_interest_groups:0 "Interest Groups"
+ concept_interest_group:0 "กลุ่มผลประโยชน์"
+ concept_interest_groups:0 "กลุ่มผลประโยชน์"
  concept_interest_group_possessive:0 "Interest Group's"
  concept_interest_group_desc:0 "An Interest Group is a political faction within your [concept_country] that share a common interest. They attract support from [Concept('concept_pop', '$concept_pops$')] in relation to how well it represents that $concept_pop$'s personal situation. They have number of [Concept('concept_ideology', '$concept_ideologies$')], causing them to take stances on different [Concept('concept_law', '$concept_laws$')]. They also have a number of [Concept('concept_interest_group_trait', '$concept_interest_group_traits$')] that are activated on different levels of [concept_ig_approval]. They also have a [concept_politician] as a leader, whose personal [concept_ideology] also rubs off on the Interest Group."
 
@@ -251,27 +251,27 @@
  concept_attracted:0 "Attracted"
  concept_interest_group_attraction_desc:2 "Interest Group Attraction is how likely a [Concept('concept_pop', '$concept_pops$')] are to support a certain [concept_interest_group]."
 
- concept_politician:0 "Politician"
- concept_politicians:1 "Politicians"
+ concept_politician:0 "นักการเมือง"
+ concept_politicians:1 "นักการเมือง"
  concept_politician_desc:1 "A Politician is a [concept_character]. They can have [Concept('concept_character_trait', '$concept_character_traits$')]."
 
- concept_leader:0 "Leader"
- concept_leaders:0 "Leaders"
+ concept_leader:0 "ผู้นำ"
+ concept_leaders:0 "ผู้นำ"
  concept_leader_desc:1 "The Leader of an [concept_interest_group] is a [concept_character]. The leader can have [Concept('concept_character_trait', '$concept_character_traits$')] and an [concept_ideology] that is added to the [concept_interest_group_possessive] [Concept('concept_ideology', '$concept_ideologies$')]."
 
- concept_character:0 "Character"
- concept_characters:1 "Characters"
+ concept_character:0 "ตัวแสดง"
+ concept_characters:1 "ตัวแสดง"
  concept_character_desc:1 "A Character is exactly that, a Character. Depending on the context, they can be considered [Concept('concept_politician', '$concept_politicians$')], [Concept('concept_commander', '$concept_commanders$')] etc."
 
  concept_interest_group_trait:0 "Interest Group Trait"
  concept_interest_group_traits:1 "Interest Group Traits"
  concept_interest_group_trait_desc:0 "If active, an Interest Group Trait provides bonuses or maluses to a [concept_country]. They are activated/deactivated on different levels of [concept_ig_approval]."
 
- concept_character_trait:0 "Character Trait"
- concept_character_traits:1 "Character Traits"
+ concept_character_trait:0 "ลักษณะเฉพาะของตัวแสดง"
+ concept_character_traits:1 "ลักษณะเฉพาะของตัวแสดง"
  concept_character_trait_desc:0 "Character Traits are bonuses or maluses, that are activated "
 
- concept_military:0 "Military"
+ concept_military:0 "การทหาร"
  concept_military_desc:2 "Your Military is the number of [Concept('concept_battalion','$concept_battalions$')] and [Concept('concept_flotilla','$concept_flotillas$')] that your [concept_country] has available to deploy."
 
  concept_construction_queue:0 "Construction Queue"
@@ -283,24 +283,24 @@
  concept_political_strength:0 "Political Strength"
  concept_political_strength_desc:2 "Political Strength is the total amount of Political Strength a group of [Concept('concept_pop','$concept_pops$')] get from their [concept_status], their [concept_wealth] and the amount of [concept_votes] they cast. If [Concept('concept_pop','$concept_pops$')] are [Concept('concept_discrimination','$concept_discriminated$')] against this will also impact their potential Political Strength."
 
- concept_urban_center:0 "Urban Center"
- concept_urban_centers:1 "Urban Centers"
+ concept_urban_center:0 "ศูนย์กลางเมือง"
+ concept_urban_centers:1 "ศูนย์กลางเมือง"
  concept_urban_center_desc:0 "An Urban Center is a special type of [concept_building] that is created by [concept_urbanization]."
 
  concept_urbanization:0 "Urbanization"
  concept_urbanization_desc:0 "Urbanization is generated by most [Concept('concept_building', '$concept_buildings$')] in a [concept_state]. For each [GetDefine('NEconomy','URBANIZATION_PER_BUILDING')|v] Urbanization in a [concept_state], a single level of [concept_urban_center] will be created."
   
- concept_ideology:0 "Ideology"
- concept_ideologies:0 "Ideologies"
+ concept_ideology:0 "แนวคิด"
+ concept_ideologies:0 "แนวคิด"
  concept_ideology_desc:0 "Ideology decides what [concept_law] an [concept_interest_group] approves or disapproves of. In order to be able to pass a [concept_law], at least one of the [Concept('concept_interest_group', '$concept_interest_groups$')] In Government needs to Approve of it."
 
  concept_subsistence_output:0 "Subsistence Output"
  concept_subsistence_output_desc:0 "This is an additional form of income that [concept_peasants] generate from subsistence farming, which represents they work they do producing goods simply to sustain themselves.\n\nUnlike wages, [concept_subsistence_output] is not paid out from the [Concept('concept_building', '$concept_building_possessive$')] revenues and is not subject to [concept_budget_income_taxes]."
   
- concept_good_production:0 "Production"
+ concept_good_production:0 "อัตราการผลิต"
  concept_good_production_desc:0 "The Amount Produced by [Concept('concept_building', '$concept_buildings$')] or [Concept('concept_pop', '$concept_pops$')]."
   
- concept_good_consumption:0 "Consumption"
+ concept_good_consumption:0 "อัตราการบริโภค"
  concept_good_consumption_desc:0 "The amount of this Good that is Consumed by [Concept('concept_building', '$concept_buildings$')] or [Concept('concept_pop', '$concept_pops$')]."
   
   
@@ -320,7 +320,7 @@
  concept_decentralized_nations:1 "Decentralized Nations"
  concept_decentralized_nation_desc:0 "A $decentralized_nation$'s lands may be settled by colonizers."
   
- concept_arable_land:0 "Arable Land"
+ concept_arable_land:0 "ที่ดินทำกิน"
  concept_arable_land_desc:0 "Arable Land is a resource, like any other that can be occupied by a wide range of Resource Industries, producing a wide range of [Concept('concept_good', '$concept_goods$')]. When not occupied by something else, it will be occupied by the [concept_subsistence_building] Subsistence Farm."
   
  concept_state_resource:0 "State Resource"
@@ -333,76 +333,76 @@
  concept_occupancy:0 "Occupancy"
  concept_occupancy_desc:0 "The employee occupancy and output ratio of the building. Buildings will hire and promote as revenue increases to meet demand."
   
- concept_votes:0 "Votes"
+ concept_votes:0 "เสียง"
  concept_votes_desc:0 "Your [Concept('concept_law', '$concept_laws$')] decide how many Votes different kinds of [Concept('concept_pop', '$concept_pops$')] get to cast. Votes are primarily cast on the [concept_interest_group] the pop supports but can vary based on the [concept_momentum] of the group in the current [concept_election]. After the election date, the number of total votes cast are fixed until next election."
   
  concept_ig_population:0 "Interest Group Population"
  concept_ig_population_desc:0 "The amount of [Concept('concept_pop', '$concept_pops$')] that are a part of this Interest Group."
   
- concept_ig_approval:0 "Approval"
- concept_ig_approves:0 "Approves"
- concept_ig_approve:0 "Approve"
- concept_ig_approving:0 "Approving"
- concept_ig_disapproval:0 "Disapproval"
- concept_ig_disapproves:0 "Disapproves"
- concept_ig_disapprove:0 "Disapprove"
- concept_ig_disapproving:0 "Disapproving"
- concept_ig_indifferent:0 "Indifferent"
+ concept_ig_approval:0 "การยอมรับ"
+ concept_ig_approves:0 "ยอมรับ"
+ concept_ig_approve:0 "ยอมรับ"
+ concept_ig_approving:0 "กำลังยอมรับ"
+ concept_ig_disapproval:0 "การไม่ยอมรับ"
+ concept_ig_disapproves:0 "ไม่ยอมรับ"
+ concept_ig_disapprove:0 "ไม่ยอมรับ"
+ concept_ig_disapproving:0 "ไม่ยอมรับอยู่"
+ concept_ig_indifferent:0 "เฉยๆ"
  concept_ig_approval_desc:1 "An $concept_interest_group$'s Approval or Disapproval is determined by how well or bad their [concept_country]'s [Concept('concept_law', '$concept_laws$')] matches their [Concept('concept_ideology', '$concept_ideologies$')] and the loyalties of all the [Concept('concept_pop', '$concept_pops$')] in the [concept_interest_group]. It also controls which [Concept('concept_interest_group_trait', '$concept_interest_group_traits$')] that are activated. If no Approval or Disapproval can be determined, the $concept_interest_group$ will be Indifferent."
   
- concept_pol_str:0 "Political Strength"
+ concept_pol_str:0 "ความเข้มแข็งทางการเมือง"
  concept_pol_str_desc:0 "The degree of power a [concept_pop] (and consequently its' [concept_interest_group]) has over the country's politics. The Political Strength decides how much [concept_clout] the group has and is derived from its supporting [Concept('concept_pop', '$concept_pops$')]' [concept_status] and the [concept_wealth], in addition to any [concept_votes] the [concept_interest_group] received in the last [concept_election]."
 
- concept_clout:0 "Clout"
+ concept_clout:0 "อิทธิพล"
  concept_clout_desc:0 "Clout is the amount of [concept_pol_str] an [concept_interest_group] receives from their [Concept('concept_pop', '$concept_pops$')] as a share of the country's total. High Clout has a positive effect on your [concept_legitimacy] if the [concept_interest_group] is [concept_in_government]. A group with low [concept_clout] is considered [concept_marginalized]."
 
- concept_powerful:0 "Powerful"
+ concept_powerful:0 "ทรงอำนาจ"
  concept_powerful_desc:0 "The amount of [concept_clout] an [concept_interest_group] has decides wether it is Powerful or Influential. Having over #variable [GetDefine('NPolitics', 'POWERFUL_IG_THRESHOLD')|%0]#! [concept_clout] means that the Interest Group is Powerful. Being Powerful means that the effects from the [concept_interest_group_possessive] [concept_interest_group_trait] will have a #variable [GetDefine('NPolitics', 'POWERFUL_IG_TRAIT_BONUS')|=%0]#! stronger effect."
 
- concept_influential:0 "Influential"
+ concept_influential:0 "ทรงอิทธิพล"
  concept_influential_desc:0 "The amount of [concept_clout] an [concept_interest_group] has decides wether it is Powerful or Influential. Being Influential means that the effects from the [concept_interest_group_possessive] [concept_interest_group_trait] is weaker than if they were [concept_powerful]."
 
- concept_status:0 "Status"
+ concept_status:0 "สถานะ"
  concept_status_desc:0 "Status is how high Status a [concept_pop] has in your [concept_country]. Your [Concept('concept_law', '$concept_laws$')] decide how much Status [Concept('concept_pop', '$concept_pops$')] of different [concept_profession] has."
   
- concept_marginalized:0 "Marginalized"
+ concept_marginalized:0 "ชายขอบ"
  concept_marginalized_desc:0 "Marginalized [Concept('concept_interest_group', '$concept_interest_groups$')] have too little support to be politically noteworthy. They cannot serve in government nor cause any trouble of note."
   
  concept_politically_inactive:0 "Politically Inactive"
  concept_politically_inactive_desc:0 "Politically Inactive Pops are Pops that are not part of an [concept_interest_group]. This could be due to low [concept_sol] or low [concept_literacy]. They do not participate in your country's political process, meaning they do not contribute to any [concept_interest_group_possessive] [concept_clout]."
 
- concept_investment_level:0 "Investment Level"
- concept_investment_levels:1 "Investment Levels"
+ concept_investment_level:0 "ระดับการลงทุน"
+ concept_investment_levels:1 "ระดับการลงทุน"
  concept_investment_level_desc:2 "Investment Level is the current level of your [Concept('concept_institution','$concept_institutions$')]."
 
- concept_trade_lens:0 "Trade Lens"
+ concept_trade_lens:0 "เวทีการค้า"
  concept_trade_lens_desc:0 "In the Trade Lens, you will be able to look at and manipulate the Trade aspects of your Country."
   
- concept_production_lens:0 "Production Lens"
+ concept_production_lens:0 "ภาคการผลิต"
  concept_production_lens_desc:0 "In the Production Lens, you will be able to look at and manipulate the Production aspects of your Country."
   
- concept_political_lens:0 "Political Lens"
+ concept_political_lens:0 "เวทีการเมือง"
  concept_political_lens_desc:0 "In the Political Lens, you will be able to look at and manipulate the Political aspects of your Country."
   
- concept_diplomatic_lens:0 "Diplomatic Lens"
+ concept_diplomatic_lens:0 "เวทีการฑูต"
  concept_diplomatic_lens_desc:0 "In the Diplomatic Lens, you will be able to look at and manipulate the Diplomatic aspects of your Country."
   
- concept_military_lens:0 "Military Lens"
+ concept_military_lens:0 "เวทีการทหาร"
  concept_military_lens_desc:0 "In the Military Lens, you will be able to look at and manipulate the Military aspects of your Country."
   
- concept_country:0 "Country"
- concept_countries:1 "Countries"
- concept_country_possessive:0 "Country's"
+ concept_country:0 "ประเทศ"
+ concept_countries:1 "ประเทศ"
+ concept_country_possessive:0 "ประเทศของ"
  concept_country_desc:1 "A Country is what you, the player, are actively controlling. You do not represent the will of a single individual, instead you are the invisible national spirit of the nation. It is up to you to shape your nation and carve a path in history through the Victorian Era."
   
- concept_decree:0 "Decree"
- concept_decrees:2 "Decrees"
+ concept_decree:0 "กฤษฎีกา"
+ concept_decrees:2 "กฤษฎีกา"
  concept_decree_desc:1 "A Decree is a modifier that can be placed on an applicable [concept_state] at the cost of [concept_authority]. Once placed it will give a certain bonus to that [concept_state] until either the [concept_country] loses control of the [concept_state] or it is removed."
   
- concept_population:0 "Population"
+ concept_population:0 "ประชากร"
  concept_population_desc:0 "The Population in your Country are the people working in your industries, your government and in your military. The [concept_taxation] of these people are your main source of income. Their loyalties and demands will either work for you, or against you."
   
- concept_pop_needs:0 "Needs"
+ concept_pop_needs:0 "ความต้องการ"
  concept_pop_needs_desc:0 "[Concept('concept_pop', '$concept_pops$')] spend its income on [Concept('concept_good', '$concept_goods$')] to fulfill their Needs. The higher the Pop's [concept_wealth], the more $concept_goods$ it will purchase. Pops gain more diverse and luxurious Needs as their Wealth increases. A given Need can often be satisfied by a variety of Goods via [concept_goods_substitution]. If the Pop has money left over after its Needs have been fulfilled its Wealth will increase, and vice versa."
   
  concept_army_budget:0 "Army Budget"
@@ -428,8 +428,8 @@
  concept_defense: "Defense"
  concept_defense_desc: "A [Concept('concept_unit','$concept_unit_possessive$')] fighting ability while defending from enemy incursions."
 
- concept_battalion:0 "Battalion"
- concept_battalions:1 "Battalions"
+ concept_battalion:0 "กองพัน"
+ concept_battalions:1 "กองพัน"
  concept_battalion_desc:1 "Battalions are the measurement unit for army human resources. It translates to 1000 population working in [Concept('concept_barrack', '$concept_barracks$')]."
 
  # Warships are deprecated terminology, do not use - should be replaced with Flotilla
@@ -437,32 +437,32 @@
  concept_warships:2 "$concept_flotillas$"
  concept_warship_desc:2 "$concept_flotilla_desc$"
 
- concept_flotilla: "Flotilla"
- concept_flotillas: "Flotillas"
+ concept_flotilla: "กองเรือ"
+ concept_flotillas: "กองเรือ"
  concept_flotilla_desc: "Flotillas are the measurement unit for naval human resources. It translates to 1000 population working in [Concept('concept_naval_base', '$concept_naval_bases$')]."
   
  concept_construction_sector:0 "Construction Sector"
  concept_construction_sector_desc:0 "The Construction Sector is..."
 
- concept_barrack:0 "Barrack"
- concept_barracks:1 "Barracks"
+ concept_barrack:0 "ค่ายทหาร"
+ concept_barracks:1 "ค่ายทหาร"
  concept_barrack_desc:1 "Barracks generate [Concept('concept_battalion', '$concept_battalions$')]"
   
- concept_naval_base:0 "Naval Base"
- concept_naval_bases:1 "Naval Bases"
+ concept_naval_base:0 "ฐานทัพเรือ"
+ concept_naval_bases:1 "ฐานทัพเรือ"
  concept_naval_base_desc:2 "Naval Bases generate [Concept('concept_flotilla','$concept_flotillas$')]"
   
- concept_in_government:0 "In Government"
+ concept_in_government:0 "ภาครัฐบาล"
  concept_in_government_desc:0 "If an [concept_interest_group] is In Government their [concept_clout] provides [concept_legitimacy], which in turn contributes to how quickly [Concept('concept_law', '$concept_laws$')] can be enacted. In order to be able to pass a [concept_law], at least one of the $concept_interest_groups$ In Government needs to Approve of it."
 
- concept_in_opposition:0 "In Opposition"
+ concept_in_opposition:0 "ฝ่ายค้าน"
  concept_in_opposition_desc:0 "If an [concept_interest_group] is In Opposition they're not part of the government and will gain an approval malus."
   
- concept_legitimacy:0 "Government Legitimacy"
- concept_legitimate:0 "Legitimate"
+ concept_legitimacy:0 "ความชอบธรรมของรัฐบาล"
+ concept_legitimate:0 "ความชอบธรรม"
  concept_legitimacy_desc:0 "Government Legitimacy measures of how well the composition of the [Concept('concept_interest_group','$concept_interest_groups$')] [concept_in_government] fits with the country's [Concept('concept_law', '$concept_laws$')]. It impacts how efficiently [concept_laws] can be passed."
   
- concept_market_capital:0 "Market Capital"
+ concept_market_capital:0 "ศูนย์กลางตลาด"
  concept_market_capital_desc:0 "The Market Capital is the nexus of a [concept_market], where all its [Concept('concept_trade_route', '$concept_trade_routes$')] connect to and from. The amount of [concept_market_access] each [concept_state_region] in the [concept_market] has depends on their [concept_infrastructure] connection to the [concept_market_capital].\n\nThe Market Capital is usually the [concept_state_region] of the [concept_market_controller_possessive] [concept_capital_state]."
   
  concept_market_controller:0 "Market Controller"
@@ -479,33 +479,33 @@
  concept_default:0 "Default"
  concept_default_desc:3 "Being in Default will pause all ongoing construction in the [concept_country]. Additionally this will have a negative impact on the productivity of [Concept('concept_building', '$concept_buildings$')], which grows more severe as time passes. Penalties are removed as soon as the [concept_country_possessive] weekly balance becomes positive again, or if [concept_bankruptcy] is declared."
  
- concept_bankruptcy:0 "Bankruptcy"
+ concept_bankruptcy:0 "ล้มละลาย"
  concept_bankruptcy_desc:0 "Declaring Bankruptcy..."
 
- concept_embargo:0 "Embargo"
- concept_embargoed:1 "Embargoed"
- concept_embargos:1 "Embargos"
- concept_embargoing:1 "Embargoing"
+ concept_embargo:0 "คว่ำบาตร"
+ concept_embargoed:1 "โดนคว่ำบาตรไปแล้ว"
+ concept_embargos:1 "คว่ำบาตร"
+ concept_embargoing:1 "กำลังคว่ำบาตร"
  concept_embargo_desc:2 "The [concept_market_controller] can decide to [concept_embargo] [Concept('concept_good','$concept_goods$')]. This increases the [concept_protected_export_share] for the [concept_good] in the [concept_market]."
   
- concept_encourage_consumption:0 "Encourage Consumpation"
- concept_encouraging_consumption:1 "Encouraging Consumption"
+ concept_encourage_consumption:0 "ส่งเสริมให้บริโภคสินค้า"
+ concept_encouraging_consumption:1 "กำลังส่งเสริมให้บริโภคสินค้า"
  concept_encourage_consumption_desc:2 "Encouraging Consumption of a [Concept('concept_good', '$concept_goods$')] will increase the likelihood that [Concept('concept_pop','$concept_pops$')] will be more likely to [concept_goods_substitution] said [Concept('concept_good', '$concept_goods$')] for other [Concept('concept_good', '$concept_goods$')]."
   
- concept_discourage_consumption:0 "Discourage Consumpation"
- concept_discouraging_consumption:1 "Discouraging Consumption"
+ concept_discourage_consumption:0 "รณรงค์ลดการบริโภคสินค้า"
+ concept_discouraging_consumption:1 "กำลังรณรงค์ลดการบริโภคสินค้า"
  concept_discourage_consumption_desc:1 "Discouraging Consumption of a [Concept('concept_good', '$concept_goods$')] will lower the [Concept('concept_pop','$concept_pops$')] consumption of that [concept_good]. As a result [Concept('concept_pop','$concept_pops$')] will be more likely to look for a substitute to that good instead of consuming that particular one."
 
- concept_consumption_tax:0 "Consumption Tax"
- concept_consumption_taxes:1 "Consumption Taxes"
+ concept_consumption_tax:0 "ภาษีเครื่องอุปโภคบริโภค"
+ concept_consumption_taxes:1 "ภาษีเครื่องอุปโภคบริโภค"
  concept_consumption_tax_desc:1 "Consumption Taxes are a tax placed on a specific [concept_good] at the cost of [concept_authority]. This tax will have an impact on the cost of this [concept_good] in your [concept_market]."
   
- concept_loyalist:0 "Loyalist"
- concept_loyalists:1 "Loyalists"
+ concept_loyalist:0 "ฝ่ายสนับสนุน"
+ concept_loyalists:1 "ฝ่ายสนับสนุน"
  concept_loyalist_desc:0 "A Pop that is loyal to the country..."
   
- concept_radical:0 "Radical"
- concept_radicals:1 "Radicals"
+ concept_radical:0 "ฝ่ายค้าน"
+ concept_radicals:1 "ฝ่ายค้าน"
  concept_radical_desc:0 "A Pop that is disloyal to the country..."
   
  concept_radicalized:0 "Radicalized"
@@ -514,24 +514,24 @@
  concept_de_radicalize:0 "De-Radicalize"
  concept_de_radicalize_desc:0 "Might De-Radicalize if granted something from their Grievances."
   
- concept_rivalry:0 "Rivalry"
- concept_rivals:1 "Rivals"
- concept_rival:1 "Rival"
- concept_rivalries:1 "Rivalries"
+ concept_rivalry:0 "คู่แข่ง"
+ concept_rivals:1 "คู่แข่ง"
+ concept_rival:1 "คู่แข่ง"
+ concept_rivalries:1 "คู่แข่ง"
  concept_rivalry_desc:1 "Entering into a Rivalry allows you to intervene against the other country in diplomatic plays they start, and also gives you Influence for each overlapping [concept_interest] your two [Concept('concept_country', '$concept_countries$')] have."
   
- concept_colony:0 "Colony"
- concept_colonys:1 "Colonys"
- concept_colonies:1 "Colonies"
+ concept_colony:0 "อาณานิคม"
+ concept_colonys:1 "อาณานิคม"
+ concept_colonies:1 "อาณานิคม"
  concept_colony_desc:0 "Colonies are large-scale settlement efforts initiated by Great or Major Powers in the lands of a [concept_decentralized_nation]. They start out with just a small bit of land and grow over time at a rate depending on the country's Colonial Growth.\n\nWhen created, a Colony will usually start out as a [concept_colonial_state] unless it borders non-colonial states belonging to the same [concept_country]."
   
- concept_innovation:0 "Innovation"
+ concept_innovation:0 "นวัตกรรม"
  concept_innovation_desc:0 "@innovation! Innovation is gained from Universities and is used in the research of [Concept('concept_technology', '$concept_technologies$')]."
   
- concept_technology_spread:0 "Technology Spread"
+ concept_technology_spread:0 "การกระจายตัวของเทคโนโลยี"
  concept_technology_spread_desc:0 "Technology Spread is..."
   
- concept_technology_era:0 "Technology Era"
+ concept_technology_era:0 "ยุคของเทคโนโลยี"
  concept_technology_era_desc:0 "Each Era in the game contains a number of Technologies, and each Era limits the way that you can get them."
   
  concept_escalation:0 "Escalation"
@@ -540,23 +540,23 @@
  concept_combat_width:0 "Combat Width"
  concept_combat_width_desc:0 "The Combat Width of a terrain determines the possible numeric advantage the larger side can take advantage over the smaller side in combat."
 
- concept_infamy:0 "Infamy"
+ concept_infamy:0 "ชื่อเสีย"
  concept_infamy_desc:0 "Infamy is..."
   
- concept_diplomatic_incident:0 "Diplomatic Incident"
- concept_diplomatic_incidents:0 "Diplomatic Incidents"
+ concept_diplomatic_incident:0 "เหตุการณ์ทางการทูต"
+ concept_diplomatic_incidents:0 "เหตุการณ์ทางการทูต"
  concept_diplomatic_incident_desc:0 "A Diplomatic Incident is..."
   
- concept_tension:0 "Tension"
- concept_tensions:1 "Tensions"
+ concept_tension:0 "ความตึงเครียด"
+ concept_tensions:1 "ความตึงเครียด"
  concept_tension_desc:1 "Tension is a measure of how strained the relationship is between a colonizing [concept_country] and a [concept_decentralized_nation]. Tension with nearby [Concept('concept_decentralized_nation', '$concept_decentralized_nations$')] increases every a [concept_country] [Concept('concept_colonize', '$concept_colonizes$')] a [concept_province] and goes down naturally over time.\n\nIf the tension level rises to #b $TENSION_VOLATILE$#!, continued colonization may trigger a [concept_native_uprising]."
 
- concept_relation:0 "Relation"
- concept_relations:1 "Relations"
+ concept_relation:0 "ความสัมพันธ์"
+ concept_relations:1 "ความสัมพันธ์"
  concept_relation_desc:1 "Relation is the official relations between two [Concept('concept_country', '$concept_countries$')]"
   
- concept_ai_strategy:0 "Strategy"
- concept_ai_strategies:0 "Strategies"
+ concept_ai_strategy:0 "ยุทธศาสตร์"
+ concept_ai_strategies:0 "ยุทธศาสตร์"
  concept_ai_strategy_desc:0 "AI-controlled countries have a set of Strategies that govern their goals and how they will proceed when making decisions in regards to the player and other nations."
   
  concept_strategic_desire:0 "Strategic Desire"
@@ -574,13 +574,13 @@
  concept_diplomatic_pact:0 "Diplomatic Pact"
  concept_diplomatic_pact_desc:2 "Diplomatic Pacts can be unilateral or bilateral among two [Concept('concept_country', '$concept_countries$')] and may have a maintenance cost in Influence. [Concept('concept_subject', '$concept_subjects$')] are also considered a Diplomatic Pact."
   
- concept_oppose:0 "Oppose"
+ concept_oppose:0 "คัดค้าน"
  concept_oppose_desc:0 "Anyone who Opposes a [concept_diplomatic_play] that Escalates into a War will join the side of anyone also Opposing the Play"
   
- concept_support:0 "Support"
+ concept_support:0 "สนับสนุน"
  concept_support_desc:0 "Anyone who Supports a [concept_diplomatic_play] that Escalates into a War will join the side of anyone also Supporting the Play"
 
- concept_war_reparations:0 "War Reparations"
+ concept_war_reparations:0 "ค่าปฏิกรรมสงคราม"
  concept_war_reparations_desc:1 "War Reparations are a [concept_war_goal] a [concept_country] can add during a [concept_diplomatic_play]. If enforced, the [concept_country] that is targeted by this [concept_war_goal] will have to pay 10% of their income."
   
  concept_open_market:0 "Market Opening"
@@ -591,7 +591,7 @@
  concept_humiliate:1 "Humiliate"
  concept_humiliation_desc:0 "Humiliation are..."
 
- concept_customs_union:0 "Customs Union"
+ concept_customs_union:0 "สหภาพศุลกากร"
  concept_customs_union_desc:0 "A Customs Union is..."
 
  concept_senior_partner:0 "Senior Partner"
@@ -600,18 +600,18 @@
  concept_junior_partner:0 "Junior Partner"
  concept_junior_partner_desc:0 "#todo The Junior Partner in a [concept_customs_union] yields control of their [concept_market] to the [concept_senior_partner].#!"
 
- concept_alliance:0 "Alliance"
- concept_alliances:1 "Alliances"
+ concept_alliance:0 "พันธมิตร"
+ concept_alliances:1 "พันธมิตร"
  concept_alliance_desc:0 "An Alliance is..."
  
  concept_defensive_pact: "Defensive Pact"
  concept_defensive_pacts: "Defensive Pacts"
  concept_defensive_pact_desc: "A Defensive Pact is..."
 
- concept_protectorate:0 "Protectorate"
+ concept_protectorate:0 "รัฐอารักขา"
  concept_protectorate_desc:1 "A Protectorate is a [concept_country] that has asked, or has been asked, by another [concept_country] of a higher [concept_rank] for protection. Protectorates are locked one power [concept_rank] below their protector."
 
- concept_puppet:0 "Puppet"
+ concept_puppet:0 "รัฐหุ่นเชิด"
  concept_puppet_desc:1 "A Puppet is a [concept_country] that has been forced to be a [concept_subject] by another [concept_country] through a [concept_diplomatic_play]. Puppets are locked one [concept_rank] below their protector."
 
  concept_personal_union:0 "Personal Union"
@@ -623,7 +623,7 @@
  concept_tributary:0 "Tributary" #remove
  concept_tributary_desc:0 "A Tributary is..." #remove
   
- concept_vassal:0 "Vassal"
+ concept_vassal:0 "บริวาร"
  concept_vassal_desc:0 "A Vassal is..."
   
  concept_yield:0 "Yield"
@@ -644,10 +644,10 @@
  concept_battle_summary_warsupport:0 "Battle Summary Warsupport"
  concept_battle_summary_warsupport_desc:0 "War Support is gained by winning battles and causing casualties on the enemy"
   
- concept_defend:0 "Defend"
+ concept_defend:0 "ป้องกัน"
  concept_defend_desc:0 "Give the Character the order to try to gather his forces."
   
- concept_patrol:0 "Patrol"
+ concept_patrol:0 "ลาดตะเวณ"
  concept_patrol_desc:0 "Patrol a route for enemy ships"
   
  concept_defend_state:0 "Defend State"
@@ -662,10 +662,10 @@
  concept_manage_character:0 "Manage Character"
  concept_manage_character_desc:0 "Which Character you place in which Region can turn the tides of War, or upset the wrong people."
   
- concept_manpower:0 "Manpower"
+ concept_manpower:0 "กำลังพล"
  concept_manpower_desc:0 "The number of men in this Command. The number of men, the [concept_morale] and what the Barrack supplies the unit with will decide how many effective these men will be in a Battle."
 
- concept_morale:0 "Morale"
+ concept_morale:0 "ขวัญกำลังใจ"
  concept_morale_desc:0 "Morale is..."
   
  concept_rank:0 "Rank"
@@ -685,19 +685,19 @@
  concept_mass_migration_target:0 "Mass Migration Target"
  concept_mass_migration_target_desc:0 "#todo A Mass Migration Target is...#!"
 
- concept_base_price:0 "Base Price"
+ concept_base_price:0 "ฐานราคา"
  concept_base_price_desc:0 "The Base Price is..."
 
- concept_capital_state:0 "Capital State"
+ concept_capital_state:0 "เมืองหลวง"
  concept_capital_state_desc:0 "The Capital State is where the central government of a nation is located. Controlling it is of great importance during wartime, and the Pops living there have a greater degree of influence on politics."
 
  concept_treaty_port:0 "Treaty Port"
  concept_treaty_port_desc:0 "A Treaty Port is..."
 
- concept_prestige:0 "Prestige"
+ concept_prestige:0 "เกียรติยศ"
  concept_prestige_desc:1 "Prestige is generated by [Concept('concept_building', '$concept_buildings$')], your [concept_gdp] and the amount of [Concept('concept_interest', '$concept_interests$')] you have in the World."
   
- concept_power_projection:0 "Power Projection"
+ concept_power_projection:0 "แสดงอำนาจทางการทหาร"
  concept_power_projection_desc:2 "Power Projection is a measure of how intimidating a [concept_country_possessive]'s military forces appear to other [Concept('concept_country', '$concept_countries$')]. It forms the basis for the amount of [concept_prestige] that a [concept_country] gains from its army and navy, and also affects how powerful AI [Concept('concept_country', '$concept_countries$')] perceive them to be when considering whether to start or take sides in a [concept_diplomatic_play]."
   
  concept_dividends:0 "Dividends"
@@ -713,15 +713,15 @@
  concept_loans:0 "Loans"
  concept_domestic_loans_desc:0 "Domestic Loans are funds that the [concept_country] has borrowed from domestic sources."
   
- concept_interest:0 "Interest"
- concept_interests:0 "Interests"
+ concept_interest:0 "สนใจ"
+ concept_interests:0 "สนใจ"
  concept_interest_desc:0 "An Interest in a [concept_strategic_region] signals to the world that you will participate in any [Concept('concept_diplomatic_play', '$concept_diplomatic_plays$')] in that region."
 
- concept_command:0 "Command"
- concept_commands:1 "Commands"
+ concept_command:0 "คำสั่ง"
+ concept_commands:1 "คำสั่ง"
  concept_command_desc:1 "A Command is a [concept_commander] in a [concept_theater]. It has a number of [Concept('concept_battalion', '$concept_battalions$')] or Navy Battalions supplied by [Concept('concept_barrack', '$concept_barracks$')] or [Concept('concept_naval_base', '$concept_naval_bases$')]. The maximum amount of Battalions a Command can has is determined by the Rank of the Commander."
 
- concept_war_support:0 "War Support"
+ concept_war_support:0 "อัตราการสนับสนุนสงคราม"
  concept_war_support_desc:0 "A number from +100 to -100 describing how eager the population in your [concept_country] is to continue this war."
 
  concept_war_exhaustion:0 "War Exhaustion"
@@ -741,25 +741,25 @@
  concept_turmoil:0 "Turmoil"
  concept_turmoil_desc:1 "[Concept('concept_state', '$concept_states$')] and [Concept('concept_culture', '$concept_cultures$')] with Turmoil contain [Concept('concept_radical', '$concept_radicals$')] that are unhappy with their current circumstances. The amount of Turmoil is equal to the fraction of the [concept_state_possessive] or [concept_culture_possessive] [concept_workforce] that are [concept_radical]."
 
- concept_unemployed:0 "Unemployed"
+ concept_unemployed:0 "ว่างงาน"
  concept_unemployed_desc:0 "Being Unemployed is..."
   
- concept_peasants:0 "@peasants! Peasants"
- concept_peasant:1 "Peasant"
+ concept_peasants:0 "@peasants! ชาวบ้าน"
+ concept_peasant:1 "ชาวบ้าน"
  concept_peasants_desc:1 "Peasants are a special type of [concept_pop] that are only found in [Concept('concept_subsistence_building', '$concept_subsistence_buildings$')]. They are largely self-sufficient, sustaining themselves primarily through [concept_subsistence_output], and only a fraction of their [concept_pop_needs] counts towards [concept_buy_orders] in their local [concept_market]."
   
  concept_cultural_turmoil:0 "Cultural Turmoil"
  concept_cultural_turmoil_desc:1 "[Concept('concept_culture', '$concept_cultures$')] with high Turmoil across the whole world will eventually find new places to call home, while [Concept('concept_culture', '$concept_cultures$')] with high Turmoil in a particular [concept_country] may instead try to take a part of it to make it their own home.  When a [concept_culture_possessive] [concept_pop_possessive] Turmoil exceeds #variable [GetDefine( 'NPolitics', 'SECESSION_TURMOIL_CUTOFF')]#!, they may revolt. For every #variable [GetDefine('NPops','MIGRATION_CULTURE_TARGET_TURMOIL')]#! Turmoil they may create a target for mass emigration."
   
- concept_taxes:0 "Taxes"
+ concept_taxes:0 "ภาษี"
  concept_taxes_desc:1 "[Concept('concept_country', '$concept_countries$')] can tap into their market economies in various ways. The most common is to tax its populace's private sector incomes, or charge duties on the sales, purchase, or trade of [Concept('concept_good', '$concept_goods$')]."
   
- concept_general:0 "General"
- concept_generals:1 "Generals"
+ concept_general:0 "นายพล"
+ concept_generals:1 "นายพล"
  concept_general_desc:0 "This character leads land armies."
   
- concept_admiral:0 "Admiral"
- concept_admirals:1 "Admirals"
+ concept_admiral:0 "พลเรือเอก"
+ concept_admirals:1 "พลเรือเอก"
  concept_admiral_desc:0 "This character leads navies."
   
  concept_working_adults:0 "Working Adults"
@@ -787,30 +787,30 @@
  concept_defensive_combat_effectiveness:0 "Defense"
  concept_defensive_combat_effectiveness_desc:0 "Defense is..."
 
- concept_slavery:0 "Slavery"
- concept_enslaved:1 "Enslaved"
+ concept_slavery:0 "ทาส"
+ concept_enslaved:1 "กลายเป็นทาสแล้ว"
  concept_slavery_desc:0 "Slavery is..."
   
- concept_native_uprising:0 "Native Uprising"
+ concept_native_uprising:0 "ชาวพื้นเมืองลุกฮือ"
  concept_native_uprising_desc:1 "A Native Uprising is a type [concept_diplomatic_play] that can occur if the level of [concept_tension] between a colonizer and a [concept_decentralized_nation] rises to #b $TENSION_VOLATILE$#!. In this play, the [concept_decentralized_nation] will mobilize its warriors and attempt to seize bordering [Concept('concept_state', '$concept_states$')] from the colonizer."
   
  concept_radicalization:0 "Radicalization"
  concept_radicalize:1 "Radicalize"
  concept_radicalization_desc:0 "TODO concept_radicalization_desc"
   
- concept_revolution:0 "Revolution"
- concept_revolutions:1 "Revolutions"
+ concept_revolution:0 "ปฏิวัติ"
+ concept_revolutions:1 "ปฏิวัติ"
  concept_revolution_desc:0 "TODO concept_revolution_desc"
 
- concept_civil_war:0 "Civil War"
- concept_civil_wars:0 "Civil Wars"
+ concept_civil_war:0 "สงครามกลางเมือง"
+ concept_civil_wars:0 "สงครามกลางเมือง"
  concept_civil_war_desc:0 "A Civil War is..."
  
  concept_peace_deal: "Peace Deal"
  concept_peace_deal_desc: "A Peace Deal is..."
 
- concept_war:0 "War"
- concept_wars:1 "Wars"
+ concept_war:0 "สงคราม"
+ concept_wars:1 "สงคราม"
  concept_war_desc:0 "War is..."
 
  concept_war_goal:0 "War Goal"
@@ -825,7 +825,7 @@
  concept_government_administrations:1 "Government Administrations"
  concept_government_administration_desc:0 "Government Administration is..."
 
- concept_government:0 "Government"
+ concept_government:0 "รัฐบาล"
  concept_government_desc:0 "Government is..."
 
  concept_subject:0 "Subject"
@@ -841,17 +841,17 @@
  concept_declared_interest:0 "Declared Interest"
  concept_declared_interest_desc:0 "A Declared [concept_interest] is an [concept_active_interest] that is maintained by the [concept_country] actively declaring an interest in the [concept_strategic_region] despite not controlling any territory there"
 
- concept_great_power:0 "Great Power"
- concept_great_powers:1 "Great Powers"
+ concept_great_power:0 "อภิมหาอำนาจ"
+ concept_great_powers:1 "อภิมหาอำนาจ"
  concept_great_power_desc:1 "Great Powers are those few [Concept('concept_country', '$concept_countries$')] that run the world through global empires or total local dominance. They are in a constant standoff with other Great Powers for an edge and always wary of plucky Major Powers trying to ascend to greatness at their expense.\n#todo TODO rewrite this#!\n#todo Add list of current Great Powers if in-game#!"
   
- concept_major_power:0 "Major Power"
+ concept_major_power:0 "มหาอำนาจ"
  concept_major_power_desc:0 "Major Powers have established themselves as notable through their regional presence. While they are not yet strong enough to establish a truly global empire they can be a major local force to be reckoned with, and the best among them may aspire to ascend to Great Power status.\n#todo TODO rewrite this#!"
   
- concept_minor_power:0 "Minor Power"
+ concept_minor_power:0 "อำนาจปานกลาง"
  concept_minor_power_desc:1 "Minor Powers are pawns in the imperialist games of higher ranked powers, who often use them as buffer [Concept('concept_country', '$concept_countries$')], puppets, or captive markets.\n#todo TODO rewrite this#!"
  
- concept_insignificant_power:0 "Insignificant Power"
+ concept_insignificant_power:0 "ด้อยอำนาจ"
  concept_insignificant_power_desc:0 "Insignicant Powers are even weaker than Minor Powers#todo TODO rewrite this#!"
   
  concept_subject_power:0 "Subject Power"
@@ -896,15 +896,15 @@
  concept_input_goods_shortages:1 "Input Goods Shortages"
  concept_input_goods_shortage_desc:0 "[Concept('concept_building', '$concept_buildings$')] that consume [Concept('concept_good', '$concept_goods$')] will suffer an output penalty if less than [GetDefine('NEconomy', 'GOODS_SHORTAGE_PENALTY_THRESHOLD')|v%0] of the [concept_buy_orders] for those $concept_goods$ are satsified. This is usually caused by insufficient availability of the [concept_good] in the [Concept('concept_building', '$concept_building_possessive$')] [concept_market], but may also be a result of low [concept_market_access] in the $concept_building$'s [concept_state_region]."
 
- concept_market:0 "Market"
- concept_markets:1 "Markets"
+ concept_market:0 "ตลาด"
+ concept_markets:1 "ตลาด"
  concept_market_possessive:0 "Market's"
  concept_market_desc:1 "All [Concept('concept_state', '$concept_states$')] in the same Market will trade [Concept('concept_good', '$concept_goods$')] with each other. How well connected these States are with each other for trading purposes will be determined by each State's [concept_market_access]"
 
  concept_market_access:0 "Market Access"
  concept_market_access_desc:0 "Market Access is determined by the amount of [concept_infrastructure_usage] compared to the amount of [concept_infrastructure] in the [concept_state_region]."
 
- concept_infrastructure:0 "Infrastructure"
+ concept_infrastructure:0 "โครงสร้างพื้นฐาน"
  concept_infrastructure_desc:0 "Infrastructure is provided by buildings like Railroads or Ports and influences how well connected a [concept_state] is to their [concept_market]."
 
  concept_infrastructure_usage:0 "Infrastructure Usage"
@@ -913,16 +913,16 @@
  concept_infrastructure_connection:0 "Infrastructure Connection"
  concept_infrastructure_connection_desc:0 "An Infrastructure Connection is the level of [concept_infrastructure] that can be traced between two [Concept('concept_state_region', '$concept_state_regions$')]. When tracing [concept_infrastructure] between two $concept_state_regions$, the lower [concept_infrastructure] $concept_state_regions$ through ports."
 
- concept_good:0 "Good"
- concept_goods:0 "Goods"
+ concept_good:0 "สินค้า"
+ concept_goods:0 "สินค้า"
  concept_good_desc:0 "Goods are produced in Buildings or by Pops. The price of the Good is decided by the Price of that Good in the [concept_state_possessive] [concept_market] and its [concept_market_access]."
 
- concept_government_good:0 "Government Good"
- concept_government_goods:1 "Government Goods"
+ concept_government_good:0 "สินค้าทางราชการ"
+ concept_government_goods:1 "สินค้าทางราชการ"
  concept_government_good_desc:0 "Government [Concept('concept_good', '$concept_goods$')] are $concept_goods$ that are consumed by buildings that are wholly funded by the [concept_government] and are necessary to keep it running smoothly."
 
- concept_military_good:0 "Military Good"
- concept_military_goods:1 "Military Goods"
+ concept_military_good:0 "ยุทโธปกร"
+ concept_military_goods:1 "ยุทโธปกร"
  concept_military_good_desc:0 "Military [Concept('concept_good', '$concept_goods$')] are $concept_goods$ that are consumed by buildings whose function is to provide military might, be it across land or sea."
 
  concept_state:0 "State"
@@ -936,46 +936,46 @@
  concept_pop_possessive:0 "Pop's"
  concept_pop_desc:0 "A Pop is a grouping of people, sharing the same [concept_culture], [concept_religion], work in the same [concept_building] in a [concept_state] and share the same [concept_profession]. They use the [concept_money] they earn from their work to buy [Concept('concept_good', '$concept_goods$')], which decides their [concept_wealth], which in combination with other factors determine their [concept_sol]. They can support [Concept('concept_interest_group', '$concept_interest_groups$')] or be [concept_politically_inactive]. A Pop has a number of [concept_working_adults] and a number of [concept_dependents]."
 
- concept_profession:0 "Profession"
- concept_professions:0 "Professions"
+ concept_profession:0 "อาชีพ"
+ concept_professions:0 "อาชีพ"
  concept_profession_desc:0 "A Profession is..."
 
  concept_production_method:0 "Production Method"
  concept_production_methods:0 "Production Methods"
  concept_production_method_desc:0 "Production Methods can be turned on or off to modify the input and/or output of [Concept('concept_good', '$concept_goods$')] and effects a [concept_building] produces. They can also modify which type of [Concept('concept_pop', '$concept_pops$')] that work in the [concept_building]. Production Methods can be unlocked via [concept_technology]."
 
- concept_culture:0 "Culture"
- concept_cultures:1 "Cultures"
- concept_culture_possessive:0 "Culture's"
+ concept_culture:0 "วัฒนธรรม"
+ concept_cultures:1 "วัฒนธรรม"
+ concept_culture_possessive:0 "วัฒนธรรมของ"
  concept_culture_desc:0 "Culture is one of the things that sets different [Concept('concept_pop', '$concept_pops$')] apart. A Culture can be either accepted or discriminated against in a Country."
 
- concept_accepted_culture:0 "Accepted Culture"
+ concept_accepted_culture:0 "วัฒนธรรมที่ถูกยอมรับ"
  concept_accepted_culture_desc:0 "The Accepted Cultures are the [concept_primary_cultures] and any other Cultures accepted by the [concept_laws] of the Country."
 
- concept_primary_cultures:0 "Primary Cultures"
- concept_primary_culture:0 "Primary Culture"
+ concept_primary_cultures:0 "วัฒนธรรมหลัก"
+ concept_primary_culture:0 "วัฒนธรรมหลัก"
  concept_primary_cultures_desc:1 "The Primary Cultures are the primary [Concept('concept_culture', '$concept_cultures$')] of a Country (can be several).[AddLocalizationIf(HasGameState, 'concept_primary_cultures_ingame_added')]"
  concept_primary_cultures_ingame_added:0 "\n\nThe Primary Cultures in [GetPlayer.GetName] are [GetPlayer.GetPrimaryCulturesDesc]."
 
- concept_cultural_trait:0 "Cultural Trait"
- concept_cultural_traits:1 "Cultural Traits"
+ concept_cultural_trait:0 "ลักษณะเฉพาะทางวัฒนธรรม"
+ concept_cultural_traits:1 "ลักษณะเฉพาะทางวัฒนธรรม"
  concept_cultural_trait_desc:0 "Cultural Traits are..."
 
  concept_cultural_heritage_trait:0 "Heritage Cultural Trait"
  concept_cultural_heritage_trait_desc:0 "Heritage Cultural Traits are..."
 
- concept_religion:0 "Religion"
- concept_religions:1 "Religions"
+ concept_religion:0 "ศาสนา"
+ concept_religions:1 "ศาสนา"
  concept_religion_desc:0 "Religion is one of the things that sets different [Concept('concept_pop', '$concept_pops$')] apart. A Culture can be either accepted or discriminated against in a Country."
 
- concept_accepted_religion:0 "Accepted Religion"
+ concept_accepted_religion:0 "ศาสนาที่ได้รับการยอมรับ"
  concept_accepted_religion_desc:0 "And Accepted Religion is the [concept_state_religion] and any other Religions accepted by the [concept_laws] of the Country."
 
- concept_state_religion:0 "State Religion"
+ concept_state_religion:0 "ศาสนาประจำชาติ"
  concept_state_religion_desc:0 "The State Religion is the primary, dominant, most prominent religion held by a majority of the Pops in the Country."
 
- concept_religious_trait:0 "Religious Trait"
- concept_religious_traits:1 "Religious Traits"
+ concept_religious_trait:0 "ลักษณะเฉพาะของศาสนา"
+ concept_religious_traits:1 "ลักษณะเฉพาะของศาสนา"
  concept_religious_trait_desc:0 "Religious Traits are..."
 
  concept_discrimination_trait:0 "Discrimination Trait"
@@ -985,31 +985,31 @@
  concept_investment_pool:0 "Investment Pool"
  concept_investment_pool_desc:0 "The Investment Pool is money that your $aristocrats$ and $capitalists$ have put here when they made more money than they know what to do with. Your [Concept('concept_law', '$concept_laws$')] decide which Buildings that can be built using this money."
 
- concept_wealth:0 "Wealth"
- concept_wealthy:0 "Wealthy"
+ concept_wealth:0 "ความมั่งคั่ง"
+ concept_wealthy:0 "มั่งคั่ง"
  concept_wealth_desc:0 "Wealth is the amount of [Concept('concept_good', '$concept_goods$')] a [concept_pop] is able to buy using the money they earn from working in [Concept('concept_building', '$concept_buildings$')]. Their Wealth is the main contributing factor of a $concept_pops$ [concept_sol]."
 
- concept_technology:0 "Technology"
- concept_technologies:0 "Technologies"
+ concept_technology:0 "เทคโนโลยี"
+ concept_technologies:0 "เทคโนโลยี"
  concept_technology_desc:0 "Technology is..."
 
- concept_navy:0 "Navy"
+ concept_navy:0 "นาวี"
  concept_navy_desc:0 "Navy is..."
 
  concept_sea_lane:0 "Sea Lane"
  concept_sea_lanes:1 "Sea Lanes"
  concept_sea_lane_desc:0 "Sea Lanes are..."
 
- concept_port:0 "Port"
- concept_ports:1 "Ports"
+ concept_port:0 "ท่าเรือ"
+ concept_ports:1 "ท่าเรือ"
  concept_port_desc:0 "Ports are..."
 
- concept_canal:0 "Canal"
- concept_canals:1 "Canals"
+ concept_canal:0 "คลอง"
+ concept_canals:1 "คลอง"
  concept_canal_desc:0 "Canals are..."
 
- concept_monument:0 "Monument"
- concept_monuments:1 "Monuments"
+ concept_monument:0 "อนุสาวรีย์"
+ concept_monuments:1 "อนุสาวรีย์"
  concept_monument_desc:0 "Monuments are..."
 
  concept_productivity:0 "Yearly Productivity / Employee"
@@ -1018,26 +1018,26 @@
  concept_unproductive:0 "Unproductive"
  concept_productivity_desc:0 "The amount of annual value generated per employee, measured as ( Revenue from Goods Sold - Material Expenses ) / Total Employees"
 
- concept_election:0 "Election"
+ concept_election:0 "การเลือกตั้ง"
  concept_election_desc:0 "Elections are rigged..."
  
  concept_protected_export_share: "Protected Export Share"
  concept_protected_export_share_desc: "The Protected Export Share is the number of locally produced [concept_sell_orders] of a [concept_good] that are unavailable for export through [Concept('concept_trade_route', '$concept_trade_routes$')]. It can be increased through the use of [Concept('concept_embargo','$concept_embargos$')]."
 
- concept_budget_minting:0 "Minting"
+ concept_budget_minting:0 "การทำเหรียญ"
  concept_budget_minting_desc:1 "Minting is a form of income that all [Concept('concept_country', '$concept_countries$')] generate through the printing or casting of new [concept_money]. The amount of income gained from Minting is always at least #v @money!1000#! and increases at a rate of #v @money!500#! for each #v @money!1 million#! [concept_country_possessive] [concept_gdp]."
   
- concept_budget_poll_taxes:0 "Poll Taxes"
- concept_budget_poll_tax:1 "Poll Tax"
+ concept_budget_poll_taxes:0 "ภาษีรัชชูปการ"
+ concept_budget_poll_tax:1 "ภาษีรัชชูปการ"
  concept_budget_poll_taxes_desc:1 "Poll Taxes are paid and collected weekly as a fixed amount of [concept_money] per [Concept('concept_working_adults', '$concept_working_adult$')] affected by the type of Poll Tax"
   
- concept_budget_land_taxes:0 "Land Taxes"
+ concept_budget_land_taxes:0 "ภาษีที่ดิน"
  concept_budget_land_taxes_desc:1 "Land Taxes are a type of [Concept('concept_budget_poll_taxes', '$concept_budget_poll_tax$')] that is only collected on [concept_peasants]"
   
- concept_budget_heathen_taxes:0 "Heathen Taxes"
+ concept_budget_heathen_taxes:0 "ภาษีอากร"
  concept_budget_heathen_taxes_desc:0 "Heathen Taxes are a type of [Concept('concept_budget_poll_taxes', '$concept_budget_poll_tax$')] collected from all [Concept('concept_pop', '$concept_pops$')] whose [concept_religion] is [Concept('concept_discrimination','$concept_discriminated$')] against by their [concept_country]"
  
- concept_budget_per_capita_taxes:0 "Per Capita Taxes"
+ concept_budget_per_capita_taxes:0 "ภาษีรายบุคคล"
  concept_budget_per_capita_taxes_desc:1 "Per Capita Taxes are a type of [Concept('concept_budget_poll_taxes', '$concept_budget_poll_tax$')] that is collected on all [Concept('concept_pop', '$concept_pops$')]"
   
  concept_budget_income_taxes:0 "Income Taxes"
@@ -1073,8 +1073,8 @@
  concept_budget_government_wages:0 "Government Wages"
  concept_budget_government_wages_desc:0 "government_wages_desc"
 
- concept_budget_wages:0 "Wages"
- concept_budget_wage:0 "Wage"
+ concept_budget_wages:0 "ค่าแรง"
+ concept_budget_wage:0 "ค่าแรง"
  concept_budget_wages_desc:0 "Wages are payed by [Concept('concept_building', '$concept_buildings$')] to its [Concept('concept_pop','$concept_pops$')] in its [concept_workforce]. However, how the buildings are payed differ from what kind of building it is. Therefore, we have three different kinds of wages, [concept_budget_government_wages] from buldings payed by the government, [concept_budget_military_wages] which are also from buildings payed by the government, and lastly we have all other "normal" building's [Concept('concept_building_wage', '$concept_building_wages$')]."
 
  concept_budget_goods_for_government_buildings:0 "Goods for Government Buildings"
@@ -1278,8 +1278,8 @@
  concept_unification_candidate_desc:0 "A Formation Candidate is..."
  
  concept_unification_supporter:0 "Unification Supporter"
- concept_unification_support:0 "Support"
- concept_unification_supporting:0 "Supporting"
+ concept_unification_support:0 "สนับสนุน"
+ concept_unification_supporting:0 "กำลังสนับสนุน"
  concept_unification_supporter_desc:0 "A Formation Supporter is..."
 
  concept_recognized_power:0 "Recognized Power"
