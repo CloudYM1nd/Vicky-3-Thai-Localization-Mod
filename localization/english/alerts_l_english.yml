@@ -1,0 +1,230 @@
+﻿l_english:
+  # alert_xyz_name = name of the Event
+  # alert_xyz_desc = additional description about the current situation (optional)
+  # alert_xyz_hint = information that should help the player to be able to understand the situation and how to fix the problem
+  # alert_xyz_action = Where does clicking this take you?
+  
+ ALERT_TOOLTIP_FORMAT:1 "#header $NAME$#!\n$TOOLTIP_DELIMITER$\n[ConcatIfNeitherEmpty('$DESC$', '\n\n')]@information! $HINT$\n\n#instruction Click to open the $ACTION$#!"
+
+ alert_country_default_name:0 "In [concept_default]"
+ alert_country_default_desc:1 "[GetPlayer.GetName] is in [concept_default] due to not being able to pay back our loans. Until we are able to reach a positive balance, we will suffer penalties that grow increasingly harsh as time passes.\n\n#title Current Effects:#!\n[GetPlayer.GetInDefaultEffectsDesc]"
+ alert_country_default_hint:1 "You can improve your financial situation by increasing your income (which can be done by for instance increasing (or adding new) Taxes) or decreasing your expenses (which can be done by for instance reducing Government Wages or improving the prices for expensive Goods used in Government Buildings). If neither of these is enough, you also have the option to declare [concept_bankruptcy]."
+ alert_country_default_action:0 "Budget Panel"
+  
+ alert_country_approaching_bureaucracy_shortage_name:0 "Bureaucratic Shortfall"
+ alert_country_approaching_bureaucracy_shortage_desc:0 "Our country's [Concept('concept_institution', '$concept_institutions$')] are growing out of bounds and we will eventually be overstretched. Until we are able to ensure sufficient $BUREAUCRACY$ for all of them, [Concept('concept_law', '$concept_laws$')] that establish new [Concept('concept_institution', '$concept_institutions$')] cannot be enacted and [concept_institution] growth will halt once you've run out."
+ alert_country_approaching_bureaucracy_shortage_hint:0 "You can increase your capacity to generate Bureaucracy by building more Government Administation Buildings."
+ alert_country_approaching_bureaucracy_shortage_action:0 "Politics Panel"
+
+ alert_insurrectionary_alert_name:0 "[concept_revolution] Brewing"
+ alert_insurrectionary_alert_desc:0 "There are Insurrectionary Interest Groups plotting a [concept_revolution] in our country:\n\n#title Insurrectionary Interest Groups:#!\n[GetPlayer.GetInsurrectionaryIGsDesc]"
+ alert_insurrectionary_alert_hint:0 "You can de-radicalize them by improving their Approval, which can be done by enacting [Concept('concept_law', '$concept_laws$')] they approve of (or stop enacting Laws they disapprove of)."
+ alert_insurrectionary_alert_action:0 "Politics Panel"
+
+ alert_idle_mobilized_general_name:0 "Idle [Concept('concept_mobilize_general', '$concept_mobilize_general_mobilized$')] [concept_general]: [SCOPE.GetRootScope.GetCharacter.GetFullName]"
+ alert_idle_mobilized_general_desc:0 "[SCOPE.GetRootScope.GetCharacter.GetFullName] is mobilized and is idling."
+ alert_idle_mobilized_general_hint:1 "You can give orders to [Concept('concept_general', '$concept_generals$')] in the $concept_general$ Panel."
+ alert_idle_mobilized_general_action:1 "General Panel"
+
+ alert_vulnerable_front_name: "Vulnerable [concept_front]: [SCOPE.GetRootScope.GetFront.GetName]"
+ alert_vulnerable_front_desc: "We have no [Concept('concept_general', '$concept_generals$')] nor [Concept('concept_battalion', '$concept_battalions$')] defending [SCOPE.GetRootScope.GetFront.GetName] and there is at least one enemy $concept_general$ assigned to it."
+ alert_vulnerable_front_hint: "You can recruit [Concept('concept_general', '$concept_generals$')] or give them orders in the Military Panel."
+ alert_vulnerable_front_action: "Front Panel"
+
+ alert_high_attrition_alert_name:0 "[SCOPE.GetRootScope.GetCharacter.GetFullName] has [SCOPE.GetRootScope.GetCharacter.GetAttritionRaw|0%-] [concept_attrition]"
+ alert_high_attrition_alert_desc:0 "Units of [SCOPE.GetRootScope.GetCharacter.GetFullName] have a high risk of casualties due to attrition"
+ alert_high_attrition_alert_hint:0 "Reduce [concept_attrition] by giving a different order to a [concept_commander] or returning them from the [concept_front]"
+ alert_high_attrition_alert_action:0 "Military Panel"
+
+ alert_has_navy_troops_in_reserve_alert_name:0 "[GetPlayer.GetWarshipsInReserve|0] Warships in Reserve"
+ alert_has_navy_troops_in_reserve_alert_hint:0 "Assign troops by recruiting more [Concept('concept_general', '$concept_generals$')], which can be done on the details Panel for a specific [concept_hq]. You can also promote existing [Concept('concept_general', '$concept_generals$')] in order to give them higher [concept_command_limit], which can be done on the details Panel for that Commander (or by right-clicking them). #todo TODO: Break up into items on HQ level and update click functionality to take you to the specific HQ (PRCAL-12602)#!#!"
+ alert_has_navy_troops_in_reserve_alert_action:0 "Military Panel"
+
+ alert_has_army_troops_in_reserve_alert_name:0 "[GetPlayer.GetBattalionsInReserve|0] Battalions in Reserve"
+ alert_has_army_troops_in_reserve_alert_hint:0 "Assign troops by recruiting more [Concept('concept_general', '$concept_generals$')], which can be done on the details Panel for a specific [concept_hq]. You can also promote existing [Concept('concept_general', '$concept_generals$')] in order to give them higher [concept_command_limit], which can be done on the details Panel for that Commander (or by right-clicking them). #todo TODO: Break up into items on HQ level and update click functionality to take you to the specific HQ (PRCAL-12602)#!#!"
+ alert_has_army_troops_in_reserve_alert_action:0 "Military Panel"
+
+ alert_has_navy_troops_in_reserve_peace_time_alert_name:0 "$alert_has_navy_troops_in_reserve_alert_name$"
+ alert_has_navy_troops_in_reserve_peace_time_alert_hint:0 "$alert_has_navy_troops_in_reserve_alert_hint$"
+ alert_has_navy_troops_in_reserve_peace_time_alert_action:0 "$alert_has_navy_troops_in_reserve_alert_action$"
+
+ alert_has_army_troops_in_reserve_peace_time_alert_name:0 "$alert_has_army_troops_in_reserve_alert_name$"
+ alert_has_army_troops_in_reserve_peace_time_alert_hint:0 "$alert_has_army_troops_in_reserve_alert_hint$"
+ alert_has_army_troops_in_reserve_peace_time_alert_action:0 "$alert_has_army_troops_in_reserve_alert_action$"
+
+ alert_secession_possible_alert_name:0 "[concept_secession] Movements Possible"
+ alert_secession_possible_alert_desc:0 "There is a weekly risk of separatists getting organized in our country:\n\n#title Separatist [Concept('concept_culture', '$concept_cultures$')]:#!\n[GetPlayer.GetPossibleSecessionistsDesc]"
+ alert_secession_possible_alert_hint:0 "#todo Add descriptions on how to solve this here. PRCAL-12524#!"
+ alert_secession_possible_alert_action:0 "Culture Panel"
+
+ alert_low_legitimacy_alert_name:0 "Low Government Legitimacy"
+ alert_low_legitimacy_alert_desc:0 "Your [concept_government] has [GetPlayer.GetGovernmentLegitimacy|0%v] [concept_legitimacy], which is considered low."
+ alert_low_legitimacy_alert_hint:0 "Increase your [concept_legitimacy] by adding or removing [Concept('concept_interest_group', '$concept_interest_groups$')] from your [concept_government]. This can be done on the Politics Panel or on the details of an [concept_interest_group]. You can also change your [Concept('concept_law', '$concept_laws$')], which can be done from the Constitutional Laws tab in the Politics Panel."
+ alert_low_legitimacy_alert_action:0 "Politics Panel"
+
+ alert_unhealthy_economy_alert_name:0 "Unhealthy Economy"
+ alert_unhealthy_economy_alert_desc:0 "[GetPlayer.PredictEconomyHealthDesc]"
+ alert_unhealthy_economy_alert_hint:0 "You can improve your financial situation by increasing your income (which can be done by for instance increasing (or adding new) Taxes) or decreasing your expenses (which can be done by for instance reducing Government Wages or improving the prices for expensive Goods used in Government Buildings)."
+ alert_unhealthy_economy_alert_action:0 "Budget Panel"
+
+ alert_market_goods_shortage_alert_name:0 "[SCOPE.GetRootScope.GetMarketGoods.GetGoods.GetTextIcon] [SCOPE.GetRootScope.GetMarketGoods.GetGoods.GetName] [concept_input_goods_shortage] in the [SCOPE.GetRootScope.GetMarketGoods.GetMarket.GetName]"
+ alert_market_goods_shortage_alert_desc:0 "There are #tooltippable #tooltip:[SCOPE.GetRootScope.GetMarketGoods.GetTooltipTag],alert_market_goods_shortage_affected_buildings_breakdown [SCOPE.GetRootScope.GetMarketGoods.GetNumBuildingsAffectedByShortage|v]#!#! buildings affected by this shortage."
+ alert_market_goods_shortage_alert_hint:0 "You can resolve the shortages by increasing the number of [concept_sell_orders] for [SCOPE.GetRootScope.GetMarketGoods.GetGoods.GetTextIcon] [SCOPE.GetRootScope.GetMarketGoods.GetGoods.GetName] in [SCOPE.GetRootScope.GetMarketGoods.GetMarket.GetName]. This can be done by either producing more [SCOPE.GetRootScope.GetMarketGoods.GetGoods.GetTextIcon] [SCOPE.GetRootScope.GetMarketGoods.GetGoods.GetName], improving [concept_infrastructure] in [Concept('concept_state', '$concept_states$')] with low [concept_market_access] producing it, or setting up a [concept_trade_route] to get it from another [concept_market]."
+ alert_market_goods_shortage_alert_hint_data_version:0 "@information! There are #tooltippable #tooltip:[Goods.GetTooltipTag],alert_market_goods_shortage_affected_buildings_breakdown_data_version [Goods.GetNumBuildingsAffectedByShortageInMarket|v]#!#! buildings affected by this shortage.\n\nYou can resolve the shortages by increasing the number of [concept_sell_orders] for [Goods.GetTextIcon] [Goods.GetName] in [Goods.GetMarket.GetName]. This can be done by either producing more [Goods.GetTextIcon] [Goods.GetName], improving [concept_infrastructure] in [Concept('concept_state', '$concept_states$')]  with low [concept_market_access] producing it, or setting up a [concept_trade_route] to get it from another [concept_market]."
+ alert_market_goods_shortage_alert_action:0 "Market Panel for [SCOPE.GetRootScope.GetMarketGoods.GetGoods.GetName] in [SCOPE.GetRootScope.GetMarketGoods.GetMarket.GetName]"
+ alert_market_goods_shortage_affected_buildings_breakdown:0 "[MarketGoods.GetBreakdownOfBuildingsAffectedByShortage]"
+ alert_market_goods_shortage_affected_buildings_breakdown_data_version:0 "[Goods.GetBreakdownOfBuildingsAffectedByShortageInMarket]"
+ alert_market_goods_shortage_affected_building_entry:0 "[Building.GetName] in [Building.GetState.GetName]"
+
+ alert_isolated_state_alert_name:0 "[SCOPE.GetRootScope.GetState.GetName] is [Concept('concept_isolated_state', '$concept_isolated_state_adj$')]"
+ alert_isolated_state_alert_hint:0 "You can connect [SCOPE.GetRootScope.GetState.GetName] to the [SCOPE.GetRootScope.GetState.GetMarket.GetName] by increasing [concept_infrastructure], which can be done by building Buildings that provide [concept_infrastructure] like Ports or Railroads, or by using the #v $decree_road_maintenance$#! [concept_decree]."
+ alert_isolated_state_alert_action:0 "State Panel for [SCOPE.GetRootScope.GetState.GetName]"
+
+ alert_low_market_access_alert_name:1 "[concept_market_access] in [SCOPE.GetRootScope.GetState.GetName] is at [SCOPE.GetRootScope.GetState.GetMarketAccess|%0v]"
+ alert_low_market_access_alert_hint:0 "You can improve the [concept_market_access] of [SCOPE.GetRootScope.GetState.GetName] by increasing [concept_infrastructure], which can be done by building Buildings that provide [concept_infrastructure] like Ports or Railroads, or by using the #v $decree_road_maintenance$#! [concept_decree]."
+ alert_low_market_access_alert_action:0 "State Panel for [SCOPE.GetRootScope.GetState.GetName]"
+  
+ alert_state_in_turmoil_alert_name:0 "[SCOPE.GetRootScope.GetState.GetName] is in [concept_turmoil]"
+ alert_state_in_turmoil_alert_desc:0 "[SCOPE.GetRootScope.GetState.GetName] is in a state of [concept_turmoil] due to the presence of $RADICALS$"
+ alert_state_in_turmoil_alert_hint:0 "#todo Add descriptions on how to solve this here. PRCAL-12524#!"
+ alert_state_in_turmoil_alert_action:0 "Market Panel for [SCOPE.GetRootScope.GetState.GetMarket.GetName]"
+
+ alert_inactive_trade_route_alert_name:0 "The [concept_trade_route] [SCOPE.GetRootScope.GetTradeRoute.GetDescriptionForActingMarket] is inactive"
+ alert_inactive_trade_route_alert_hint:0 "You can remove existing [Concept('concept_trade_route', '$concept_trade_routes$')] from either the Market Panel or using the Trade Lens."
+ alert_inactive_trade_route_alert_action:0 "Market Panel for the [SCOPE.GetRootScope.GetTradeRoute.GetActingMarket.GetName]#!"
+
+ alert_expensive_government_goods_alert_name:0 "[SCOPE.GetRootScope.GetMarketGoods.GetGoods.GetTextIcon] [SCOPE.GetRootScope.GetMarketGoods.GetGoods.GetName] in the [SCOPE.GetRootScope.GetMarketGoods.GetMarket.GetName]"
+ alert_expensive_government_goods_alert_desc:0 "#header [SCOPE.GetRootScope.GetMarketGoods.GetGoods.GetTextIcon] [SCOPE.GetRootScope.GetMarketGoods.GetGoods.GetName] is expensive in the following [Concept('concept_state', '$concept_states$')]:#!\n[SCOPE.GetRootScope.GetMarketGoods.GetStatesWhereGoodsIsExpensiveDesc]"
+ alert_expensive_government_goods_alert_hint:0 "You can influence the price of a Goods in several ways. For instance, you can increase Production of it by building more Buildings, change the Production Methods for existing Buildings or set up Trade Routes for it. You can also embargo or add Consumption Taxes to it."
+ alert_expensive_government_goods_alert_action:0 "Goods Panel for [SCOPE.GetRootScope.GetMarketGoods.GetGoods.GetName] on the [SCOPE.GetRootScope.GetMarketGoods.GetMarket.GetName]"
+
+ alert_expensive_military_goods_alert_name:0 "[SCOPE.GetRootScope.GetMarketGoods.GetGoods.GetTextIcon] [SCOPE.GetRootScope.GetMarketGoods.GetGoods.GetName] on the [SCOPE.GetRootScope.GetMarketGoods.GetMarket.GetName]"
+ alert_expensive_military_goods_alert_desc:0 "#header [SCOPE.GetRootScope.GetMarketGoods.GetGoods.GetTextIcon] [SCOPE.GetRootScope.GetMarketGoods.GetGoods.GetName] is expensive in the following [Concept('concept_state', '$concept_states$')]:#!\n[SCOPE.GetRootScope.GetMarketGoods.GetStatesWhereGoodsIsExpensiveDesc]"
+ alert_expensive_military_goods_alert_hint:0 "You can influence the price of a Goods in several ways. For instance, you can increase Production of it by building more Buildings, change the Production Methods for existing Buildings or set up Trade Routes for it. You can also embargo or add Consumption Taxes to it."
+ alert_expensive_military_goods_alert_action:0 "Goods Panel for [SCOPE.GetRootScope.GetMarketGoods.GetGoods.GetName] on the [SCOPE.GetRootScope.GetMarketGoods.GetMarket.GetName]"
+
+ alert_secession_growing_alert_name:0 "[concept_secession] Movements Growing"
+ alert_secession_growing_alert_desc:0 "There are separatists organizing in our country:\n\n#title Separatist [Concept('concept_culture', '$concept_cultures$')]:#!\n[GetPlayer.GetGrowingSecessionistsDesc]"
+ alert_secession_growing_alert_hint:0 "#todo Add descriptions on how to solve this here. PRCAL-12524#!"
+ alert_secession_growing_alert_action:0 "Politics Panel"
+
+ alert_revolution_alert_name:0 "[concept_revolution]"
+ alert_revolution_alert_desc:0 "Our country is in a state of [concept_civil_war]."
+ alert_revolution_alert_hint:0 "#todo Add descriptions on how to solve this here. PRCAL-12524#!"
+ alert_revolution_alert_action:0 "Politics Panel"
+
+ alert_secession_alert_name:0 "[concept_secession]"
+ alert_secession_alert_desc:0 "Our country is in a state of [concept_civil_war]!"
+ alert_secession_alert_hint:0 "#todo Add descriptions on how to solve this here. PRCAL-12524#!"
+ alert_secession_alert_action:0 "Politics Panel"
+   
+ alert_active_peace_deal_alert_name: "[concept_peace_deal] Proposed"
+ alert_active_peace_deal_alert_desc: "There is a proposed peace deal in a [concept_war] you are part of:\n[GetPlayer.GetActivePeaceDealDesc]"
+ alert_active_peace_deal_alert_hint: "#todo Add descriptions on how to solve this here. PRCAL-12524#!"
+ alert_active_peace_deal_alert_action: "War Panel"
+
+ ALERT_PEACE_PROPOSED_ENTRY: "[WAR.GetName|b] - [WAR.GetDaysUntilPeaceDealFails|v] day(s) until peace deal is rejected"
+  
+ alert_has_no_research_alert_name:0 "No Active Research"
+ alert_has_no_research_alert_desc:0 "We are currently not actively researching any [concept_technology]. Any @innovation! [concept_innovation] we are generating will increase our passive technology spread."
+ alert_has_no_research_alert_hint:0 "You set which Technology to research in the one of the three Technology trees in the Technology Panel."
+ alert_has_no_research_alert_action:0 "Technology Panel"
+  
+ alert_has_no_war_goal_alert_name:0 "No Primary [concept_war_goal] against [SCOPE.GetRootScope.GetDiplomaticPlay.GetInitiator.GetName]"
+ alert_has_no_war_goal_alert_desc:0 "We currently do not have any [Concept('concept_war_goal', '$concept_war_goals$')] set in one of our [Concept('concept_diplomatic_play', '$concept_diplomatic_plays$')].\n\nIf do not add any wargoals during the Opening Moves phase, a primary [concept_war_goal] will automatically be generated for us."
+ alert_has_no_war_goal_alert_hint:0 "#todo Add descriptions on how to solve this here. PRCAL-12524#!"
+ alert_has_no_war_goal_alert_action:0 "Diplomatic Play"
+
+ alert_diplomatic_play_alert_name:0 "Active [concept_diplomatic_play]"
+ alert_diplomatic_play_alert_desc:0 "We are part of an active [concept_diplomatic_play]."
+ alert_diplomatic_play_alert_hint:0 "#todo Add descriptions on how to solve this here. PRCAL-12524#!"
+ alert_diplomatic_play_alert_action:0 "Diplomatic Play"
+  
+ alert_is_losing_rank_alert_name:0 "Losing Power [concept_rank]"
+ alert_is_losing_rank_alert_desc:0 "We have insufficient [concept_prestige] to maintain our [GetPlayer.GetRank|v] ranking and will become a [GetPlayer.GetTargetRank|v] in [GetPlayer.GetDaysUntilRankLoss|v] day(s) unless our standing recovers.\n\nWe need #P #b [GetPlayer.GetPrestigeForCurrentRank]#!#! [concept_prestige] to maintain our standing and currently have #b #N [GetPlayer.GetPrestige]#!#!."
+ alert_is_losing_rank_alert_hint:0 "#todo Add descriptions on how to solve this here. PRCAL-12524#!"
+ alert_is_losing_rank_alert_action:0 "Diplomacy Panel"
+  
+ alert_has_decreasing_interests_alert_name:0 "Decreasing [Concept('concept_interest', '$concept_interests$')]"
+ alert_has_decreasing_interests_alert_desc:0 "Our [concept_interest] Level is decreasing in:\n[GetPlayer.GetDecreasingInterestsDesc]"
+ alert_has_decreasing_interests_alert_hint:0 "You can prevent this by expanding your Barracks in the Strategic Region."
+ alert_has_decreasing_interests_alert_action:0 "Diplomacy Panel"
+ 
+ alert_wasted_construction_name:0 "Unused [concept_construction] Production"
+ alert_wasted_construction_desc:0 "We have available [concept_construction] production that is not being used to construct any [Concept('concept_building', '$concept_buildings$')]."
+ alert_wasted_construction_hint:0 "You can queue up building constructions to make use of the available [concept_construction] production."
+ alert_wasted_construction_action:0 "Construction Panel"
+
+ alert_is_being_convoy_raided_name:0 "Convoy Raiding"
+ alert_is_being_convoy_raided_desc:0 "[SCOPE.GetRootScope.GetCountry.GetSeaNodesBeingConvoyRaidedInDesc]"
+ alert_is_being_convoy_raided_hint:0 "You can counter this by assigning an Admiral to patrol the Sea Node or, if the Sea Node is costal, assign an Admiral to Intercept."
+ alert_is_being_convoy_raided_action:0 "Military Navy Panel"
+
+ IS_BEING_CONVOY_RAIDED_HEADER:0 "Our [concept_convoys] are being sunk in:"
+  
+ alert_high_tension_alert_name:0 "High [Concept('concept_tension', '$concept_tensions$')] between [SCOPE.GetRootScope.GetDiplomaticRelations.GetFirstCountry.GetName] and [SCOPE.GetRootScope.GetDiplomaticRelations.GetSecondCountry.GetName]"
+ alert_high_tension_alert_desc:0 "[Concept('concept_tension', '$concept_tensions$')] between [SCOPE.GetRootScope.GetDiplomaticRelations.GetFirstCountry.GetName] and [SCOPE.GetRootScope.GetDiplomaticRelations.GetSecondCountry.GetName] are high. If we continue to [concept_colonize] their territory, they might spark a [concept_native_uprising]."
+ alert_high_tension_alert_hint:0 "#todo Add descriptions on how to solve this here. PRCAL-12524#!"
+ alert_high_tension_alert_action:0 "Diplomacy Panel"
+  
+ alert_obligation_expiring_name:0 "[SCOPE.GetRootScope.GetDiplomaticRelations.GetSecondCountry.GetAdjectiveNoFormatting] [concept_obligation] expiring"
+ alert_obligation_expiring_desc:0 "The [concept_obligation] owed to us by [SCOPE.GetRootScope.GetDiplomaticRelations.GetSecondCountry.GetName] will expire in #v [SCOPE.GetRootScope.GetDiplomaticRelations.CalcOwedObligationDaysLeft(GetPlayer.Self)]#! day(s)."
+ alert_obligation_expiring_hint:0 "You should make use of the [concept_obligation] before it expires."
+ alert_obligation_expiring_action:0 "Diplomacy Panel"
+
+  # Alert groups
+ ALERT_GROUP_TOOLTIP_FOOTER:0 "#instruction Click to expand#!"
+ ag_missing_war_goals_name:0 "Missing [Concept('concept_war_goal', '$concept_war_goals$')]"
+ ag_missing_war_goals_desc:0 "We are involved in [Concept('concept_diplomatic_play', '$concept_diplomatic_plays$')] that have no primary [concept_war_goal] selected."
+ ag_missing_war_goals_tooltip:0 "#header $ag_has_no_war_goal_name$#!\n$TOOLTIP_DELIMITER$\n$ag_has_no_war_goal_desc$\n$TOOLTIP_DELIMITER$\n$ALERT_GROUP_TOOLTIP_FOOTER$"
+
+ ag_inactive_trade_routes_name:0 "Inactive [Concept('concept_trade_route', '$concept_trade_routes$')]"
+ ag_inactive_trade_routes_desc:0 "We have [GetPlayer.GetNumInactiveTradeRoutes|v] inactive [Concept('concept_trade_route', '$concept_trade_routes$')]."
+ ag_inactive_trade_routes_tooltip:0 "#header $ag_inactive_trade_routes_name$#!\n$TOOLTIP_DELIMITER$\n$ag_inactive_trade_routes_desc$\n\n$ALERT_GROUP_TOOLTIP_FOOTER$"
+
+ ag_market_goods_shortages_name:0 "[Concept('concept_input_goods_shortage', '$concept_input_goods_shortages$')]"
+ ag_market_goods_shortages_desc:0 "There are [Concept('concept_input_goods_shortage', '$concept_input_goods_shortages$')] in our [concept_market]."
+ ag_market_goods_shortages_tooltip:0 "#header $ag_market_goods_shortages_name$#!\n$TOOLTIP_DELIMITER$\n$ag_market_goods_shortages_desc$\n\n$ALERT_GROUP_TOOLTIP_FOOTER$"
+
+ ag_isolated_states_name:0 "[Concept('concept_isolated_state', '$concept_isolated_states$')]"
+ ag_isolated_states_desc:0 "We have [GetPlayer.GetNumIsolatedStates] [Concept('concept_isolated_state', '$concept_isolated_states$')] in our country."
+ ag_isolated_states_tooltip:0 "#header $ag_isolated_states_name$#!\n$TOOLTIP_DELIMITER$\n$ag_isolated_states_desc$\n\n$ALERT_GROUP_TOOLTIP_FOOTER$"
+
+ ag_low_market_access_states_name:0 "Low [concept_market_access]"
+ ag_low_market_access_states_desc:0 "We have [GetPlayer.GetNumLowMarketAccessStates] [Concept('concept_state', '$concept_states$')] with low [concept_market_access]"
+ ag_low_market_access_states_tooltip:0 "#header $ag_low_market_access_states_name$#!\n$TOOLTIP_DELIMITER$\n$ag_low_market_access_states_desc$\n\n$ALERT_GROUP_TOOLTIP_FOOTER$"
+
+ ag_states_in_turmoil_name:0 "[Concept('concept_state', '$concept_states$')] in [concept_turmoil]"
+ ag_states_in_turmoil_desc:0 "We have [GetPlayer.GetNumTurmoilStates] [Concept('concept_state', '$concept_states$')] in [concept_turmoil] in our country."
+ ag_states_in_turmoil_tooltip:0 "#header $ag_states_in_turmoil_name$#!\n$TOOLTIP_DELIMITER$\n$ag_states_in_turmoil_desc$\n\n$ALERT_GROUP_TOOLTIP_FOOTER$"
+
+ ag_high_tensions_name:0 "High [Concept('concept_tension', '$concept_tensions$')]"
+ ag_high_tensions_desc:0 "We have High [Concept('concept_tension', '$concept_tensions$')] with [Concept('concept_decentralized_nation', '$concept_decentralized_nations$')]."
+ ag_high_tensions_tooltip:0 "#header $ag_high_tensions_name$#!\n$TOOLTIP_DELIMITER$\n$ag_high_tensions_desc$\n\n$ALERT_GROUP_TOOLTIP_FOOTER$"
+ 
+ ag_expiring_obligations_name:0 "Expiring [Concept('concept_obligation', '$concept_obligations$')]"
+ ag_expiring_obligations_desc:0 "We are owed [Concept('concept_obligation', '$concept_obligations$')] that will expire soon."
+ ag_expiring_obligations_tooltip:0 "#header $ag_expiring_obligations_name$#!\n$TOOLTIP_DELIMITER$\n$ag_expiring_obligations_desc$\n\n$ALERT_GROUP_TOOLTIP_FOOTER$"
+  
+ ag_expensive_government_goods_name:0 "Expensive [Concept('concept_government_good', '$concept_government_goods$')]"
+ ag_expensive_government_goods_desc:0 "We have expensive [Concept('concept_government_good', '$concept_government_goods$')] in at least one of our [Concept('concept_market', '$concept_markets$')]."
+ ag_expensive_government_goods_tooltip:0 "#header $ag_expensive_government_goods_name$#!\n$TOOLTIP_DELIMITER$\n$ag_expensive_government_goods_desc$\n\n$ALERT_GROUP_TOOLTIP_FOOTER$"
+
+ ag_expensive_military_goods_name:0 "Expensive [Concept('concept_military_good', '$concept_military_goods$')]"
+ ag_expensive_military_goods_desc:0 "We have expensive [Concept('concept_military_good', '$concept_military_goods$')] in at least one of our [Concept('concept_market', '$concept_markets$')]."
+ ag_expensive_military_goods_tooltip:0 "#header $ag_expensive_military_goods_name$#!\n$TOOLTIP_DELIMITER$\n$ag_expensive_military_goods_desc$\n\n$ALERT_GROUP_TOOLTIP_FOOTER$"
+  
+ ag_commander_orders_name:0 "Commander Orders"
+ ag_commander_orders_desc:0 "#TODO TODO#!"
+ ag_commander_orders_tooltip:0 "#TODO Various problems with Commanders Orders#!"
+  
+ ag_high_attrition_name:0 "High [concept_attrition]"
+ ag_high_attrition_desc:0 "At least one of our [Concept('concept_commander', '$concept_commanders$')] has a High [concept_attrition]"
+ ag_high_attrition_tooltip:0 "#header $ag_high_attrition_name$#!\n$TOOLTIP_DELIMITER$\n$ag_high_attrition_desc$\n\n$ALERT_GROUP_TOOLTIP_FOOTER$"
+
+ MP_CLIENT_LAGGING_SLOWDOWN:0 "$NAME$ is lagging behind. Slowing gamespeed."
+ MP_CLIENT_LAGGING_PAUSE:0 "$NAME$ has lagged more than $DAYS$ behind. Pausing."
+ MP_CLIENT_GRACEFUL_EXIT:0 "$NAME$ left the game"
+ MP_CLIENT_UNGRACEFUL_EXIT:0 "$NAME$ has lost connection to the game"
+ MP_HOST_DATE:0 "$NAME$(#V Host#!): $DATE_STR$"
+ MP_CLIENT_DATE:0 "$NAME$: $DATE_STR$"

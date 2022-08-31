@@ -1,0 +1,7 @@
+﻿l_english:
+ PARTY_FULL_NAME:0 "$NAME$ ([concept_party])"
+ TEST_SOCIAL_DEMOCRATS:0 "Social Democrats"
+ TEST_CONSERVATIVES:0 "Conservatives"
+ TEST_SOCIALISTS:0 "Socialists"
+ TEST_TORIES:0 "Tories"
+ TEST_WIGS:0 "Whigs"

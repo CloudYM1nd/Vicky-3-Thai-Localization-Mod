@@ -1,0 +1,8 @@
+﻿l_english:
+ MULTIPLAYER_LOBBY_CHOOSE_RANDOM_CHARACTER:0 "Random Country"
+ MULTIPLAYER_LOBBY_PLAY_OBSERVER:0 "Play as an observer"
+ MULTIPLAYER_LOBBY_NOT_READY:0 "#N No Country selected#!"
+ MULTIPLAYER_LOBBY_READY:0 "[LobbyPlayer.GetPlayable.GetCountry.GetNameNoFlag]"
+ MULTIPLAYER_LOBBY_JOIN_PROGRESS:0 "Joining... [LobbyPlayer.GetTransferProgress|0%]"
+ MULTIPLAYER_LOBBY_PLAYED_BY:0 "Played by [Country.GetPlayer.GetName]"
+ MULTIPLAYER_LOBBY_PLAYED_BY_YOU:0 "Your Country"

@@ -1,0 +1,634 @@
+﻿l_english:
+ tutorial_lesson_button_skip:2 "Skip Lesson"
+ tutorial_lesson_button_next:2 "Next"
+ tutorial_lesson_button_continue:1 "Progress!"
+ 
+ tutorial_lesson_button_complete:2 "I Understand"
+ tutorial_lesson_button_read_later:2 "Read Later"
+ tutorial_lesson_button_refuse:2 "Never!"
+ tutorial_lesson_button_explain:2 "Do Explain"
+ tutorial_lesson_button_excellent:2 "Excellent"
+ tutorial_lesson_button_elaborate:2 "Tell Me More"
+ tutorial_lesson_button_back:2 "Back"
+ tutorial_lesson_button_repeat_step:2 "Show Me Again"
+ tutorial_lesson_button_show_more:0 "Show more"
+ tutorial_lesson_button_show_less:0 "Show less"
+ tutorial_lesson_button_come_again:2 "Please, Repeat"
+ TUTORIAL_STEP_INSTRUCTIONS:2 "To continue:"
+ skip_to_next_topic:2 "Skip this tutorial lesson"
+
+ lesson_step_1_of_2:1 "1/2"
+ lesson_step_2_of_2:1 "2/2"
+ lesson_step_1_of_3:1 "1/3"
+ lesson_step_2_of_3:1 "2/3"
+ lesson_step_3_of_3:1 "3/3"
+ lesson_step_1_of_4:1 "1/4"
+ lesson_step_2_of_4:1 "2/4"
+ lesson_step_3_of_4:1 "3/4"
+ lesson_step_4_of_4:1 "4/4"
+ lesson_step_1_of_5:1 "1/5"
+ lesson_step_2_of_5:1 "2/5"
+ lesson_step_3_of_5:1 "3/5"
+ lesson_step_4_of_5:1 "4/5"
+ lesson_step_5_of_5:1 "5/5"
+ lesson_step_1_of_6:1 "1/6"
+ lesson_step_2_of_6:1 "2/6"
+ lesson_step_3_of_6:1 "3/6"
+ lesson_step_4_of_6:1 "4/6"
+ lesson_step_5_of_6:1 "5/6"
+ lesson_step_6_of_6:1 "6/6"
+ lesson_step_1_of_7:1 "1/7"
+ lesson_step_2_of_7:1 "2/7"
+ lesson_step_3_of_7:1 "3/7"
+ lesson_step_4_of_7:1 "4/7"
+ lesson_step_5_of_7:1 "5/7"
+ lesson_step_6_of_7:1 "6/7"
+ lesson_step_7_of_7:1 "7/7"
+ lesson_step_1_of_8:1 "1/8"
+ lesson_step_2_of_8:1 "2/8"
+ lesson_step_3_of_8:1 "3/8"
+ lesson_step_4_of_8:1 "4/8"
+ lesson_step_5_of_8:1 "5/8"
+ lesson_step_6_of_8:1 "6/8"
+ lesson_step_7_of_8:1 "7/8"
+ lesson_step_8_of_8:1 "8/8"
+ lesson_step_1_of_9:1 "1/9"
+ lesson_step_2_of_9:1 "2/9"
+ lesson_step_3_of_9:1 "3/9"
+ lesson_step_4_of_9:1 "4/9"
+ lesson_step_5_of_9:1 "5/9"
+ lesson_step_6_of_9:1 "6/9"
+ lesson_step_7_of_9:1 "7/9"
+ lesson_step_8_of_9:1 "8/9"
+ lesson_step_9_of_9:1 "9/9"
+
+#Lesson names
+
+ lesson_basics:0 "Introduction"
+
+ TRIGGER_LESSON_BASICS_NESTED_TOOLTIPS_CONTINUE:1 "Place your cursor over $tooltip_hinter$ inside of a tooltip"
+ TOOLTIPS_EXPLAINER:1 "This is a #tooltippable #tooltip:NESTED_TOOLTIPS_EXPLAINER Tooltip#!#!"
+ NESTED_TOOLTIPS_EXPLAINER:0 "Tooltips typically provides detailed information pertinent to whatever your cursor is pointing at, and often contain nested tooltips like this one."
+ 
+ tooltip_hinter:1 "#tooltippable #tooltip:TOOLTIPS_EXPLAINER underlined text#!#!"
+ tooltip_hinter_name:1 "#tooltippable_name #tooltip:TOOLTIPS_EXPLAINER Name#!#!"
+ tooltip_hinter_names:1 "#tooltippable_name #tooltip:TOOLTIPS_EXPLAINER Names#!#!"
+ tooltip_hinter_concept:0 "[concept_concept]"
+ tooltip_hinter_concepts:0 "[Concept('concept_concept', '$concept_concepts$')]"
+
+ # Basics
+ lesson_basics_welcome:1 "Welcome to the Age of Progress!"
+ lesson_basics_welcome_desc:3 "The year is 1836. [GetPlayer.GetRuler.GetFullName] is [GetPlayer.GetRuler.GetPrimaryRoleTitle] of [GetPlayer.GetName]. The Industrial Revolution is well underway, bringing cataclysmic social change along with it. More than 20 years have passed since the Congress of Vienna imposed some semblance of order upon Europe, and unrest is once again starting to brew among the [Concept('concept_great_power', '$concept_great_powers$')]. It will be up to you to guide [GetPlayer.GetName] to glory over the following century.\n\nThere is no one way to 'win' in Victoria 3. You set your own goals and experience different stories in the process of pursuing them."
+
+ lesson_basics_core_gameplay:0 "Core Gameplay"
+ lesson_basics_core_gameplay_short:0 "Victoria 3 is about taking charge of, growing and shaping a Victorian-era country, with a primary focus on #bold Economics#! and #bold Politics#!. You will be constructing a society of your own imagination while overcoming internal and external obstacles."
+ lesson_basics_core_gameplay_show_more:0 "Politics, Economics, Diplomacy, and War are all tools to that end, but must be employed with care as your population have needs and desires of their own. Your decisions will impact them and they will in turn attempt to influence you.\n\nVictoria 3 is a dynamic simulation with many moving parts. All your actions will have consequences, even unintended ones. This is normal and expected! You do not have to learn how everything works before you play. Take it slow and learn from your mistakes, and you will soon be an expert policymaker!"
+ lesson_basics_core_gameplay_desc:0 "Victoria 3 is about taking charge of, growing and shaping a Victorian-era country, with a primary focus on #bold Economics#! and #bold Politics#!. You will be constructing a society of your own imagination while overcoming internal and external obstacles.\n\nPolitics, Economics, Diplomacy, and War are all tools to that end, but must be employed with care as your population have needs and desires of their own. Your decisions will impact them and they will in turn attempt to influence you.\n\nVictoria 3 is a dynamic simulation with many moving parts. All your actions will have consequences, even unintended ones. This is normal and expected! You do not have to learn how everything works before you play. Take it slow and learn from your mistakes, and you will soon be an expert policymaker!"
+ lesson_basics_core_gameplay_part_1_desc:0 "Victoria 3 is about taking charge of, growing and shaping a Victorian-era country, with a primary focus on #bold Economics#! and #bold Politics#!. You will be constructing a society of your own imagination while overcoming internal and external obstacles."
+ lesson_basics_core_gameplay_part_2_desc:0 "Politics, Economics, Diplomacy, and War are all tools to that end, but must be employed with care as your population have needs and desires of their own. Your decisions will impact them and they will in turn attempt to influence you.\n\nVictoria 3 is a dynamic simulation with many moving parts. All your actions will have consequences, even unintended ones. This is normal and expected! You do not have to learn how everything works before you play. Take it slow and learn from your mistakes, and you will soon be an expert policymaker!"
+ lesson_basics_core_gameplay_you:0 "#black You#!"
+ lesson_basics_core_gameplay_politics:0 "#black Politics#!"
+ lesson_basics_core_gameplay_economics:0 "#black Economics#!"
+ lesson_basics_core_gameplay_diplomacy:0 "#black Diplomacy#!"
+ lesson_basics_core_gameplay_war:0 "#black War#!"
+ lesson_basics_core_gameplay_country_and:0 "#black Country and economics#!"
+
+ #Camera & Map
+ lesson_basics_camera:1 "Camera ($lesson_basics$)"
+ lesson_basics_camera_keys:1 "Use the keys #v W#!, #v A#!, #v S#!, and #v D#! to look around the map."
+ lesson_basics_camera_scroll_wheel:1 "Use the #v Scroll Wheel#! to zoom in and out, or hold it to pan the map."
+ lesson_basics_camera_map:1 "You can also pan the map by moving the cursor to the edge of the screen."
+ lesson_basics_camera_tab:1 "By holding #v Tab#! you can see an instant overview of the whole world. You can then click anywhere and release #v Tab#! to go there instantly."
+ lesson_basics_camera_desc:1 "Use the keys #v W#!, #v A#!, #v S#!, and #v D#! to look around the map. You can also pan the map by moving the cursor to the edge of the screen, or holding the Scroll Wheel / middle mouse button while moving the mouse.\n\nUse the #v Scroll Wheel#! to zoom in and out.\n\nBy holding #v Tab#! you can see an instant overview of the whole world. You can then click anywhere and release #v Tab#! to go there instantly."
+
+ lesson_basics_pausing:1 "Pausing ($lesson_basics$)"
+ lesson_basics_pausing_short:0 "Adjust the speed of the game and pause/unpause at the highlighted speed controls. You can also pause and unpause by hitting #v Space#! on your keyboard."
+ lesson_basics_pausing_spacebar:0 "You can also pause and unpause by hitting the #v Spacebar#! on your keyboard."
+ lesson_basics_pausing_show_more:0 "The timeline of Victoria 3 spans 100 years from 1836 to 1936, but you can adjust the tempo yourself. Right now time is standing still because the game is paused. While the game is paused you can still interact with it, but many actions transpire over time and require the clock to run to have any effect.\n\nFor this part of the tutorial we'll keep the game paused while we walk you through some fundamentals. Take note of the highlighted speed controls since we will soon hand the reins back over to you."
+ lesson_basics_pausing_desc:1 "Now begins your journey through the 19th century, but learning the game doesn't stop here!\n\nAfter ending this lesson you will now be ready to #v unpause the game#!, click around and start exploring for yourself. After one in-game day your first learning challenge will begin.\n\nThe timeline of Victoria 3 spans 100 years from 1836 to 1936, but you can adjust the tempo yourself. Right now time is standing still because the game is paused. While the game is paused you can still interact with it, but many actions transpire over time and require the clock to run to have any effect.\n\nYou can use the highlighted speed controls to set the speed of the game from 1-5.\n\nIn addition to clicking the icons you can use #v Spacebar#! on your keyboard to pause and unpause the game. #v +#! and #v -#! adjusts the speed."
+ lesson_basics_pausing_continue:0 "Unpause the game"
+ 
+ lesson_basics_nested_tooltips:1 "Nested Tooltips ($lesson_basics$)"
+ lesson_basics_nested_tooltips_desc:2 "Sometimes you will see $tooltip_hinter$ or a colored $tooltip_hinter_name$ or $tooltip_hinter_concept$. Hover your cursor over such text to get more information in a new window, called a #b tooltip#!.\n\nKeep your cursor still for a moment and the tooltip will get a solid border and lock in place. You can then find new $tooltip_hinter$, $tooltip_hinter_names$, or $tooltip_hinter_concepts$ to hover within that tooltip."
+ lesson_basics_nested_tooltips_hover_word:1 "Place your cursor over #todo #tooltippable underlined text#!#!"
+ lesson_basics_nested_tooltips_complete:1 "$lesson_basics_nested_tooltips$"
+ lesson_basics_nested_tooltips_complete_desc:1 "$lesson_basics_nested_tooltips_desc$"
+ lesson_basics_nested_tooltips_continue:0 "Place your mouse cursor over a tooltip inside another tooltip"
+ 
+ lesson_basics_capacities:0 "Capacities ($lesson_basics$)"
+ lesson_basics_capacities_short:0 "Three Capacities measure different aspect of your country's power.\n\n@bur! [concept_bureaucracy] is the extent of your government's bureaucratic reach.\n\n@aut! [concept_authority] is the ability of the [concept_head_of_state] to rule by decree.\n\n@inf! [concept_influence] lets you throw your weight around in world affairs."
+ lesson_basics_capacities_show_more:1 "Capacities originate from some [Concept('concept_government_building', '$concept_government_buildings$')], certain [Concept('concept_law', '$concept_laws$')], and your [concept_rank] respectively. You get to decide how to allocate them to further your interests.\n\nUnspent Capacity will provide a minor boost to one aspect of your country, while overspending will incur a major penalty."
+ lesson_basics_capacities_desc:1 "Three Capacities measure different aspect of your country's power.\n\n@bur! [concept_bureaucracy] is the extent of your government's bureaucratic reach.\n\n@aut! [concept_authority] is the ability of the [concept_head_of_state] to rule by decree.\n\n@inf! [concept_influence] lets you throw your weight around in world affairs.\n\nCapacities originate from some [Concept('concept_government_building', '$concept_government_buildings$')], certain [Concept('concept_law', '$concept_laws$')], and your [concept_rank] respectively. You get to decide how to allocate them to further your interests.\n\nUnspent Capacity will provide a minor boost to one aspect of your country, while overspending will incur a major penalty."
+ lesson_basics_capacities_desc_1:0 "Three Capacities measure different aspect of your country's power. Mouse over the orange text to get more information."
+ lesson_basics_capacities_desc_B:0 "[concept_bureaucracy]"
+ lesson_basics_capacities_desc_A:0 "[concept_authority]"
+ lesson_basics_capacities_desc_I:0 "[concept_influence]"
+ lesson_basics_capacities_desc_R:0 "Capacities originate from some [Concept('concept_government_building', '$concept_government_buildings$')], certain [Concept('concept_law', '$concept_laws$')], and your [concept_rank] respectively. You get to decide how to allocate them to further your interests.\n\nUnspent Capacity will provide a minor boost to one aspect of your country, while overspending will incur a major penalty."
+ 
+ lesson_basics_treasury:0 "Treasury ($lesson_basics$)"
+ lesson_basics_treasury_short:0 "[concept_money] in the [concept_treasury] is used to fund the state apparatus, expand industry and infrastructure, pay the military, and even influence minor nations."
+ lesson_basics_treasury_show_more:1 "The vast majority of money in your country is circulated by [Concept('concept_building', '$concept_buildings$')] and [Concept('concept_pop', '$concept_pops$')] and is outside your direct control. Increase your treasury's revenue by growing and taxing your economy. Decrease your expenses by minimizing the operating costs of [Concept('concept_government_building', '$concept_government_buildings$')].\n\nThe balance shown in the top bar reflect a weekly change. Unlike Capacities, [concept_money] can be saved to be spent later, though going into debt by running a negative weekly balance can often yield a better return on investment. Loans will be automatically repaid while your weekly balance is positive."
+ lesson_basics_treasury_desc:1 "[concept_money] in the [concept_treasury] is used to fund the state apparatus, expand industry and infrastructure, pay the military, and even influence minor nations.\n\nThe vast majority of money in your country is circulated by [Concept('concept_building', '$concept_buildings$')] and [Concept('concept_pop', '$concept_pops$')] and is outside your direct control. Increase your $concept_treasury$'s revenue by growing and taxing your economy. Decrease your expenses by minimizing the operating costs of [Concept('concept_government_building', '$concept_government_buildings$')].\n\nThe balance shown in the top bar reflect a weekly change. Unlike Capacities, [concept_money] can be saved to be spent later, though going into debt by running a negative weekly balance can often yield a better return on investment. Loans will be automatically repaid while your weekly balance is positive."
+ lesson_basics_treasury_part_1_desc:0 "[concept_money] in the [concept_treasury] is used to fund the state apparatus,"
+ lesson_basics_treasury_part_2_desc:0 "The vast majority of money in your country is circulated by [Concept('concept_building', '$concept_buildings$')] and [Concept('concept_pop', '$concept_pops$')] and is outside your direct control."
+ lesson_basics_treasury_part_3_desc:0 " Increase your $concept_treasury$'s revenue by growing and taxing your economy. Decrease your expenses by minimizing the operating costs of [Concept('concept_government_building', '$concept_government_buildings$')].\n\nThe balance shown in the top bar reflect a weekly change. Unlike Capacities, [concept_money] can be saved to be spent later, though going into debt by running a negative weekly balance can often yield a better return on investment. Loans will be automatically repaid while your weekly balance is positive."
+ lesson_basics_treasury_part_4_desc:0 "The balance shown in the top bar reflect a weekly change. Unlike Capacities, [concept_money] can be saved to be spent later, though going into debt by running a negative weekly balance can often yield a better return on investment. Loans will be automatically repaid while your weekly balance is positive."
+ lesson_basics_treasury_part_5_desc:0 "Buildings and Pops can be taxed to grow and improve your economy. Decrease your expenses by minimizing the operating costs of [Concept('concept_government_building', '$concept_government_buildings$')].\n\nThe balance shown in the top bar reflect a weekly change. Unlike Capacities, [concept_money] can be saved to be spent later, though going into debt by running a negative weekly balance can often yield a better return on investment. Loans will be automatically repaid while your weekly balance is positive."
+ lesson_basics_treasury_Expand_industry:0 "#black Expand industry and infrastructure#!"
+ lesson_basics_treasury_Fund:0 "#black Fund the state apparatus#!"
+ lesson_basics_treasury_Pay:0 "#black Pay the military#!"
+ lesson_basics_treasury_Influence:0 "#black Influence minor nations#!"
+ lesson_basics_treasury_Taxes:0 "#black Taxes#!"
+
+ lesson_basics_info_panels:0 "Info Panels ($lesson_basics$)"
+ lesson_basics_info_panels_desc:0 "On the left side of the screen a number of buttons can take you to screens showing an overview of the different aspects of [GetPlayer.GetName].\n\nSome are used to manage your country while others are informational. Feel free to look through them and press Next when ready."
+
+ lesson_basics_lenses:0 "Lenses ($lesson_basics$)"
+ lesson_basics_lenses_short:0 "Along the bottom of the screen are five Lenses. These provide easy access to actions you can take to shape your country combined with information needed to make good decisions."
+ lesson_basics_lenses_production:0 "#b Production#! is for expanding industries and provide details about your economic output."
+ lesson_basics_lenses_politics:0 "#b Politics#! is for managing the government and your people and provide details about the power balance in your country."
+ lesson_basics_lenses_diplomacy:0 "#b Diplomacy#! is for initiating or breaking agreements with other countries or starting [Concept('concept_diplomatic_play', '$concept_diplomatic_plays$')] against them. It provides details about how other countries perceive you."
+ lesson_basics_lenses_military:0 "#b Military#! is for expanding army and navy and provide details about [concept_commander] Orders and other wartime matters."
+ lesson_basics_lenses_trade:1 "#b Trade#! lets you expand trade [concept_infrastructure] and give you information about [Concept('concept_market', '$concept_markets$')] and [Concept('concept_trade_route', '$concept_trade_routes$')]."
+ lesson_basics_lenses_desc:1 "Along the bottom of the screen are five Lenses. These provide easy access to actions you can take to shape your country combined with information needed to make good decisions.\n\n#b Production#! is for expanding industries and provide details about your economic output.\n\n#b Politics#! is for managing the government and your people and provide details about the power balance in your country.\n\n#b Diplomacy#! is for initiating or breaking agreements with other countries or starting [Concept('concept_diplomatic_play', '$concept_diplomatic_plays$')] against them. It provides details about how other countries perceive you.\n\n#b Military#! is for expanding army and navy and provide details about [concept_commander] Orders and other wartime matters.\n\n#b Trade#! lets you expand trade [concept_infrastructure] and give you information about [Concept('concept_market', '$concept_markets$')] and [Concept('concept_trade_route', '$concept_trade_routes$')]."
+ lesson_basics_lenses_continue:0 "Open the lens interface by clicking any of the lens buttons"
+ 
+ lesson_basics_lenses_complete:0 "$lesson_basics_lenses$"
+ lesson_basics_lenses_complete_desc:0 "Zoom out and take a look at the map to see what details just changed. When you're ready to move on, close the lens and press Next."
+ lesson_basics_lenses_complete_continue:0 "Close the lens interface by clicking the lens button again"
+
+ TRIGGER_LESSON_BASICS_LENSES_CONTINUE:0 "Open any Lens"
+ TRIGGER_LESSON_BASICS_LENSES_COMPLETE_CONTINUE:0 "Close the Lens"
+
+ lesson_basics_intro_ending:0 "End of intro ($lesson_basics$)"
+ lesson_basics_intro_ending_desc:0 "Now begins your journey through the 19th century, but learning the game doesn't stop here!\n\nAfter ending this lesson you will now be ready to #v unpause the game#!, click around and start exploring for yourself. After one in-game day your first learning challenge will begin."
+
+ #POPS
+ lesson_pops_intro:0 "Pops"
+ lesson_pops_intro_desc:0 "Pops are a way to split up a country's population into convenient groupings of people of the same [concept_profession], [Concept('concept_building','Workplace')] in a [concept_state], [concept_culture], and [concept_religion] - in other words, a distinct demographic of people who share an economic and political role in society.\n\nIn this lesson we will first look at a #b Summary#! of Pops in your country, and then look at the #b Details#! of a particular Pop.\n\nTo get started, click the highlighted 'Population' icon."
+ lesson_pops_intro_continue:0 "Open the Population panel"
+
+ lesson_pops_summary:0 "Pops Summary"
+ lesson_pops_summary_desc:0 "Here you can see a high-level summary of what kinds of Pops live in your country and what their share of the [concept_political_strength] is. But we want more details, so click on the highlighted 'Detailed List' to see a list of all individual Pops in [GetPlayer.GetName]."
+ lesson_pops_summary_continue:0 "Open the Detailed List"
+ 
+ lesson_pops_country_details:0 "Pops in your Country"
+ lesson_pops_country_details_desc:0 "This list of [Concept('concept_profession', '$concept_professions$')] display:\n$TAB$total #v number#! of individuals,\n$TAB$total [concept_political_strength],\n$TAB$which [Concept('concept_interest_group', '$concept_interest_groups$')] are dominant among them, and\n$TAB$average [concept_sol].\n\nWe can get a similar view for a particular state from the State Overview Panel. Click on any of your states now and go to the Overview tab."
+ lesson_pops_country_details_continue:0 "Click on any of your states and open the Overview tab"
+ 
+ lesson_pops_state_population:0 "State Pops"
+ lesson_pops_state_population_desc:0 "Some basic population statistics is available at the bottom of the State Overview panel. Access the population details for this particular state by clicking the highlighted button."
+ lesson_pops_state_population_continue:0 "Click the Population button"
+ 
+ lesson_pops_state_population_details:0 "State Pop Details"
+ lesson_pops_state_population_details_desc:0 "This is a similar view to the previous one, but this time only for the Pops in the state you're looking at rather than everyone in your country. Similar views are available throughout the game to aggregate and categorize information about your Pops.\n\nLet's go deeper by clicking on one of these categories to show a list of all Pops of that Profession. These individual Pops are also clickable to show the most fine-grained details available on that particular demographic."
+ lesson_pops_state_population_details_continue:0 "Expand a category, then click on an individual Pop"
+ 
+ lesson_pops_stats_1:0 "Pop Properties"
+ lesson_pops_stats_1_desc:0 "Here we see an individual Pop in all its glory. While you never interact directly with a Pop, every action you take affects the properties of Pops in your country. Yur country changes in turn as the capabilities, conditions, mobility, and desires of your population changes.\n\nWe will now go over the properties of a Pop. While running your country you will almost always deal with these values as averages or aggregates, but sometimes it's necessary to drill down to the individual level to see #b why#! a value is what it is. For every value there is always an explanatory tooltip available."
+
+ lesson_pops_stats_2:0 "Profession"
+ lesson_pops_stats_2_desc:0 "A Pop's [concept_profession] determines what job the Pop's [concept_workforce] does for a living, which influences their [concept_building_wage] and what [Concept('concept_interest_group', '$concept_interest_groups$')] they might support. Each Profession is considered part of the [Concept('concept_lower_strata','Lower')], [Concept('concept_middle_strata','Middle')], or [Concept('concept_upper_strata','Upper Strata')], which can affect their [Concept('concept_taxation', 'Tax Rate')] among other things.\n\nA Pop does not switch Profession all at once. When job openings are created in a [concept_building] in the same [concept_state], Pops who [Concept('concept_pop_qualifications','qualify')] for the new job will be offered a certain number of them. If the new job is better than their current one, some individuals in the [concept_workforce] will take their [concept_dependents] and join an existing Pop of the suitable Profession, or create a new one if one does not already exist.\n\nAll this happens without your interference, and you will rarely be aware of it other than when new positions aren't filled in a reasonable amount of time. Over time you will notice how demographics shift along with the Professions offered in your country."
+ 
+ lesson_pops_stats_3:0 "Standard of Living"
+ lesson_pops_stats_3_desc:1 "A Pop's [concept_sol] is a combination of their [concept_wealth] and the conditions where they live. It determines their general satisfaction with their situation and influences their [Concept('concept_pop_growth','Growth')].\n\nAs Standard of Living increases, a number of individuals in the Pop will become [Concept('concept_loyalist', '$concept_loyalists$')]. When it decreases the Pop will become more [concept_radical], and for as long as it remains below an expected national minimum more and more of them will turn into [Concept('concept_radical', '$concept_radicals$')]."
+ 
+ lesson_pops_stats_4:0 "Population and Income"
+ lesson_pops_stats_4_desc:0 "A single Pop consists of both [concept_workforce] and [concept_dependents]. The former works the country's [Concept('concept_building', '$concept_buildings$')] in exchange for a [concept_building_wage]. The latter are either unable to work on account of age or injuries, or oversee a household, rear children, take care of the elderly, or perform odd jobs. Usually both Workforce and Dependents contribute to a Pop's total income, but wages represent the lion's share.\n\nBoth Workforce and Dependends have [concept_pop_needs] that must be met, and will spend their income on [Concept('concept_good', '$concept_goods$')] to satisfy them. If there is money left over the Pop's [concept_wealth] will build up over time. If income is insufficient to cover expenses, Wealth will be drained."
+ 
+ lesson_pops_stats_5:0 "Employability"
+ lesson_pops_stats_5_desc:0 "This section lists in which [concept_state] the Pop lives and works, its [concept_literacy] rate, and its [concept_culture] and [concept_religion] which determine its [concept_discrimination] status.\n\nThese aspects are particularly important for determining a Pop's employability. Pops can only take jobs available in the [concept_state] where they live. [Concept('concept_discrimination','Discriminated')] Pops have a harder time [Concept('concept_pop_qualifications','qualifying')] for better [Concept('concept_profession', '$concept_professions$')], and a high [concept_literacy] rate is crucial for qualifying for those more technical or academic jobs that emerge with modernity."
+ 
+ lesson_pops_stats_6:0 "Politics"
+ lesson_pops_stats_6_desc:1 "This section lists the [Concept('concept_interest_group', '$concept_interest_groups$')] the Pop supports, how much [concept_political_strength] it can support them with, and how many of its members are currently [Concept('concept_radical', '$concept_radicals$')] and [Concept('concept_loyalist', '$concept_loyalists$')].\n\nInterest Groups favor different [Concept('concept_law', '$concept_laws$')] depending on their [Concept('concept_ideology', '$concept_ideologies$')], and will use the Political Strength lent to them by Pops to pursue these policies. Loyalists and Radicals both contribute to the [concept_ig_approval] of the Interest Groups the Pop supports. Radicals also create [concept_turmoil] in the Pop's [concept_state]."
+ 
+ lesson_pops_conclusion:0 "Pops - Conclusion"
+ lesson_pops_conclusion_desc:0 "Pops are the building blocks of your country, and managing your Pops is key to successful society building. Creating jobs and enacting policies to make your Pops wealthier, happier, and more literate will provide many benefits but also new challenges. The changes you make impact your Pops who in turn will be more or less inclined to accept future changes."
+ 
+ #ECONOMY
+ lesson_expand_building_how_1:0 "How to Expand [Concept('concept_building', '$concept_buildings$')]"
+ lesson_expand_building_how_1_desc:1 "All [Concept('concept_building', '$concept_buildings$')] are built in [Concept('concept_state', '$concept_states$')]. If you click on the Map, you will see which [Concept('concept_building', '$concept_buildings$')] exist in that [concept_state].\n\nWe want you to find a specific [concept_state] called [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] on the map. If you hover the name it should highlight somewhere in [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetCountry.GetName]"
+ lesson_expand_building_how_1_continue:0 "Click on the [concept_state] of [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] on the map and then click on the [Concept('concept_building', '$concept_buildings$')] tab"
+
+ lesson_expand_building_how_2:0 "$lesson_expand_building_how_1$"
+ lesson_expand_building_how_2_desc:0 "In the Building Overview panel you will see an overview of [Concept('concept_building', '$concept_buildings$')] that are present in the [concept_state] of [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName], grouped by the four categories #b Urban#!, #b Resource#!, #b Agriculture#!, and #b Development#!."
+ lesson_expand_building_how_2_continue:0 "Click on the [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] in the [concept_state] Panel"
+ 
+ lesson_expand_building_how_3:0 "$lesson_expand_building_how_1$"
+ lesson_expand_building_how_3_desc:0 "You can now see detailed information about the [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] [concept_building] in [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName]. You can order its expansion from the panel by clicking the highlighted '+' button.\n\nYou can also use the lenses to expand the [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName].\n\nUse either of these methods to begin the expansion of the [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] in [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName]."
+
+ lesson_expand_building_why_1:0 "Why Expand [Concept('concept_building', '$concept_buildings$')]"
+ lesson_expand_building_why_1K_desc:0 "Grow your Economy by expanding [concept_building]"
+ lesson_expand_building_why_1K_expand:0 "Expand Building"
+ lesson_expand_building_why_1K_enrich:0 "Enrich people"
+ lesson_expand_building_why_1K_taxes:0 "Collect Taxes"
+ lesson_expand_building_why_1K_original_desc:0 "Expanding a [concept_building] is one of the best ways for you to grow your economy. It generally means that you enrich your [Concept('concept_pop', '$concept_pops$')] who you then tax and get your income from. Richer $concept_pops$ means more wealth for you to tax.\n\nLet us use your [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] in [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] as an example. If you hover the name of [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] the [concept_state] should highlight somewhere on the map of [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetCountry.GetName]"
+ lesson_expand_building_why_1K_p2_desc:0 "Let us use your [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] in [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] as an example. If you hover the name of [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] the [concept_state] should highlight somewhere on the map of [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetCountry.GetName]"
+ lesson_expand_building_why_1_continue:0 "Click on the [concept_state] of [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] on the map and then click on the [Concept('concept_building', '$concept_buildings$')] tab"
+
+ lesson_expand_building_why_2:0 "$lesson_expand_building_why_1$"
+ lesson_expand_building_why_2_desc:0 "In the [concept_building] Overview panel you will see an overview of [Concept('concept_building', '$concept_buildings$')] that are present in the [concept_state] of [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName], grouped by the four categories #b Urban#!, #b Resource#!, #b Agriculture#!, and #b Development#!."
+ lesson_expand_building_2_icon_text:0 "Look for [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] in the [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] [concept_state] Panel."
+ lesson_expand_building_why_2_continue:0 "Click on the [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] in the [concept_state] Panel"
+ 
+ lesson_expand_building_why_3:0 "$lesson_expand_building_why_1$"
+ lesson_expand_building_why_3_desc:0 "Under the Processes in this [concept_building], we find the #v Expenses#! and #v Revenues#!. If the Revenues exceed the Expenses, this [concept_building] will gain profit. This profit is shown per week as the #v Weekly Balance#!. If the #v Weekly Balance#! is positive, you can see where that profit goes in the tooltip.\n\nIf the #v Weekly Balance#! is negative, it's generally bad, but that will be covered in an upcoming Tutorial challenge."
+
+ lesson_expand_building_why_4:0 "$lesson_expand_building_why_1$"
+ lesson_expand_building_why_4_desc:0 "Here you can see the factors to this $concept_building$'s Expenses. These Expenses will always include the wages of the $concept_building$'s Employees, your [Concept('concept_pop', '$concept_pops$')]. But may also include other Expenses and modifiers such as usage of [Concept('concept_good', '$concept_goods$')] and [concept_infrastructure_usage]."
+
+ lesson_expand_building_why_5:0 "$lesson_expand_building_why_1$"
+ lesson_expand_building_why_5_desc:0 "Here we can see the factors to this $concept_building$'s Revenues.\n\n[GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] produce [GetTutorialJournalEntry.GetBuildingTarget.GetDefaultOutputGoods.GetTextIcon] [GetTutorialJournalEntry.GetBuildingTarget.GetDefaultOutputGoods.GetName] as their primary [concept_good], some [Concept('concept_building', '$concept_buildings$')] may produce several different [Concept('concept_good', '$concept_goods$')]. The $concept_goods$ are then sold at a price which may vary."
+ lesson_expand_building_why_5k1_desc:0 "Here we can see the factors to this $concept_building$'s Revenues.\n\n[GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] produce [GetTutorialJournalEntry.GetBuildingTarget.GetDefaultOutputGoods.GetTextIcon] [GetTutorialJournalEntry.GetBuildingTarget.GetDefaultOutputGoods.GetName] as their primary [concept_good], some [Concept('concept_building', '$concept_buildings$')] may produce several different [Concept('concept_good', '$concept_goods$')]."
+ lesson_expand_building_why_5k2_desc:0 " The $concept_goods$ are then sold at a price which may vary."
+ lesson_expand_building_why_5k3_desc:0 "[GetTutorialJournalEntry.GetBuildingTarget.GetDefaultOutputGoods.GetTextIcon]"
+ lesson_expand_building_why_5k_desc_Grain:0 "[GetTutorialJournalEntry.GetBuildingTarget.GetDefaultOutputGoods.GetNameNoFormatting]"
+
+ lesson_expand_building_why_6:0 "$lesson_expand_building_why_1$"
+ lesson_expand_building_why_6_desc:0 "However, [Concept('concept_building', '$concept_buildings$')] don't give you direct income, they give your [Concept('concept_pop', '$concept_pops$')] jobs and wages. You can see which $concept_pops$ work here under the #v Workforce#! tab."
+ lesson_expand_building_why_6_continue:0 "Click the Workforce tab in the [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] Panel"
+ 
+ lesson_expand_building_why_7:0 "$lesson_expand_building_why_1$"
+ lesson_expand_building_why_7_desc:0 "One way for you to gain income from this is to tax the employed [Concept('concept_pop', '$concept_pops$')]. How much you tax is up to you and can be changed on the Budget panel."
+
+ lesson_expand_building_why_8:0 "$lesson_expand_building_why_1$"
+ lesson_expand_building_why_8_desc:0 "Expanding a [concept_building] such as [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] increases how many [Concept('concept_pop', '$concept_pops$')] can work there and you can enrich the rest of your [concept_country_possessive] $concept_pops$ with access to [GetTutorialJournalEntry.GetBuildingTarget.GetDefaultOutputGoods.GetTextIcon] [GetTutorialJournalEntry.GetBuildingTarget.GetDefaultOutputGoods.GetName] at a lower cost than before."
+ lesson_expand_building_why_8k_desc:0 "Expanding a [concept_building] such as [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] increases how many [Concept('concept_pop', '$concept_pops$')] can work there and you can enrich the rest of your [concept_country_possessive] $concept_pops$ with access to [GetTutorialJournalEntry.GetBuildingTarget.GetDefaultOutputGoods.GetTextIcon] [GetTutorialJournalEntry.GetBuildingTarget.GetDefaultOutputGoods.GetName] at a lower cost than before."
+ lesson_expand_building_why_8k_desc_Building:0 "Building"
+ lesson_expand_building_why_8k_desc_Workforce:0 "Workforce"
+ lesson_expand_building_why_8k_desc_Grain:0 "[GetTutorialJournalEntry.GetBuildingTarget.GetDefaultOutputGoods.GetNameNoFormatting]"
+ lesson_expand_building_why_8k_desc_Country_Pops:0 "Country Pops"
+
+ lesson_expand_building_why_9:0 "$lesson_expand_building_why_1$"
+ lesson_expand_building_why_9_desc:0 "But before you go and expand all your [Concept('concept_building', '$concept_buildings$')], remember that there is a #v cost#! to expanding [Concept('concept_building', '$concept_buildings$')] and not all [Concept('concept_building', '$concept_buildings$')] are suitable for expansion. However, that is something for upcoming Tutorials. For now, expanding Agricultural [Concept('concept_building', '$concept_buildings$')] such as [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] are usually a safe bet."
+
+ lesson_expand_basic_building_started_1:0 "[concept_building] Expansion in Progress"
+ lesson_expand_basic_building_started_1_desc:2 "You have successfully ordered the expansion of the [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] in [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName]!\n\n[Concept('concept_building', '$concept_buildings$')] take time to expand. The [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] have been placed in the [concept_construction_queue] of [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] and will be assembled over time by the [concept_workforce] of the [concept_state_possessive] [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetBuilding('building_construction_sector').GetName].\n\nWhile waiting for this process to complete, keep playing the game! More [Concept('concept_journal_entry', $concept_journal_entries$)] will appear to teach you about the different game mechanics in Victoria 3."
+ 
+ lesson_expand_basic_building_complete_1:0 "[concept_building] Expanded"
+ lesson_expand_basic_building_complete_1_desc:1 "The expansion of the [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] in [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] you ordered some time ago is now complete! The [concept_building] can now support a larger [concept_workforce] and produce more [Concept('concept_good', '$concept_goods$')]. You also will no longer have to pay weekly costs for its expansion.\n\nThe speed at which [Concept('concept_building', '$concept_buildings$')] are expanded can be increased or decreased by changing the [concept_production_method] used by the $concept_state$'s [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetBuilding('building_construction_sector').GetName]. The faster you build the more [Concept('concept_pop', '$concept_pops$')] have to be paid and the more costly construction material will be used."
+
+ lesson_expand_productive_building_how_1:0 "How to Expand a [Concept('concept_productivity', '$concept_productive$')] [Concept('concept_building', '$concept_buildings$')]"
+ lesson_expand_productive_building_how_1_desc:0 "By this point you already know that you can expand [Concept('concept_building', '$concept_buildings$')] by going through the [concept_state] panel, selecting the $concept_building$, and pressing the + button or use the #v Production#! lens. You can complete this [concept_journal_entry] the same way if you like.\n\nBut for our current purposes, a better way is to go through the $concept_buildings$ overview panel to find and expand a particularly [Concept('concept_productivity', '$concept_productive$')] $concept_building$."
+ lesson_expand_productive_building_how_1_continue:0 "Open the $concept_buildings$ panel"
+
+ lesson_expand_productive_building_how_2:0 "$lesson_expand_building_how_1$"
+ lesson_expand_productive_building_how_2_desc:1 "Here all [Concept('concept_building', '$concept_buildings$')] across all of [GetPlayer.GetName] are displayed in a convenient list view. Here you can access the $concept_buildings$ directly from the list and perform common operations such as expanding, [Concept('concept_subsidies', '$concept_subsidizing$')], or changing its [Concept('concept_production_method', '$concept_production_methods$')]. More importantly, from this panel you can perform these operations on all $concept_buildings$ of a certain type in your country at once\n\nThe [GetTutorialJournalEntry.GetTarget.GetBuilding.GetBuildingType.GetName] we want to build up is under the #v [GetTutorialJournalEntry.GetTarget.GetBuilding.GetBuildingType.GetTabName]#! tab. Locate the $concept_building$ by expanding the #v [GetTutorialJournalEntry.GetTarget.GetBuilding.GetBuildingType.GetName]#! drop-down menu."
+ lesson_expand_productive_building_how_2_continue:0 "Expand the [GetTutorialJournalEntry.GetTarget.GetBuilding.GetBuildingType.GetName] drop-down menu in the [GetTutorialJournalEntry.GetTarget.GetBuilding.GetBuildingType.GetTabName] tab to find the [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] in [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName]"
+ 
+ lesson_expand_productive_building_how_3:0 "$lesson_expand_building_how_1$"
+ lesson_expand_productive_building_how_3_desc:0 "One of the most important aspects of a [concept_building] is the relative [concept_productivity]. The high $concept_productivity$ of [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] is what led us to select it for expansion. $concept_productivity$ is a better measurement than profit to determine how valuable a $concept_building$ is to you, since it measures the value it adds to your economy without considering aspects like [Concept('concept_building_wage', '$concept_building_wages$')], [concept_taxes], [concept_subsidies], and [concept_budget_dividends_taxes] which can vary drastically from building to building."
+
+ lesson_expand_productive_building_how_4:0 "$lesson_expand_building_how_1$"
+ lesson_expand_productive_building_how_4_desc:0 "Now let’s start expansion of this building. Either click the + button as before, or *right-click* and select the appropriate option."
+ lesson_expand_productive_building_how_4_continue:0 "Start expansion of the [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName]"
+
+ lesson_expand_productive_building_how_5:0 "$lesson_expand_building_how_1$"
+ lesson_expand_productive_building_how_5_desc:0 "Great job! Now continue to explore the game while you wait for the expansion to finish. You could go check out more in depth #v Why#! you should expand [Concept('concept_productivity', '$concept_productive$')] [Concept('concept_building', '$concept_buildings$')] by going back to the #v Tell me why#!-button in the [concept_journal_entry]."
+
+ lesson_expand_productive_building_why_1:0 "Why Expand a [Concept('concept_productivity', '$concept_productive$')] [Concept('concept_building', '$concept_buildings$')]"
+ lesson_expand_productive_building_why_1_desc:0 "By focusing your expansion efforts on highly [Concept('concept_productivity', '$concept_productive$')] [Concept('concept_building', '$concept_buildings$')] you maximize the amount of value your [concept_workforce] adds to your economy. By producing low-value [Concept('concept_good', '$concept_goods$')] like #v Grain#! while spending only a small amount of [concept_money] on input $concept_goods$ like #v Tools#! you may be able to feed your [Concept('concept_pop', '$concept_pops$')] who can earn meager [Concept('concept_building_wage', '$concept_building_wages$')] while doing so. But if you could redirect that $concept_workforce$ to produce high-value $concept_goods$ like #v Wine#! or #v Clippers#! instead, as long as demand is there, those $concept_pops$ will end up producing more $concept_money$ for somebody even if their $concept_building_wages$ remain the same."
+ lesson_expand_productive_building_why_1_continue:0 "Open the $concept_building$ details panel for the [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] in [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName]"
+
+ lesson_expand_productive_building_why_2:0 "$lesson_expand_building_why_1$"
+ lesson_expand_productive_building_why_2_desc:0 "As indicated by the gear icon, [concept_productivity] in this [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] is very high. Hover it for more details."
+
+ lesson_expand_productive_building_why_3:0 "$lesson_expand_building_why_1$"
+ lesson_expand_productive_building_why_3_desc:0 "[concept_productivity] is based only on the difference between the cost of input [Concept('concept_good', '$concept_goods$')] and the revenue earned by sales of output $concept_goods$, divided across the total [concept_workforce] of the [concept_building]. You can think of it as “how much value does every employee add to its $concept_building$'s economy per year."
+
+ lesson_expand_productive_building_why_4:0 "$lesson_expand_building_why_1$"
+ lesson_expand_productive_building_why_4_desc:1 "Even if the [concept_productivity] value is much higher than the Average [Concept('concept_building_wage', '$concept_building_wages$')] the difference is not wasted. It is split between the $concept_building$'s [concept_cash_reserves] and [concept_budget_dividends_taxes] paid out to its [Concept('concept_pop', '$concept_pops$')] with [Concept('concept_ownership_share', '$concept_ownership_shares$')]. Conversely, if the $concept_productivity$ is insufficient to pay the $concept_building$'s requisite $concept_building_wages$ the difference will be subtracted from the $concept_cash_reserves$ in the short-term before reducing $concept_building_wages$ and potentially [concept_throughput] in the long-term."
+
+ lesson_expand_productive_building_why_5:0 "$lesson_expand_building_why_1$"
+ lesson_expand_productive_building_why_5_desc:1 "Adding value to your economy by expanding only highly [Concept('concept_productivity', '$concept_productive$')] [Concept('concept_building', '$concept_buildings$')] might not be the wisest course of action in all circumstances. Oversaturating a [concept_market] will decrease the [concept_market_price] for the produced [Concept('concept_good', '$concept_goods$')] and put a lot of demand strain on the consumed $concept_goods$, leading to a decrease in $concept_productivity$ over time.\n\nMore importantly, constructing #v Clippers#! for export might make [Concept('concept_pop', '$concept_pops$')] with [Concept('concept_ownership_share', '$concept_ownership_shares$')] in your #v Shipyards#! very [Concept('concept_wealth', '$concept_wealthy$')] but might not help your [concept_lower_strata]'s situation at all!"
+
+ lesson_export_goods_how_1_continue:0 "#todo lesson_export_goods_how_1_continue#!"
+ lesson_export_goods_why_1_continue:0 "#todo lesson_export_goods_why_1_continue#!"
+ 
+
+ ###The Journal
+ lesson_journal_1:0 "The Journal"
+ lesson_journal_1_desc_short:0 "You have just been given your first tutorial challenge! We have #v paused the game#! to give you time to read. Remember to #v unpause#! using the speed controls or the #v Spacebar#! when you're ready to resume.\n\n#v Open the journal#! by clicking the highlighted button on the left to begin."
+ lesson_journal_1_desc:0 "You have just been given your first tutorial challenge! All tutorial challenges you receive take the form of entries in your journal. You can complete them at your own pace with as much or as little guidance as you feel you need.\n\nWe have now #v paused the game#! again to give you time to read, and will continue to do so as we start new lessons. Remember to #v unpause#! using the speed controls or the #v Spacebar#! when you're ready to resume.\n\n#v Open the journal#! by clicking the highlighted button on the left to begin."
+ lesson_journal_1_continue:0 "Open the Journal panel by clicking the highlighted button"
+ 
+ lesson_journal_2:0 "$lesson_journal_1$"
+ lesson_journal_2_desc:0 "This is your journal. All tutorial challenges granted to you can be found here. Other major events in your country may also appear here from time to time.\n\nYou should inspect the tutorial challenge you have been given. Open the #v $je_tutorial_expand_basic_building$#! [concept_journal_entry] to continue."
+ lesson_journal_2_back:0 "Journal panel must be closed to backtrack"
+ lesson_journal_2_continue:0 "Select the #v $je_tutorial_expand_basic_building$#! to proceed"
+ 
+ lesson_journal_3:0 "$lesson_journal_1$"
+ lesson_journal_3_desc_short:1 "You have been tasked with expanding a basic agricultural [concept_building] in one of your [Concept('concept_state', '$concept_states$')]. As you play the game, more tutorial challenges like this one will appear in your #v Journal#!.\n\nYou can either try to complete the challenge yourself without any guidance or click the #v Tell Me How#! button for a walkthrough.\n\nGood luck!"
+ lesson_journal_3_desc:1 "You have been tasked with expanding a basic agricultural [concept_building] in one of your [Concept('concept_state', '$concept_states$')].\n\nBy completing tutorial challenges you will learn both #b how#! and #b why#! to shape your nation in the direction you desire. You can try to complete these tasks using only the information provided in the [concept_journal_entry] or you can click the 'Guide Me' button in the $concept_journal_entry$ to give you step-by-step instructions.\n\nAdditional tutorial challenges will be granted to you as you progress. Check your Journal from time to time for next steps!"
+ lesson_journal_3_back:0 "[concept_journal_entry] panel must be closed to backtrack"
+ 
+
+ ###Budget Deficit
+ lesson_budget_balance_1:0 "Balancing the Budget"
+ lesson_budget_balance_1_desc:0 "You are currently spending more money on fixed expenses than you are bringing in, resulting in a budget deficit that will drain your [concept_gold_reserves] if you have any and increase the [concept_national_debt] if you do not. To begin resolving this problem, first bring up the Budget panel."
+ lesson_budget_balance_1_continue:0 "Open the Budget panel"
+ 
+ lesson_budget_balance_2:0 "$lesson_budget_balance_1$"
+ lesson_budget_balance_2_desc:1 "Here you can see a breakdown of all expenses and sources of revenue and adjust tax and government wage levels. The simplest way to resolve a budget deficit is usually to increase the level at which you are taxing your [Concept('concept_pop', '$concept_pops$')] or introduce a new [Concept('concept_consumption_tax', '$concept_consumption_taxes$')], but be aware that this has drawbacks in the form of lowered [concept_wealth] and potential [concept_turmoil]. You could also try reducing your expenses by reducing the levels of your [Concept('concept_government_building', '$concept_government_buildings$')] such as Barracks and Naval Bases, or cutting government wages.\n\nA less reliable but better way to improve your revenues is to grow your GDP by improving the efficiency of your [Concept('concept_building', '$concept_buildings$')], or even deficit spending to expand profitable [Concept('concept_building', '$concept_buildings$')], though this is not a recommended course of action for a new player."
+
+ lesson_budget_balance_how_1:0 "How to balance your Budget"
+ lesson_budget_balance_how_1_desc:0 "To reduce your deficit and pay off your loans you can either increase your revenues, cut your expenses, or both."
+ lesson_budget_balance_how_1_continue:0 "Open the Budget panel"
+
+ lesson_budget_balance_how_2:0 "$lesson_budget_balance_how_1$"
+ lesson_budget_balance_how_2_desc:1 "Your revenues consist of [concept_budget_minting] and [concept_taxes]. New currency will be minted automatically to keep pace with your growing economy, but [concept_taxes] are necessary to sustain powerful governments.\n\nThese can include:\n - [concept_budget_income_taxes]\n - [concept_budget_poll_taxes]\n - [Concept('concept_consumption_tax', '$concept_consumption_taxes$')]\n - [concept_budget_dividends_taxes]\nand more.\n\nAdding new or raising existing [concept_taxes] will increase your revenue immediately."
+ lesson_budget_balance_how_2_continue:0 "Increase any Tax level or add a new [concept_consumption_tax] to continue"
+
+ lesson_budget_balance_how_3:0 "$lesson_budget_balance_how_1$"
+ lesson_budget_balance_how_3_desc:0 "Construction expenses are not considered part of your fixed expenses as they end as construction ends. They will still burden your [concept_treasury] while construction is ongoing. Let’s pause them for now, and you can restart them once you have resolved this problem."
+ lesson_budget_balance_how_3_continue:1 "Pause all construction to halt construction expenses in all [Concept('concept_state', '$concept_states$')]"
+ 
+ lesson_budget_balance_how_4:0 "$lesson_budget_balance_how_1$"
+ lesson_budget_balance_how_4_desc:1 "Fixed expenses are incurred by [Concept('concept_government_building', '$concept_government_buildings$')] such as [Concept('concept_government_administration', '$concept_government_administrations$')] and [Concept('concept_barrack', '$concept_barracks$')] and include both [Concept('concept_good', '$concept_goods$')] used and [concept_budget_wages] paid by them. You can control your expenses by adjusting the $concept_budget_wages$ paid across your [concept_country].\n\nIf you wish, you can decrease [concept_budget_government_wages] or [concept_budget_military_wages] now. Wage changes are always reversible, but note the consequences in the tooltip!"
+
+ lesson_budget_balance_how_5:0 "$lesson_budget_balance_how_1$"
+ lesson_budget_balance_how_5_desc:1 "Another method of controlling your expenses is to downsize [Concept('concept_government_building', '$concept_government_buildings$')] in specific [Concept('concept_state', '$concept_states$')], permanently reducing the cost of both [concept_budget_wages] paid and [Concept('concept_good', '$concept_goods$')] consumed but removing the benefit that [concept_building] level provides."
+ lesson_budget_balance_how_5_continue:1 "Click the [Concept('concept_state', '$concept_states$')] tab to continue"
+
+ lesson_budget_balance_how_6:0 "$lesson_budget_balance_how_1$"
+ lesson_budget_balance_how_6_desc:1 "The [Concept('concept_state', '$concept_states$')] tab groups all [concept_treasury] revenues and expenses by [concept_state] to make it easier to find suitable candidates for downsizing. By sorting and hovering the Expenses value you can quickly find out which [Concept('concept_building', '$concept_buildings$')] cost you the most.\n\nIf you wish, you can reduce your expenses by downsizing [Concept('concept_government_building', '$concept_government_buildings$')] now. This can only be reversed by expanding the building again, which takes [concept_money] and time."
+
+ lesson_budget_balance_how_7:0 "$lesson_budget_balance_how_1$"
+ lesson_budget_balance_how_7_desc:0 "A potentially major contributor to your fixed expenses are the [concept_budget_interest_rate] paid on your [Concept('concept_domestic_loans', '$concept_loans$')]."
+ lesson_budget_balance_how_7_continue:0 "Click the Assets tab to continue"
+
+ lesson_budget_balance_how_8:0 "$lesson_budget_balance_how_1$"
+ lesson_budget_balance_how_8_desc:1 "You can only reduce [concept_budget_interest_rate] payments by paying off your [concept_principal]. For as long as your [concept_treasury] balance is negative your $concept_principal$ will increase, increasing your $concept_budget_interest_rate$ payments as well. If your $concept_treasury$ balance is positive you will automatically reduce your $concept_principal$ and $concept_budget_interest_rate$ payments.\n\nBy reducing your [concept_budget_interest_rate] you can take much larger [Concept('concept_domestic_loans', '$concept_loans$')] before succumbing to this death spiral, but opportunities to do so is a rare occurrence."
+
+ lesson_budget_balance_how_9:0 "$lesson_budget_balance_how_1$"
+ lesson_budget_balance_how_9_desc:1 "If your balance remains negative, continue raising or adding more [concept_taxes] and/or downsizing [Concept('concept_government_building', '$concept_government_buildings$')] until your balance is positive."
+
+ lesson_budget_balance_why_1:0 "Why balance your Budget"
+ lesson_budget_balance_why_1_desc:0 "There are many different sources of income and expenses. The Budget panel shows you a full breakdown."
+ lesson_budget_balance_why_1_continue:0 "Open the Overview tab on the Budget panel"
+
+ lesson_budget_balance_why_2:0 "$lesson_budget_balance_why_1$"
+ lesson_budget_balance_why_2_desc:0 "If expenses exceed revenues your [concept_gold_reserves] will drain away each week as a negative #v Weekly balance#!. Once the [concept_gold_reserves] are empty, your [concept_national_debt] will increase every week. Whether you should consider this a problem or not depends on where the money is going."
+
+ lesson_budget_balance_why_3:0 "$lesson_budget_balance_why_1$"
+ lesson_budget_balance_why_3_desc:0 "Most expenses are #v fixed#!. The exact size of a fixed expense can vary over time depending on the economic conditions, but will remain week after week until you take measures to reduce them.\n\nConstruction costs, and other #v temporary#! expenses, are in effect for a certain period of time and then #v terminate#!. If your balance is only negative due to temporary expenses you usually don’t have to worry, since you are growing your economy and construction expenses can be paused at any time."
+
+ lesson_budget_balance_why_4:0 "$lesson_budget_balance_why_1$"
+ lesson_budget_balance_why_4_desc:0 "But if your [concept_treasury] has larger #v fixed#! expenses than sources of income (revenue) your finances are unsustainable. Even if you have [concept_gold_reserves] you will eventually have to take [concept_domestic_loans] from your domestic industries just to continue operating."
+ lesson_budget_balance_why_4_continue:0 "Open the Assets tab"
+
+ lesson_budget_balance_why_5:0 "$lesson_budget_balance_why_1$"
+ lesson_budget_balance_why_5_desc:0 "You should not be afraid to take out [Concept('concept_domestic_loans', '$concept_loans$')] to get ahead, especially since most @money! you spend goes back into your [concept_pop]'s pockets anyway! Remember that every [concept_good] bought and every @money! of [concept_budget_wages] paid ends up enriching either a producer, consumer, or both. Spending money from the [concept_treasury] always raises average [concept_wealth], which increases demand for [concept_pop_needs], which is what makes your economic wheels turn."
+ lesson_budget_balance_why_5_continue:0 "#todo lesson_budget_balance_why_5_continue#!"
+ lesson_budget_balance_why_5_k_desc:0 "You should not be afraid to take out [Concept('concept_domestic_loans', '$concept_loans$')] to get ahead, especially since most @money! you spend goes back into your [concept_pop]'s pockets anyway!"
+ lesson_budget_balance_why_5_k2_desc:0 "Remember that every [concept_good] bought and every @money! of [concept_budget_wages] paid ends up enriching either a producer, consumer, or both. Spending money from the [concept_treasury] always raises average [concept_wealth], which increases demand for [concept_pop_needs], which is what makes your economic wheels turn."
+ lesson_budget_balance_why_5_k_Pop_Wealth:0 "#black Pop Wealth#!"
+ lesson_budget_balance_why_5_k_Taxes:0 "#black Taxes#!"
+ lesson_budget_balance_why_5_k_Interest:0 "#black Interest#!"
+ lesson_budget_balance_why_5_k_Treasury:0 "#black Treasury#!"
+ lesson_budget_balance_why_5_k_Expand_industry:0 "#black Expand industry#!"
+ lesson_budget_balance_why_5_k_Take_Loans:0 "#black Take Loans#!"
+ lesson_budget_balance_why_5_k_Demand_Increase:0 "#black Demand Increase#!"
+
+ lesson_budget_balance_why_6:0 "$lesson_budget_balance_why_1$"
+ lesson_budget_balance_why_6_desc:0 "Your [concept_credit_limit] is the sum of all building’s [concept_cash_reserves]. The larger and more successful industries you have, the more you can borrow. Below you can see you're remaining [concept_credit] which is:\n\n#variable [GetPlayer.GetMaxCredit|2*]#! ([concept_credit_limit]) - #variable [GetPlayer.GetPrincipal|K]#! ([concept_principal]) = #variable [GetPlayer.GetRemainingCredit|2*]#! remaining [concept_credit]\n\nHover the $concept_credit_limit$ value to see a breakdown of your industries’ $concept_cash_reserves$."
+ lesson_budget_balance_why_6_encyclopedia_desc:0 "Your [concept_credit_limit] is the sum of all building’s [concept_cash_reserves]. The larger and more successful industries you have, the more you can borrow. Below you can see you're remaining [concept_credit] which is:\n\n ([concept_credit_limit]) - ([concept_principal]) = remaining [concept_credit]\n\nHover the $concept_credit_limit$ value to see a breakdown of your industries’ $concept_cash_reserves$."
+
+ lesson_budget_balance_why_7:0 "$lesson_budget_balance_why_1$"
+ lesson_budget_balance_why_7_desc:1 "If your [concept_principal] reaches your [concept_credit_limit]  your country is considered to be in [concept_default] as it cannot make good on its debts. This halts all construction and will [Concept('concept_radicalization', '$concept_radicalize$')] the country's [Concept('concept_pop', '$concept_pops$')] with [Concept('concept_ownership_share', '$concept_ownership_shares$')], which can be disastrous for political stability."
+
+ lesson_budget_balance_why_8:0 "$lesson_budget_balance_why_1$"
+ lesson_budget_balance_why_8_desc:0 "Every change you make to your economy will have wide-ranging, indirect effects, in both positive and negative ways."
+ lesson_budget_balance_why_8_continue:0 "Open the Overview tab again"
+
+
+ lesson_budget_balance_why_9:0 "$lesson_budget_balance_why_1$"
+ lesson_budget_balance_why_9_desc:0 "All [concept_taxes] are collected directly from [Concept('concept_pop', '$concept_pops$')], though different tax [Concept('concept_law', '$concept_laws$')] will impact their personal finances differently. Similarly, all expenses affect your economy and the people making a living from it. By a simple act like raising taxes or adjusting [concept_budget_government_wages] to cover your expenses, you are in effect redistributing [concept_wealth] between your $concept_pops$. Every action has consequences for attributes like [concept_pop_growth] and [concept_turmoil]."
+
+
+###Trade Routes
+ lesson_trade_routes_1:0 "Trade Routes"
+ lesson_trade_routes_1_desc:1 "A [concept_trade_route] is a link between two [Concept('concept_market', '$concept_markets$')] that moves goods from one market to another, creating [concept_buy_orders] (thus raising the price of the [concept_good]) in the exporting market and [concept_sell_orders] (thus lowering the price of the [concept_good]) in the importing market.\n\nTypically, you want to use a [concept_trade_route] to increase the profitability of your [Concept('concept_building', '$concept_buildings$')] or reduce the costs of [Concept('concept_government_good', '$concept_government_goods$')]. For example, if you have a $building_furniture_manufacturies$ [concept_building] that is struggling due to the price of $furniture$ being low, you could establish an Export route for $furniture$ in order to increase the price and thus the revenue earned by said $building_furniture_manufacturies$."
+ lesson_trade_routes_1_continue:0 "Open the Trade lens"
+ 
+ lesson_trade_routes_2:0 "$lesson_trade_routes_1$"
+ lesson_trade_routes_2_desc:0 "The easiest way to create a [concept_trade_route] is through the Trade Lens. Simply click one of the 'Establish Import Trade Route' or 'Establish Export Trade Route' options, choose the [concept_good] you wish to import/export, and then the markets you want to set up the [concept_trade_route] for.\n\nTrade Routes have levels, with higher level [Concept('concept_trade_route', '$concept_trade_routes$')] shifting a greater volume of goods from the exporting to the importing [concept_market]. You can increase the level of the [concept_trade_route] you have created by continuing to click the destination market, up to your maximum Trade Route Capacity in the origin market."
+ 
+ lesson_trade_routes_3:0 "$lesson_trade_routes_1$"
+ lesson_trade_routes_3_desc:0 "If you lack the capacity to establish new [Concept('concept_trade_route', '$concept_trade_routes$')] in your [concept_market], you can either free up capacity by removing existing trade routes through the [concept_market] panel, expanding [GetBuildingType('building_trade_center').GetName]s, or using more advanced [GetBuildingType('building_trade_center').GetName] [Concept('concept_production_method', '$concept_production_methods$')]."
+
+ lesson_import_goods_how_1:0 "How to Import Goods"
+ lesson_import_goods_how_1_desc:1 "The current high price of [GetTutorialJournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] in the [GetTutorialJournalEntry.GetTarget.GetMarketGoods.GetMarket.GetName] could be lowered by setting up an import trade route of [GetTutorialJournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] from another [concept_market].\n\n[Concept('concept_trade_route', '$concept_trade_routes$')] can be established from the $trade_lens$ or the [Concept('concept_market', '$concept_markets$')] panel."
+ lesson_import_goods_how_1_continue:0 "Click the button #v $NEW_IMPORT_ROUTE$#! in the Markets panel and select [GetTutorialJournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName]\n\n#v Or#!\n\nOpen the $trade_lens$, then click #v $trade_route_import_lens_option$#!, and select [GetTutorialJournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName]."
+
+ lesson_import_goods_how_2:0 "$lesson_import_goods_how_1$"
+ lesson_import_goods_how_2_desc:1 "Different [Concept('concept_trade_route', '$concept_trade_routes$')] can be established from the $trade_lens$ or the [Concept('concept_market', '$concept_markets$')] might be able to supply you with different amounts of imports per [concept_trade_route] used. The quantity is based on several factors, which you can get a breakdown of by hovering the Amount listed in the $mm_market_interaction$ Map List panel."
+ lesson_import_goods_how_2_continue:0 "Select a market to import from"
+
+ lesson_import_goods_how_3:0 "$lesson_import_goods_how_1$"
+ lesson_import_goods_how_3_desc:0 "You are now importing [GetTutorialJournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName]! The amount imported will increase over time until it reaches its limit. Your goal is to import more than [GetTutorialJournalEntry.CalcCurrentGoalValue] [concept_sell_orders] of [GetTutorialJournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] into the market. Establish more [Concept('concept_trade_route', '$concept_trade_routes$')] as needed to reach your goal."
+
+ lesson_import_goods_why_1:0 "Why Import Goods"
+ lesson_import_goods_why_1_desc:1 "Very few [Concept('concept_country', '$concept_countries$')] have the capacity to become fully self-sustaining. Producing your country’s essential [Concept('concept_good', '$concept_goods$')] yourself is often smart, but sometimes you lack the [concept_potentials] to do so. You might also want to prioritize your industry on only specific products, to utilize a limited [concept_workforce] more effectively or benefit from [concept_economy_of_scale]. You might also be in more urgent need and have no time to build up your own industrial production. Import [Concept('concept_trade_route', '$concept_trade_routes$')] are helpful in any of these cases."
+
+ lesson_import_goods_why_2:0 "$lesson_import_goods_why_1$"
+ lesson_import_goods_why_2_desc:1 "The amount you can trade per [concept_trade_route] is based on the demand of your own [concept_market] and the total quantity available to you in the remote $concept_market$ you are importing from. This quantity depends on how much other [Concept('concept_country', '$concept_countries$')] import from them and your relative [concept_trade_route_competitiveness]. Your [GetPlayer.GetActiveLawFromGroup('lawgroup_economic_system').GetGroup.GetName] (currently [GetPlayer.GetActiveLawFromGroup('lawgroup_economic_system').GetName]) can also have an impact."
+
+ lesson_import_goods_why_3:0 "$lesson_import_goods_why_1$"
+ lesson_import_goods_why_3_desc:1 "Importing from overseas [Concept('concept_market', '$concept_markets$')] could put a strain on your [concept_supply_network], requiring you to upgrade or construct more [Concept('concept_port', '$concept_ports$')] to reach them efficiently."
+
+ lesson_import_goods_why_4:0 "$lesson_import_goods_why_1$"
+ lesson_import_goods_why_4_desc:0 "Importing from the [concept_market] where you get the most for your [concept_trade_route] is a good idea, but remember that every unit traded affects the [concept_market_price] of the traded [concept_good] in #v both#! markets. Importing from a rival [concept_country] will solve your shortage, but enrich their producing industries."
+ 
+ lesson_select_target_building_to_continue:0 "Click on the [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] icon"
+ lesson_select_state_and_building_tab_to_continue:0 "Click on the [concept_state] of [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] on the map and then click on the [Concept('concept_building', '$concept_buildings$')] tab"
+
+### Production Methods
+ lesson_production_methods_how_1:0 "How to change [Concept('concept_production_method', '$concept_production_methods$')]"
+ lesson_production_methods_how_1_desc:0 "[Concept('concept_production_method', '$concept_production_methods$')] can be changed from the [concept_building] details panel. We will continue to use your [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] in [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] as an example."
+ lesson_production_methods_how_1_continue:0 "Open the panel for the [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] in [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName]"
+
+ lesson_production_methods_how_2:0 "$lesson_production_methods_how_1$"
+ lesson_production_methods_how_2_desc:0 "These are the [Concept('concept_production_method', '$concept_production_methods$')] currently in effect in this [concept_building]. You can click any of them to see a list of alternative options. The #g green #! number indicates the number of alternatives you have right now."
+ lesson_production_methods_how_2_continue:0 "Select any [concept_production_method]"
+
+ lesson_production_methods_how_3:0 "$lesson_production_methods_how_1$"
+ lesson_production_methods_how_3_desc:0 "Hover any of the options for a breakdown of how the [concept_building] will change if that [concept_production_method] was selected instead."
+ lesson_production_methods_how_3_continue:0 "Change any [concept_production_method]"
+
+ lesson_production_methods_how_4:0 "$lesson_production_methods_how_1$"
+ lesson_production_methods_how_4_desc:0 "Good job! Now have this [concept_production_method] active for at least [GetTutorialJournalEntry.GetTotalGoalValue|0] weeks to see the effects."
+ 
+ lesson_production_methods_why_1:0 "Why change [Concept('concept_production_method', '$concept_production_methods$')]"
+ lesson_production_methods_why_1_desc:0 "[Concept('concept_production_method', '$concept_production_methods$')] determine and change the functions of [Concept('concept_building','$concept_buildings$')]. For an example of this, we will look at the [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] in [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName]."
+ lesson_production_methods_why_1_continue:0 "Open the panel for the [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] in [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName]"
+
+ lesson_production_methods_why_2:0 "Why change [Concept('concept_production_method', '$concept_production_methods$')]"
+ lesson_production_methods_why_2_desc:0 "If you hover over any of the active [Concept('concept_production_method', '$concept_production_methods$')] you can see in the tooltip how many [Concept('concept_good', '$concept_goods$')] that $concept_production_method$ consumes and produces. You can also see how many of each [concept_profession] it needs in the [concept_workforce] for the [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] to operate."
+
+ lesson_production_methods_why_3:0 "$lesson_production_methods_why_1$"
+ lesson_production_methods_why_3_desc:0 "[Concept('concept_production_method', '$concept_production_methods$')] are color-coded in different types:\n\n#b Base#! $concept_production_methods$ use a productive [concept_workforce] made up of [Concept('concept_pop','$concept_pops$')] of different [Concept('concept_profession', '$concept_professions$')] to create a product or effect, often consuming one or several [Concept('concept_good', '$concept_goods$')] in the process. There is always at least one base type.\n\n#b Refining#! $concept_production_methods$ reduce the amount of base $concept_goods$ produced to create more advanced or luxurious $concept_goods$, often by adding other input $concept_goods$ to the process.\n\n#b Automation#! $concept_production_methods$ consume industrial $concept_goods$ but relieves the $concept_building$ from employing a lot of unskilled $concept_workforce$.\n\n#b Ownership#! $concept_production_methods$ determine who owns the $concept_building$ and collects its [concept_dividends]. Which are available is usually determined by [Concept('concept_law', '$concept_laws$')]."
+ 
+ lesson_production_methods_why_4:0 "$lesson_production_methods_why_1$"
+ lesson_production_methods_why_4_desc:0 "If you click on any of the active [Concept('concept_production_method', '$concept_production_methods$')], you can see that each type includes different $concept_production_methods$, but only one can be active at a time. Some can be considered upgraded versions of previous ones in their type. These often require new [Concept('concept_technology', '$concept_technologies$')] to unlock. Others are simply alternatives, not inherently better or worse than the others. You have to decide what is best for your [concept_country] based on what [Concept('concept_good', '$concept_goods$')] and [Concept('concept_profession', '$concept_professions$')] you have and want."
+
+ lesson_production_methods_why_5:0 "$lesson_production_methods_why_1$"
+ lesson_production_methods_why_5_desc:0 "Sometimes upgrading to a more modern [concept_production_method] is not desirable, particularly if the [concept_market_price] of its input [Concept('concept_good', '$concept_goods$')] are very expensive or even in a [concept_input_goods_shortage]. Another reason to not modernize right away is because the $concept_production_method$ require [Concept('concept_profession', '$concept_professions$')] which your [Concept('concept_pop', '$concept_pops$')] have poor [concept_pop_qualifications] for. You might even want to postpone upgrades because the new $concept_professions$ might be prone to political allegiances you are not comfortable with."
+
+
+
+
+
+ ### Unprofitable Building
+ lesson_fix_unprofitable_building_1:0 "Improving Building Earnings"
+ lesson_fix_unprofitable_building_1_desc:0 "There are numerous ways in which you can improve the earnings of a struggling [concept_building]. Start by opening the [concept_building] details panel for the [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] in [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName]."
+
+ lesson_fix_unprofitable_building_2:0 "$lesson_fix_unprofitable_building_1$"
+ lesson_fix_unprofitable_building_2_desc:0 "The first way to improve the earnings of a [concept_building] is to review its [Concept('concept_production_method', '$concept_production_methods$')] to see if any of them are consuming or producing [Concept('concept_good', '$concept_goods$')] in an inefficient manner (ie, consuming expensive or producing cheap $concept_goods$). If this appears to be the case, try changing them to other methods that are more suited to the current [concept_market] conditions."
+
+ lesson_fix_unprofitable_building_3:0 "$lesson_fix_unprofitable_building_1$"
+ lesson_fix_unprofitable_building_3_desc:0 "Another way to improve the profitability of the [concept_building] is to establish [Concept('concept_trade_route', '$concept_trade_routes$')] to import [Concept('concept_good', '$concept_goods$')] it consumes or export $concept_goods$ it produces, thus either reducing its material costs or increasing its sales revenue. This can be done through the Trade lens, and can also be combined with a change in [Concept('concept_production_method', '$concept_production_methods$')] for potentially even greater effect."
+ 
+ lesson_fix_unprofitable_building_4:0 "$lesson_fix_unprofitable_building_1$"
+ lesson_fix_unprofitable_building_4_desc:1 "Finally, if you cannot see a way to improve the [Concept('concept_building', '$concept_building_possessive$')] earnings through changing [Concept('concept_production_method', '$concept_production_methods$')] or establishing  [Concept('concept_trade_route', '$concept_trade_routes$')], you can instead choose to [Concept('concept_subsidies', '$concept_subsidize$')] the [concept_building] - this is inefficient, but can be used to ensure [Concept('concept_building', '$concept_buildings$')] that are vital to your economy continue to function in adverse market conditions."
+
+ ### Promote an IG
+ lesson_promote_ig_how_0:0 "You can not [concept_promote] [Concept('concept_interest_group', '$concept_interest_groups$')] yet"
+ lesson_promote_ig_how_0_desc:0 "Your country has no $modifier_country_promotion_ig_attraction_mult$ ([GetPlayer.GetModifier.GetDescFor('country_promotion_ig_attraction_mult')]) and therefore does not let you [concept_promote] [Concept('concept_interest_group', '$concept_interest_groups$')]. You must pass a [concept_law] that grants it first."
+ lesson_promote_ig_how_0_continue:0 "Open the Politics panel, click the Laws tab, and click the [GetPlayer.GetActiveLawFromGroup('lawgroup_free_speech').GetName] [concept_law] to see your possible options. Restart this lesson once your new $concept_law$ has been enacted!"
+
+ lesson_promote_ig_how_1:0 "How to [concept_promote] [Concept('concept_interest_group', '$concept_interest_groups$')]"
+ lesson_promote_ig_how_1_desc:0 "To [concept_promote] an [concept_interest_group] you must first of all have a [concept_law] that permits it. This is defined mostly by your stance on [GetPlayer.GetActiveLawFromGroup('lawgroup_free_speech').GetGroup.GetName] (currently [GetPlayer.GetActiveLawFromGroup('lawgroup_free_speech').GetName]). By enacting different [Concept('concept_law', '$concept_laws$')] you can grant yourself more or less power to impact this."
+
+ lesson_promote_ig_how_2:0 "$lesson_promote_ig_how_1$"
+ lesson_promote_ig_how_2_desc:0 "You can find a list of your currently active [Concept('concept_interest_group', '$concept_interest_groups$')] on the $politics$ panel."
+ lesson_promote_ig_how_2_continue:0 "Open the $politics$ panel on the $overview$ tab"
+
+ lesson_promote_ig_how_3:0 "$lesson_promote_ig_how_1$"
+ lesson_promote_ig_how_3_desc:0 "[Concept('concept_interest_group', '$concept_interest_groups$')] both in and out of [concept_government] can be [Concept('concept_promote', '$concept_promoted$')]."
+ lesson_promote_ig_how_3_continue:0 "Click on an [concept_interest_group] you think looks interesting"
+ lesson_promote_ig_how_3_continue_close:0 "Close the [concept_interest_group] panel"
+ lesson_promote_ig_why_3_continue_close:0 "#todo lesson_promote_ig_why_3_continue_close#!"
+
+ lesson_promote_ig_how_4:0 "$lesson_promote_ig_how_1$"
+ lesson_promote_ig_how_4_desc:0 "[concept_interest_group] [Concept('concept_promote', '$concept_promotion$')] costs [concept_authority], and at the moment you do not have enough to spare. Review your $concept_authority$ expenditures and cancel enough of them that you have at least [GetDefine('NPolitics','IG_PROMOTION_COST')|0v] @aut! $concept_authority$ available."
+ lesson_promote_ig_how_4_continue:0 "Have at least [GetDefine('NPolitics','IG_PROMOTION_COST')|0v] @aut! [concept_authority]"
+
+ lesson_promote_ig_how_5:0 "$lesson_promote_ig_how_1$"
+ lesson_promote_ig_how_5_desc:0 "You can choose to [concept_promote] any [concept_interest_group], but remember, it comes at a cost of [concept_authority]. You [concept_promote] an $concept_interest_group$ by using the $concept_promote$ button the top of any $concept_interest_group$'s panel."
+ lesson_promote_ig_how_5_continue:0 "[concept_promote] any one [concept_interest_group]"
+
+ lesson_promote_ig_how_6:0 "$lesson_promote_ig_how_1$"
+ lesson_promote_ig_how_6_desc:0 "A [Concept('concept_promote', '$concept_promoted$')] [concept_interest_group] does not radically change right away. Only the [concept_interest_group_attraction] changes, which will cause more eligible [Concept('concept_pop', '$concept_pops$')] to support it over time. Wait a while and you will soon see the impact on the $concept_interest_group$'s [concept_clout] and membership."
+ 
+ lesson_promote_ig_why_1:0 "Why [concept_promote] [Concept('concept_interest_group', '$concept_interest_groups$')]"
+ lesson_promote_ig_why_1_desc:0 "[Concept('concept_interest_group', '$concept_interest_groups$')] are instrumental in determining and shaping the politics of your [concept_country]. If you have not yet read the tutorial lesson on $concept_interest_groups$ you should do so before starting this lesson.\n\nYou can start the lesson by hovering the [Concept('concept_interest_group', '$concept_interest_groups$')] [concept_concept] and pressing the #v $GUIDE_ME$#! button."
+ lesson_promote_ig_why_1_continue:0 "Open any $concept_interest_group$'s panel to continue"
+ lesson_promote_ig_why_1_continue_close:0 "Close the $concept_interest_group$'s panel"
+
+ lesson_promote_ig_why_2:0 "$lesson_promote_ig_why_1$"
+ lesson_promote_ig_why_2_desc:0 "[Concept('concept_interest_group', '$concept_interest_groups$')] will grow or wane in [concept_political_strength] over time, (see [concept_clout]). The $concept_political_strength$ grows and wanes along with changing conditions affecting [Concept('concept_pop', '$concept_pops$')] in your [concept_country]. This changing political landscape could come as a surprise to you and derail your plans.\n\nBy taking a more active role in deciding which $concept_interest_groups$ to support you can both affect and more easily predict where your country is headed."
+
+ lesson_promote_ig_why_3:0 "$lesson_promote_ig_why_1$"
+ lesson_promote_ig_why_3_desc:1 "A [Concept('concept_promote', '$concept_promoted$')] [concept_interest_group] will increase both its [concept_pop] membership and [concept_political_strength] over time. Their [concept_ig_approval] will also increase as a result of enjoying an officially sanctioned status.\n\nBy $concept_promoting$ the $concept_interest_groups$ who support [Concept('concept_law', '$concept_laws$')] you would like to enact, or who have [Concept('concept_interest_group_trait', '$concept_interest_group_traits$')] you would like to exploit, you will be met with less resistance as you transform or maintain your $concept_country$'s $concept_laws$."
+
+ lesson_promote_ig_why_4:0 "$lesson_promote_ig_why_1$"
+ lesson_promote_ig_why_4_desc:0 "In addition to [Concept('concept_promote', '$concept_promoting$')] [Concept('concept_interest_group', '$concept_interest_groups$')] you support, you can also [concept_suppress] those you oppose. Each of these actions cost a certain amount of @aut! [concept_authority]."
+ lesson_promote_ig_why_4_continue:0 "Navigate to the [Concept('concept_law', '$concept_laws$')] tab on the $politics$ panel."
+
+ lesson_promote_ig_why_5:0 "$lesson_promote_ig_why_1$"
+ lesson_promote_ig_why_5_desc:0 "Your ability to [concept_promote] and [concept_suppress] [Concept('concept_interest_group', '$concept_interest_groups$')] is governed by two aspects:\n\n* Your @aut! [concept_authority] capacity\n* Your values in $modifier_country_promotion_ig_attraction_mult$ (currently [GetTutorialJournalEntry.GetCountry.GetModifier.GetValueWithBreakdownFor('country_promotion_ig_attraction_mult')]) and $modifier_country_suppression_ig_attraction_mult$ (currently [GetTutorialJournalEntry.GetCountry.GetModifier.GetValueWithBreakdownFor('country_suppression_ig_attraction_mult')])\n\nA prominent source for both of these is your current [concept_law] in the [GetPlayer.GetActiveLawFromGroup('lawgroup_free_speech').GetName] [concept_law_group]."
+
+
+ ### Interest Group Concept Lesson
+ lesson_interest_group_1:0 "What are [Concept('concept_interest_group', '$concept_interest_groups$')]?"
+ lesson_interest_group_1_desc:0 "Interest Groups can be viewed on the $politics$ panel in the $overview$ tab."
+ lesson_interest_group_1_continue:0 "Open the $politics$ panel on the $overview$ tab"
+
+ lesson_interest_group_2:0 "$lesson_interest_group_1$"
+ lesson_interest_group_2_desc:0 "An [concept_interest_group] is a faction within your country whose [concept_pop] supporters share a political interest. $concept_interest_groups$ can have one of three different statuses in your country.\n\n[concept_in_government]: part of the ruling class, whether by free elections, divine right, violent force, or other means\n\n[concept_in_opposition]: asserting their influence outside of the halls of power\n\n[concept_marginalized]: not strong enough to matter, dormant for all intents and purposes\n\nAll countries have the same kinds of $concept_interest_groups$, but many have unique variations depending on historical, cultural, or religious conditions."
+
+ lesson_interest_group_3:0 "$lesson_interest_group_1$"
+ lesson_interest_group_3_desc:1 "#b You#! decide freely which of your $concept_interest_groups$ to include [concept_in_government], with the caveat that your current [Concept('concept_law', '$concept_laws$')] determine how [Concept('concept_legitimacy', '$concept_legitimate$')] it is considered to be. A high $concept_legitimacy$ government is more efficient in enacting new $concept_laws$ while a low $concept_legitimacy$ government takes longer to get things done and is more prone to fall to [Concept('concept_revolution', '$concept_revolutions$')]."
+ lesson_interest_group_3_continue:0 "Select any $concept_interest_group$"
+
+ lesson_interest_group_4:0 "$lesson_interest_group_1$"
+ lesson_interest_group_4_desc:0 "The most fundamental aspect of [Concept('concept_interest_group', '$concept_interest_groups$')] is its [Concept('concept_ideology', '$concept_ideologies$')]. These specify not only how the $concept_interest_group$ feels about [Concept('concept_law', '$concept_laws$')] but also which $concept_laws$ they prefer over others.\n\nHover over an $concept_ideology$ to see the $concept_laws$ they care about and how they feel about them."
+
+ lesson_interest_group_5:0 "$lesson_interest_group_1$"
+ lesson_interest_group_5_desc:1 "The [concept_ideology] at the top of the list of $concept_ideologies$ originates from its [concept_leader]. $concept_leaders$ will change during the course of the game and the Leader's $concept_ideology$ with it, but in some cases $concept_leaders$ may drastically and permanently come to change what an $concept_interest_group$ stands for.\n\n$concept_leaders$ can have other effects on an $concept_interest_group$ as well, due to its [Concept('concept_character_trait', '$concept_character_traits$')] or current [concept_popularity]."
+
+ lesson_interest_group_6:0 "$lesson_interest_group_1$"
+ lesson_interest_group_6_desc:1 "[Concept('concept_interest_group', '$concept_interest_groups$')] have their own [Concept('concept_interest_group_trait', '$concept_interest_group_traits$')] with direct effects across the entire country. $concept_interest_group_traits$ activates and deactivates on different [concept_ig_approval] levels and scales in power if the $concept_interest_group$ is [concept_powerful].\n\nKeep an $concept_interest_group$ happy and your people will enjoy benefits. But if you anger them, they will lash out until you change your ways."
+
+ lesson_interest_group_7:0 "$lesson_interest_group_1$"
+ lesson_interest_group_7_desc:0 "An [concept_interest_group]'s power is measured by its [concept_clout], which is equal to its share of total [concept_political_strength] across your country. $concept_political_strength$ ultimately originates from [Concept('concept_pop', '$concept_pops$')], who will support those $concept_interest_groups$ they think best represents their interests in shaping the country to best benefit them."
+
+ lesson_interest_group_8:0 "$lesson_interest_group_1$"
+ lesson_interest_group_8_desc:0 "All [Concept('concept_pop', '$concept_pops$')] supporting an [concept_interest_group] can be viewed in their panel. Note that every individual in a $concept_pop$ can decide for themselves which [concept_interest_group] to support, so support across an entire $concept_pop$ is usually split in different proportions across two to four $concept_interest_groups$."
+
+ lesson_interest_group_9:0 "$lesson_interest_group_1$"
+ lesson_interest_group_9_desc:0 "[Concept('concept_law', '$concept_laws$')] the [concept_interest_group] supports are also available in list form sorted in order of most to least desired. Hovering the $enact$ button will clarify the [concept_ig_approval] effects of the $concept_law$ on this and other $concept_interest_groups$ in the country."
+
+
+
+
+ ### Journal Entries
+ JOURNAL_ENTRY_IN_PROGRESS:0 "@green_checkmark! #bold Completion In Progress#!"
+ 
+ je_tutorial_expand_basic_building:0 "Expand a basic [concept_building]"
+ je_tutorial_expand_basic_building_status:0 "Expand the [JournalEntry.GetTarget.GetBuilding.GetName] in [JournalEntry.GetTarget.GetBuilding.GetState.GetName]"
+ je_tutorial_expand_basic_building_reason:0 "One way of growing your economy is by constructing or expanding [Concept('concept_building', '$concept_buildings$')]. Knowing if a [concept_building] will be profitable or not is hard, but expanding a basic agricultural [concept_building] such as [JournalEntry.GetTarget.GetBuilding.GetBuildingType.GetName] is a relatively safe investment."
+ je_tutorial_expand_basic_building_header:0 ""
+ je_tutorial_expand_basic_building_reason_long:1 "Growing your economy by constructing [Concept('concept_building', '$concept_buildings$')] is a vital part of making [Country.GetName] prosper. Expanding a basic agricultural [concept_building] such as [JournalEntry.GetTarget.GetBuilding.GetBuildingType.GetName] is a relatively safe investment. It has low material costs and produces foodstuff staples, which tend to be in high demand as they are consumed by everyone in your country. Because of this it is usually able to turn a small profit at minimal risk.\n\n@information! [JournalEntry.GetTarget.GetBuilding.GetBuildingType.GetName] are not [Concept('concept_government_building', '$concept_government_buildings$')] and do not contribute their revenues directly towards your income. Revenues are paid out as [Concept('concept_building_wage', '$concept_building_wages$')] to the [Concept('concept_pop', '$concept_pops$')] working in the building who will contribute some of that [concept_money] to the state through [concept_budget_income_taxes]."
+ je_tutorial_expand_basic_building_complete_tooltip:0 "[JournalEntry.GetTarget.GetBuilding.GetName] in [JournalEntry.GetTarget.GetBuilding.GetState.GetName] is successfully expanded"
+ je_tutorial_expand_basic_building_invalid_tooltip:0 "[JournalEntry.GetTarget.GetBuilding.GetName] in [JournalEntry.GetTarget.GetBuilding.GetState.GetName] is no longer owned by [GetPlayer.GetName]"
+  
+ je_tutorial_expand_basic_building_goal:0 "Level [JournalEntry.GetTotalGoalValue|v0] [JournalEntry.GetTarget.GetBuilding.GetName] in [JournalEntry.GetTarget.GetBuilding.GetState.GetName] (currently level [JournalEntry.CalcCurrentGoalValue|v0])"
+ 
+ je_tutorial_fix_budget_deficit:0 "Solve Budget Deficit"
+ je_tutorial_fix_budget_deficit_status:0 "Have fixed income that exceeds fixed expenses"
+ je_tutorial_fix_budget_deficit_reason:0 "Our economy is currently unhealthy, as our fixed expenses exceed our revenues, resulting in a weekly deficit. There are several ways to address this, such as raising taxes, cutting government/military wages, or reducing the levels of government-funded buildings."
+ 
+ je_tutorial_increase_trade_capacity:0 "Increase Trade Capacity"
+ je_tutorial_increase_trade_capacity_status:0 "Increase number of [Concept('concept_trade_route', '$concept_trade_routes$')] in [JournalEntry.GetCountry.GetCapital.GetMarket.GetName]"
+ je_tutorial_increase_trade_capacity_reason:0 "You lack available [Concept('concept_trade_route', '$concept_trade_routes$')] in the [Country.GetCapital.GetMarket.GetName]. Increase the number of available $concept_trade_routes$ by building or expanding a [GetBuildingType('building_trade_center').GetName] or changing its [Concept('concept_production_method', '$concept_production_methods$')]."
+  
+ je_tutorial_export_goods:0 "Export Goods"
+ je_tutorial_export_goods_status:0 "Export [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] from [JournalEntry.GetTarget.GetMarketGoods.GetMarket.GetName]"
+ je_tutorial_export_goods_reason:0 "The price of [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] is low in [JournalEntry.GetTarget.GetMarketGoods.GetMarket.GetName] as a result of [concept_sell_orders] outnumbering [concept_buy_orders] in the [concept_market]. While this can be beneficial for [Concept('concept_building', '$concept_buildings$')] and [Concept('concept_pop', '$concept_pops$')] that consume [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName], a low price will reduce the earnings of [Concept('concept_building', '$concept_buildings$')] that produce [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName].\n\nOne way to increase the number of [concept_buy_orders] (and thus increase the price of [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName]) in the [concept_market] is to establish a [concept_trade_route] to export the [concept_good] to the [JournalEntry.GetTarget.GetMarketGoods.GetMarket.GetName] from another [concept_market]."
+  
+ je_tutorial_import_goods:0 "Import Goods"
+ je_tutorial_import_goods_status:0 "Import [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] to [JournalEntry.GetTarget.GetMarketGoods.GetMarket.GetName]"
+ je_tutorial_import_goods_reason:0 "The price of [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] is high in [JournalEntry.GetTarget.GetMarketGoods.GetMarket.GetName] as a result of [concept_buy_orders] outnumbering [concept_sell_orders] in the [concept_market]. While this can be beneficial for [Concept('concept_building', '$concept_buildings$')] that produce [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName], a high price can severly hamper [Concept('concept_building', '$concept_buildings$')] that consume it, and impoverish [Concept('concept_pop', '$concept_pops$')] if the [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] is part of their [concept_pop_needs].\n\nOne way to increase the number of [concept_sell_orders] (and thus reduce the price of [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName]) in the [concept_market] is to establish a [concept_trade_route] to import the [concept_good] to the [JournalEntry.GetTarget.GetMarketGoods.GetMarket.GetName] from another [concept_market]."
+  
+ je_tutorial_change_production_method:0 "Change [concept_production_method]"
+ je_tutorial_change_production_method_status:0 "Change any [concept_production_method] on [JournalEntry.GetTarget.GetBuilding.GetName] in [JournalEntry.GetTarget.GetBuilding.GetState.GetName]"
+ je_tutorial_change_production_method_reason:0 "[JournalEntry.GetTarget.GetBuilding.GetName] in [JournalEntry.GetTarget.GetBuilding.GetState.GetName] is a [concept_building] whose earnings could potentially be improved by changing a [concept_production_method].\n\nFor the purpose of this lesson, it is recommended that you change a relatively safe [concept_production_method], such as activating fruit/liquor production on a farm or the use of tools on a ranch."
+ je_tutorial_change_production_method_invalid_tooltip:0 "[JournalEntry.GetTarget.GetBuilding.GetName] in [JournalEntry.GetTarget.GetBuilding.GetState.GetName] is no longer owned by [GetPlayer.GetName]"
+ je_tutorial_change_production_method_goal:0 "The new [concept_production_method] on [JournalEntry.GetTarget.GetBuilding.GetName] in [JournalEntry.GetTarget.GetBuilding.GetState.GetName] has been active for #variable [JournalEntry.GetGoalProgressValue|0]/[JournalEntry.GetTotalGoalValue|0]#! weeks."
+    
+ je_tutorial_expand_productive_building:0 "Expand a [Concept('concept_productivity', '$concept_productive$')] [concept_building]"
+ je_tutorial_expand_productive_building_status:0 "Expand the [JournalEntry.GetTarget.GetBuilding.GetName] in [JournalEntry.GetTarget.GetBuilding.GetState.GetName]"
+ je_tutorial_expand_productive_building_reason:0 "The [JournalEntry.GetTarget.GetBuilding.GetName] in [JournalEntry.GetTarget.GetBuilding.GetState.GetName] is a highly productive [concept_building] that is bringing in a large amount of revenue compared to its expenses, making it an ideal candidate for expansion. Expand this [concept_building] in order to grow our [concept_gdp] and tax base."
+ je_tutorial_expand_productive_building_complete_tooltip:0 "[JournalEntry.GetTarget.GetBuilding.GetName] in [JournalEntry.GetTarget.GetBuilding.GetState.GetName] is successfully expanded"
+ je_tutorial_expand_productive_building_invalid_tooltip:0 "[JournalEntry.GetTarget.GetBuilding.GetName] in [JournalEntry.GetTarget.GetBuilding.GetState.GetName] is no longer owned by [GetPlayer.GetName]"
+ je_tutorial_expand_productive_building_goal:0 "Level [JournalEntry.GetTotalGoalValue|v0] [JournalEntry.GetTarget.GetBuilding.GetName] in [JournalEntry.GetTarget.GetBuilding.GetState.GetName] (currently level [JournalEntry.CalcCurrentGoalValue|v0])"
+  
+ je_tutorial_fix_unprofitable_building:0 "Fix Unprofitable [concept_building]"
+ je_tutorial_fix_unprofitable_building_status:0 "Improve earnings of [JournalEntry.GetTarget.GetBuilding.GetName] in [JournalEntry.GetTarget.GetBuilding.GetState.GetName]"
+ je_tutorial_fix_unprofitable_building_reason:0 "The [JournalEntry.GetTarget.GetBuilding.GetName] in [JournalEntry.GetTarget.GetBuilding.GetState.GetName] is not bringing in sufficient revenue compared to its expenses to stay competitive.\n\nYou should make use of what you have learned about trade routes and production methods to try and resolve this problem."
+ je_tutorial_fix_unprofitable_building_invalid_tooltip:0 "[JournalEntry.GetTarget.GetBuilding.GetName] in [JournalEntry.GetTarget.GetBuilding.GetState.GetName] is no longer owned by [GetPlayer.GetName]"
+   
+ je_tutorial_promote_ig:0 "[concept_promote] an [concept_interest_group]"
+ je_tutorial_promote_ig_goal:0 "[Concept('concept_promote','$concept_promoted$')] an [concept_interest_group] for [JournalEntry.GetTotalGoalValue|v0] weeks"
+ je_tutorial_promote_ig_reason:0 "It is time to choose a political vision for your country. Review your active [Concept('concept_interest_group', '$concept_interest_groups$')] and choose one or several to [concept_promote] for the rocky road ahead."
+ je_tutorial_promote_ig_progress:0 "Promoted [concept_interest_group] for [JournalEntry.CalcCurrentGoalValue] / [JournalEntry.GetTotalGoalValue] weeks"
+
+ je_tutorial_grow_gdp:0 "Grow GDP"
+ je_tutorial_grow_gdp_goal:0 "Grow [concept_gdp] (#variable @money![JournalEntry.GetGoalProgressValue|K] / @money![JournalEntry.GetGoalAddValue|K]#!)"
+ je_tutorial_grow_gdp_reason:1 "This is an open-ended task that makes use of all that you have learned about [Concept('concept_building', '$concept_buildings$')], [Concept('concept_market', '$concept_markets$')] and [Concept('concept_trade_route', '$concept_trade_routes$')] to grow the [concept_gdp] of your country.\n\nBuilding [Concept('concept_building', '$concept_buildings$')], growing your [concept_population], tweaking [Concept('concept_production_method', '$concept_production_methods$')] and manipulating [concept_market] prices are all potential ways to grow your [concept_gdp]."
+
+ je_tutorial_increase_market_access_by_decree:0 "Increase [concept_market_access] by [concept_decree]"
+ je_tutorial_increase_market_access_by_decree_goal:0 "Any [concept_state] has had Road Maintenance [concept_decree] in place for 12 weeks"
+ je_tutorial_increase_market_access_by_decree_reason:0 "[concept_market_access] in [JournalEntry.GetTarget.GetState.GetName] has dropped below 100%, causing adverse price conditions. Improve this by issuing the Road Maintenance [concept_decree] in [JournalEntry.GetTarget.GetState.GetName]."

@@ -1,0 +1,20 @@
+﻿l_english:
+ objective_tutorial:0 "Learn the Game"
+ objective_tutorial_desc:0 "Play a campaign guided by challenges that help you learn both how the game works and how to play it."
+ objective_tutorial_idle_header:0 "Explore and play the game!"
+ objective_tutorial_idle_hint:0 "More challenges will appear eventually"
+  
+ objective_economic_dominance: "Economic Dominance"
+ objective_economic_dominance_desc: "Play a campaign guided by challenges that help you achieve Economic Dominance."
+ objective_economic_dominance_idle_header: "Economic Domination"
+ objective_economic_dominance_idle_hint: "More challenges will appear eventually"
+
+ objective_hegemon: "Hegemon"
+ objective_hegemon_desc: "Play a campaign guided by challenges that help you great your own Hegemon."
+ objective_hegemon_idle_header: "Global Hegemon"
+ objective_hegemon_idle_hint: "More challenges will appear eventually"
+
+ objective_egalitarian_society: "Egalitarian Society"
+ objective_egalitarian_society_desc: "Play a campaign that sets you on the path by giving challenges that help you create an Egalitarian Society."
+ objective_egalitarian_society_idle_header: "The Egalitarian Society"
+ objective_egalitarian_society_idle_hint: "More challenges will appear eventually"
