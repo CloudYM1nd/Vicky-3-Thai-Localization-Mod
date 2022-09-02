@@ -12,11 +12,11 @@
  IG_TRAIT_EFFECTS_NO_EFFECT:0 "#italic No effect#!"
 
  ACTIVE_IG_GROUP_TRAITS:0 "#title Active Interest Group Traits#!"
- ELECTION:0 "Election"
- CIVIL_WARS:0 "Civil Wars"
+ ELECTION:0 "เลือกตั้ง"
+ CIVIL_WARS:0 "สงครามกลางเมือง"
  OPPOSITION:0 "Opposition"
- RESET:0 "Reset"
- GOVERNMENT_NEW_RULER:0 "New Ruler!"
+ RESET:0 "รีเซ็ต"
+ GOVERNMENT_NEW_RULER:0 "ผู้นำใหม่!"
  IG_CLOUT:0 "#title [concept_clout]#!"
  IG_POP:0 "#title [concept_population]#!"
   
@@ -33,14 +33,14 @@
  POLITICAL_MOVEMENT_RADICALISM_AT_ZERO:2 "[PoliticalMovement.GetFullName] has no [Concept('concept_political_movement_radicalism', '$concept_political_movement_radicalism_short$')] as it is not supported by any [Concept('concept_radical', '$concept_radicals$')] or $ig_approval_angry$ [Concept('concept_interest_group', '$concept_interest_groups$')]"
  POLITICAL_MOVEMENT_POP_SUPPORT_TOOLTIP:2 "#header [concept_pop] Support#!\nSupported by [PoliticalMovement.GetNumSupportingPops|Dv] [Concept('concept_individual','$concept_individuals$')] in  in [Concept('concept_pop', '$concept_pops$')]\n$TOOLTIP_DELIMITER$\n[PoliticalMovement.GetNumIGSupporters|Dv] [Concept('concept_individual','$concept_individuals$')] support this [concept_political_movement] because they belong to an [concept_interest_group] that approves of [PoliticalMovement.GetActionName] [PoliticalMovement.GetLaw.GetName]\n[PoliticalMovement.GetNumNonIGSupporters|Dv] [Concept('concept_individual','$concept_individuals$')] support this [concept_political_movement] because they believe [PoliticalMovement.GetActionName] [PoliticalMovement.GetLaw.GetName] improves their [concept_status] or [concept_wealth]\n\nAmong all supporters, [PoliticalMovement.GetNumSupportingRadicals|Dv] are [Concept('concept_radical', '$concept_radicals$')] that contribute [Concept('concept_political_movement_radicalism', '$concept_political_movement_radicalism_short$')] to the movement"
    
- movement_to_enact:1 "[Concept('concept_political_movement','$concept_political_movement_short$')] to Enact Law"
- movement_to_preserve:1 "[Concept('concept_political_movement','$concept_political_movement_short$')] to Preserve Law"
- movement_to_restore:1 "[Concept('concept_political_movement','$concept_political_movement_short$')] to Restore Law"
+ movement_to_enact:1 "[Concept('concept_political_movement','$concept_political_movement_short$')] เพื่อตรากฏหมาย"
+ movement_to_preserve:1 "[Concept('concept_political_movement','$concept_political_movement_short$')] เพื่อคงกฏหมาย"
+ movement_to_restore:1 "[Concept('concept_political_movement','$concept_political_movement_short$')] เพื่อฟื้นคืนกฏหมาย"
   
  POLITICAL_MOVEMENT_FULL_NAME:1 "[Concept('concept_political_movement','$concept_political_movement_short$')] to $MOVEMENT_NAME$"
- POLITICAL_MOVEMENT_TO_ENACT_NAME:0 "Enact [LawType.GetName]"
- POLITICAL_MOVEMENT_TO_PRESERVE_NAME:0 "Preserve [LawType.GetName]"
- POLITICAL_MOVEMENT_TO_RESTORE_NAME:0 "Restore [LawType.GetName]"
+ POLITICAL_MOVEMENT_TO_ENACT_NAME:0 "ตรา [LawType.GetName]"
+ POLITICAL_MOVEMENT_TO_PRESERVE_NAME:0 "คง [LawType.GetName]"
+ POLITICAL_MOVEMENT_TO_RESTORE_NAME:0 "ฟื้นคืน [LawType.GetName]"
   
  POLITICAL_MOVEMENT_SUPPORT_FROM_IG_CLOUT:1 "#tooltippable #tooltip:$BREAKDOWN_TAG$ $VALUE|v=0$#!#! from [concept_clout] of supporting [Concept('concept_interest_group', '$concept_interest_groups$')]"
  POLITICAL_MOVEMENT_SUPPORT_FROM_IG_CLOUT_BREAKDOWN:0 "#header [concept_interest_group] Support#!\n$TOOLTIP_DELIMITER$\n$DETAILS$"
@@ -61,5 +61,5 @@
  LAW_POLITICAL_MOVEMENT_TO_PRESERVE:0 "The [PoliticalMovement.GetFullName] is demanding we abort the replacement of this [concept_law]"
  LAW_POLITICAL_MOVEMENT_TO_ENACT:0 "The [PoliticalMovement.GetFullName] is demanding the enactment of this [concept_law]"
 
- revolution:0 "Revolution"
- secession:0 "Secession"
+ revolution:0 "ปฏิวัติ"
+ secession:0 "แบ่งแยกดินแดน"

@@ -617,7 +617,7 @@
  concept_personal_union:0 "รัฐร่วมประมุข"
  concept_personal_union_desc:2 "Personal Union is a [concept_subject] type where the [Concept('concept_country', '$concept_countries$')] is connected through the monarchy. There is no limit to the [concept_rank] of either country. This [concept_diplomatic_pact] will break if the Overlord is no longer a Monarchy."
 
- concept_dominion:0 "Dominion"
+ concept_dominion:0 "เครือจักรภพ"
  concept_dominion_desc:0 "A Dominion is..."
   
  concept_tributary:0 "Tributary" #remove
@@ -650,13 +650,13 @@
  concept_patrol:0 "ลาดตะเวน"
  concept_patrol_desc:0 "Patrol a route for enemy ships"
   
- concept_defend_state:0 "Defend State"
+ concept_defend_state:0 "ป้องกันมณฑล"
  concept_defend_state_desc:0 "Give the Character the order to focus on defending a specific State."
   
- concept_conquer_state:0 "Conquer State"
+ concept_conquer_state:0 "บุกยึดมณฑล"
  concept_conquer_state_desc:0 "Give the Character the order to focus on trying to invade a specific State."
   
- concept_set_objective:0 "Set Objective"
+ concept_set_objective:0 "ตั้งเป้าหมาย"
  concept_set_objective_desc:0 "You tell the Character what you want from them, and it is up to them to decide how they want to achieve that goal."
   
  concept_manage_character:0 "จัดการตัวแสดง"
@@ -724,14 +724,14 @@
  concept_war_support:0 "อัตราการสนับสนุนสงคราม"
  concept_war_support_desc:0 "A number from +100 to -100 describing how eager the population in your [concept_country] is to continue this war."
 
- concept_war_exhaustion:0 "War Exhaustion"
+ concept_war_exhaustion:0 "ความเหนื่อยล้าจากสงคราม"
  concept_war_exhaustion_desc:0 "#todo War exhaustion is...#!"
 
  concept_theater:0 "Theater"
  concept_theaters:0 "Theaters"
  concept_theater_desc:0 "A Theater is all land connected Provinces under the control of one [concept_country] and its' Allies."
   
- concept_literacy:0 "Literacy"
+ concept_literacy:0 "อัตราการรู้หนังสือ"
  concept_literacy_desc:0 "The number of [Concept('concept_pop', '$concept_pops$')] who can read and write. Certain [Concept('concept_profession', '$concept_professions$')] require higher Literacy than others, limiting the [concept_pop_qualifications] for $concept_pops$ of other types to promote to that type. You can invest in your educational system in order to get a higher Literacy over time."
   
  concept_discrimination:0 "Discrimination"
@@ -762,8 +762,8 @@
  concept_admirals:1 "พลเรือเอก"
  concept_admiral_desc:0 "This character leads navies."
   
- concept_working_adults:0 "Working Adults"
- concept_working_adult:1 "Working Adult"
+ concept_working_adults:0 "คนวัยทำงาน"
+ concept_working_adult:1 "คนวัยทำงาน"
  concept_working_adults_desc:0 "Working adults are the part of the [concept_population] that work in [Concept('concept_building', '$concept_buildings$')] and are the main source of income and [concept_political_strength] for the pop."
   
  concept_dependents:0 "Dependents"

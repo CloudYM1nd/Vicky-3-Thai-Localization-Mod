@@ -1,7 +1,7 @@
 ﻿l_english:
- easy_difficulty:0 "Easy Difficulty"
- very_easy_difficulty:0 "Very Easy Difficulty"
- very_easy_difficulty_ai:0 "Very Easy Difficulty"
+ easy_difficulty:0 "ความยากระดับ ง่าย"
+ very_easy_difficulty:0 "ความยากระดับ ง่ายมาก"
+ very_easy_difficulty_ai:0 "ความยากระดับ ง่ายมาก"
 
  modifier_country_minting_add:0 "Minting"
  modifier_country_minting_add_desc:0 "A flat increase or decrease to [concept_budget_minting]"
