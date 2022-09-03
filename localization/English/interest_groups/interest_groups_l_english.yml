@@ -51,7 +51,7 @@
   # British IGs
  ig_fleet_street:0 "Fleet Street"
  ig_fleet_street_desc:0 "A region in the Square Mile of London where the country's newspapers are written and printed. Journalists operating from Fleet Street are known to be tenacious muckrakers who will let little stand in their way of a story."
- ig_east_india_company:0 "East India Company"
+ ig_east_india_company:0 "บริษัทอินเดียตะวันออก"
  ig_east_india_company_desc:0 "The East India Company is a vast corporation owned by British investors. It operates private armies to protect its interests in the colonies, growing tea for the home market and opium to trade for Chinese silver. It trains British officers in how to suppress native rebellions and Princely nobles in how to act in a civilised manner."
  ig_landed_gentry:0 "Landed Gentry"
  ig_landed_gentry_desc:0 "The owners of great estates and vast properties, the landed gentry are custodians of tradition and old money."
@@ -67,11 +67,11 @@
  ig_peasant_communes_desc:0 "The 'Obshchina' and 'Mir' are communal organisations of peasants. Both serf and free families of peasants are too poverty-stricken to afford the capital to transform their lands, and the landlords seem to lack any interest in development, so peasants are forced to pool their resources to survive."
 
   # Prussian IGs
- ig_junkers:0 "Junkers"
+ ig_junkers:0 "จุงเฮอร์"
  ig_junkers_desc:0 "Descended from the 'jung herrs' (young lords) who followed in the wake of Teutonic conquests of the pagan Baltic to settle and Christianise the Prussian lands, the Junkers are Prussia's nobility and major landlords. They tend to oppose movements towards democracy as a threat to elite rule."
- ig_junker_landowners:0 "Junker Landowners"
+ ig_junker_landowners:0 "จุงเฮอร์ แลนโอนเนอร์"
  ig_junker_landowners_desc:0 "Descended from the 'jung herrs' (young lords) who followed in the wake of Teutonic conquests of the pagan Baltic to settle and Christianise the Prussian lands, the Junkers are Prussia's nobility and major landlords. Even as Prussia moves towards an ostensibly more constitutional system, they retain power thanks to systems of agricultural subsidies and their domination of the bureaucracy and senior military positions."
- ig_junker_industrialists:0 "Junker Industrialists"
+ ig_junker_industrialists:0 "จุงเฮอร์ อินดัสเชียลลิส"
  ig_junker_industrialists_desc:0 "Descended from the 'jung herrs' (young lords) who followed in the wake of Teutonic conquests of the pagan Baltic to settle and Christianise the Prussian lands, the Junkers are Prussia's nobility and major landlords. The wealth they have extracted from rents on their tenants and the connexions they have forged within the court has also allowed them to seize the role as Prussia's industrialists, located especially in the Rheinland."
   
   # Spanish IGs
@@ -81,7 +81,7 @@
  ig_isabelinos_desc:0 "Supporters of a rival Bourbon claim to the throne, that of Isabel II, daughter of Ferdinand VII of Spain and Maria Christina of Sicily. The powerful Cristinos fought hard to keep their rival Carlists out of power on behalf of the Queen Regent and her infant daughter, and those supporters still maintain strong influence over Spanish society thanks to their progressive politics and influential patronage networks."
 
   # USA IGs
- ig_southern_planters:0 "Southern Planters"
+ ig_southern_planters:0 "ชาวสวนภาคใต้"
  ig_southern_planters_desc:0 "Many of the Founding Fathers saw the independent yeomen farmers of the North as the basic building block of the citizenry, but the vast wealth of the Southern tobacco and cotton plantations cannot be denied. That wealth gives the Southern Planters a just claim to participate in the administration of the republic."
  ig_fire_eaters:0 "Fire-Eaters"
  ig_fire_eaters_desc:0 "The Fire-Eaters are fierce advocates for the Southern way of life. The union may be politically necessary for preventing European imperialism from returning to America, but the Yankees need to learn to respect the South and its peculiar institutions."
@@ -119,7 +119,7 @@
   # misc
  ig_roman_landowners:0 "Roman Landowners"
  ig_roman_landowners_desc:0 "The owners of great estates, Romans landowners are custodians of tradition and old money firmly intertwined with the Papacy."
- ig_chieftains:0 "Chieftains"
+ ig_chieftains:0 "หัวหน้าเผ่า"
  ig_chieftains_desc:0 "The owners of great herds and vast kraals, the chieftains are custodians of tradition and order."
 
   #Japanese IGs
@@ -128,13 +128,13 @@
  ig_peasants:0 "ชาวนา"
 
   # Hawaiian IGs
- ig_christian_missionaries:0 "Christian Missionaries"
+ ig_christian_missionaries:0 "ครูสอนศาสนาคริส"
  ig_christian_missionaries_desc:0 "The Christian Missionaries came to Hawai'i just a few decades ago but have already supplanted the Kahuna as Hawai'i's dominant clerical class. They advocate for trade with the Western powers, attracting migrants from the West, and the conversion of native Hawaiians to Christianity."
  ig_alii:0 "Ali'i"
  ig_alii_desc:0 "The Ali'i represent the lesser nobles of Hawai'i in service of the reigning monarch. They advocate for traditional values and preserving the rule of the monarchy."
  ig_maka_ainana:0 "Maka'āinana"
  ig_maka_ainana_desc:0 "The Maka'āinana represent Hawai'i's rural class, often working in plantations and fisheries. They advocate for traditional values and for Hawai'i's continued economic dependency on the agricultural sector."
- ig_hawaiian_democrats:0 "Democrats"
+ ig_hawaiian_democrats:0 "เดโมแครต"
  ig_hawaiian_democrats_desc:0 "The Democrats represent Hawai'i's liberal reformers. They advocate for removing the absolute power of the monarch in favor of a democratic regime and the continued trade relations with Western powers."
 
 

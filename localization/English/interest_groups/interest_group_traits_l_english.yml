@@ -9,11 +9,11 @@
  ig_trait_noble_privileges_desc:0 "Whatever happened to the idea that the nobility should be left to perform its duties without being hounded by tax collectors? It is time to bring those days back."
 
   # Industrialists IG Traits
- ig_trait_job_creators:0 "Job Creators"
+ ig_trait_job_creators:0 "ผู้สร้างงาน"
  ig_trait_job_creators_desc:0 "One must spend money to make money. As long as the government can be trusted not to interfere with our investments, there's nowhere we'd rather put our profits than towards economic growth."
- ig_trait_engines_of_progress:0 "Engines of Progress"
+ ig_trait_engines_of_progress:0 "เครื่องยนต์ขับเคลื่อนความเจริญ"
  ig_trait_engines_of_progress_desc:0 "Behold the marvels of the modern age! There is no time for hesitation. If it can be thought, designed and patented, it should be built, tested and put to immediate use."
- ig_trait_tax_avoidance:0 "Tax Avoidance"
+ ig_trait_tax_avoidance:0 "พวกหนีภาษี"
  ig_trait_tax_avoidance_desc:0 "Who knows best where our money should be spent? Not the government, and certainly not the current one. Fortunately, their incompetence has left tax loopholes that can be put to good use."
 
   # Armed Forces IG Traits
@@ -25,11 +25,11 @@
  ig_trait_materiel_waste_desc:0 "Loyalty to the nation is not loyalty to the government. If we can't trust the people in charge, we might as well use what we're given as we see fit."
 
   # Rural Folk IG Traits
- ig_trait_farmers_markets:0 "Farmer's Markets"
+ ig_trait_farmers_markets:0 "ตลาดชาวนา"
  ig_trait_farmers_markets_desc:0 "Getting the goods we produce out to the people who need them seems to be a big concern these days. Under good circumstances, we're quite capable of getting them where they need to be ourselves."
- ig_trait_honest_work:0 "Honest Work"
+ ig_trait_honest_work:0 "งานสุจริต"
  ig_trait_honest_work_desc:0 "We make our living by honest work and honest sweat. If that means we produce more than we need, so much better."
- ig_trait_old_ways:0 "Old Ways"
+ ig_trait_old_ways:0 "วิถีดั้งเดิม"
  ig_trait_old_ways_desc:0 "These people running the country seem to have all sorts of ideas about what the future should look like. Why should we trust them when they're the ones who made the present what it is?"
 
   # Trade Unions IG Traits

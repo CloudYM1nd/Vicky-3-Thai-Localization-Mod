@@ -105,8 +105,8 @@
  UNEMPLOYED:0 "[concept_unemployed]"
 
 # Building Groups
- bg_subsistence:0 "Subsistence Farms"
- bg_service:0 "Service Industries"
+ bg_subsistence:0 "ฟาร์มปลูกพืชทดแทน"
+ bg_service:0 "อุตสาหกรรมการบริการ"
  bg_agriculture:0 "การเกษตร"
  bg_plantations:0 "ไร่สวน"
  bg_ranching:0 "โรงปศุสัตว์"
@@ -121,8 +121,8 @@
  bg_fishing:0 "การประมง"
  bg_whaling:0 "การล่าวาฬ"
  bg_oil_extraction:0 "แท่นขุดเจาะน้ำมัน"
- bg_manufacturing:0 "Manufacturing Industries"
- bg_bureaucracy:0 "Bureaucratic Institutions"
+ bg_manufacturing:0 "อุตสาหกรรมการผลิต"
+ bg_bureaucracy:0 "อาคารราชการ"
  bg_government:0 "อาคารรัฐบาล"
  bg_infrastructure:0 "โครงสร้างพื้นฐาน"
  bg_banana_plantations:0 "สวนกล้วย"
@@ -194,7 +194,7 @@
 
   # Unlock tooltips
   # CODE_TODO: Generate these based on which technology have been unlocked instead
- tooltip_unlock_railways:0 "Allows construction of the Railway building"
+ tooltip_unlock_railways:0 "ทำให้สามารถก่อสร้างรางรถไฟได้"
   
   # Monuments
  building_eiffel_tower:0 "หอไอเฟล"
